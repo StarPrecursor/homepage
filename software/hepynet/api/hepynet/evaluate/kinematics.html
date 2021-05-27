@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>hepynet.evaluate.kinematics API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>hepynet.evaluate.kinematics</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import logging
+import pathlib
+from typing import List
+
+import atlas_mpl_style as ampl
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from matplotlib.ticker import AutoMinorLocator, LogLocator
+
+import hepynet.common.hepy_type as ht
+from hepynet.data_io import array_utils
+
+logger = logging.getLogger(&#34;hepynet&#34;)
+
+
+def plot_correlation_matrix(
+    df: pd.DataFrame, job_config: ht.config, save_dir: ht.pathlike = &#34;.&#34;
+):
+    ic = job_config.input.clone()
+    features = ic.selected_features
+    save_dir = pathlib.Path(save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    fig_scale = len(features) / 10 + 1
+    figsize = (8.333 * fig_scale, 4.167 * fig_scale)
+    fig, ax = plt.subplots(ncols=2, figsize=figsize)
+    # plot bkg
+    ax[0].set_title(&#34;bkg correlation&#34;)
+    bkg_df = array_utils.extract_bkg_df(df)
+    if bkg_df.shape[0] &gt; 1000000:
+        logger.warn(
+            f&#34;Too large input detected ({bkg_df.shape[0]} rows), randomly sampling 1000000 rows for background corr_matrix calculation&#34;
+        )
+        bkg_df = bkg_df.sample(n=1000000)
+    bkg_matrix = array_utils.corr_matrix(
+        bkg_df[features].to_numpy(&#34;float32&#34;),
+        bkg_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;),
+    )
+    paint_correlation_matrix(ax[0], bkg_matrix, features)
+    # plot sig
+    ax[1].set_title(&#34;sig correlation&#34;)
+    sig_df = array_utils.extract_sig_df(df)
+    if sig_df.shape[0] &gt; 1000000:
+        logger.warn(
+            f&#34;Too large input detected ({sig_df.shape[0]} rows), randomly sampling 1000000 rows for signal corr_matrix calculation&#34;
+        )
+        sig_df = sig_df.sample(n=1000000)
+    sig_matrix = array_utils.corr_matrix(
+        sig_df[features].to_numpy(&#34;float32&#34;),
+        sig_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;),
+    )
+    paint_correlation_matrix(ax[1], sig_matrix, features)
+    fig_save_path = save_dir / &#34;correlation_matrix.png&#34;
+    logger.debug(f&#34;Save correlation matrix to: {fig_save_path}&#34;)
+    fig.savefig(fig_save_path)
+
+
+def paint_correlation_matrix(
+    ax: ht.ax, corr_matrix: np.ndarray, labels: List[str]
+):
+    # Generate a mask for the upper triangle
+    mask = np.triu(np.ones_like(corr_matrix, dtype=np.bool))
+    # Generate a custom diverging colormap
+    cmap = sns.diverging_palette(220, 10, as_cmap=True)
+    # Draw the heatmap with the mask and correct aspect ratio
+    sns.heatmap(
+        corr_matrix,
+        mask=mask,
+        cmap=cmap,
+        vmax=0.3,
+        center=0,
+        square=True,
+        xticklabels=labels,
+        yticklabels=labels,
+        linewidths=0.5,
+        cbar_kws={&#34;shrink&#34;: 0.5},
+        ax=ax,
+    )
+
+
+def plot_input(
+    df: pd.DataFrame,
+    job_config: ht.config,
+    save_dir: ht.pathlike = None,
+    is_raw: bool = True,
+):
+    &#34;&#34;&#34;Plots input distributions comparision plots for sig/bkg/data&#34;&#34;&#34;
+    # setup config
+    ic = job_config.input.clone()
+    ac = job_config.apply.clone()
+    plot_cfg = ac.cfg_kine
+    # prepare
+    plot_feature_list = list(
+        set(ic.selected_features + ic.validation_features)
+    )
+    save_dir = pathlib.Path(save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    # plot
+    for feature in plot_feature_list:
+        feature_cfg = plot_cfg.clone()
+        if feature in plot_cfg.__dict__.keys():
+            feature_cfg_tmp = getattr(plot_cfg, feature)
+            feature_cfg.update(feature_cfg_tmp.get_config_dict())
+        if is_raw:
+            plot_range = feature_cfg.range_raw
+            bkg_scale = feature_cfg.bkg_scale_raw
+            sig_scale = feature_cfg.sig_scale_raw
+        else:
+            plot_range = feature_cfg.range_processed
+            bkg_scale = feature_cfg.bkg_scale_processed
+            sig_scale = feature_cfg.sig_scale_processed
+        if feature_cfg.logbin and plot_range:
+            plot_bins = np.logspace(
+                np.log10(plot_range[0]),
+                np.log10(plot_range[1]),
+                feature_cfg.bins,
+            )
+        else:
+            plot_bins = feature_cfg.bins
+        # plot bkg
+        # bkg_df = array_utils.extract_bkg_df(df)
+        bkg_wt = df.loc[
+            (df[&#34;is_mc&#34;] == True) &amp; (df[&#34;is_sig&#34;] == False), &#34;weight&#34;
+        ].to_numpy(&#34;float32&#34;)
+        fig, ax = plt.subplots()
+        hist_kwargs = feature_cfg.hist_kwargs_bkg.get_config_dict()
+        remove_hist_kwargs_duplicates(hist_kwargs)
+        ax.hist(
+            df.loc[
+                (df[&#34;is_mc&#34;] == True) &amp; (df[&#34;is_sig&#34;] == False), feature
+            ].to_numpy(&#34;float32&#34;),
+            bins=plot_bins,
+            range=plot_range,
+            weights=bkg_wt * bkg_scale,
+            label=&#34;background&#34;,
+            **(hist_kwargs),
+        )
+        modify_hist(ax, feature_cfg, plot_range)
+        ax.set_xlabel(feature)
+        # decide wether plot in same place
+        if plot_cfg.separate_bkg_sig:
+            if ac.plot_atlas_label:
+                ampl.plot.draw_atlas_label(
+                    0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+                )
+            # fig.suptitle(feature)
+            fig.savefig(f&#34;{save_dir}/{feature}_bkg.{plot_cfg.save_format}&#34;)
+            plt.close()
+            fig, ax = plt.subplots()
+        # plot sig
+        sig_df = array_utils.extract_sig_df(df)
+        sig_wt = sig_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+        hist_kwargs = feature_cfg.hist_kwargs_sig.get_config_dict()
+        remove_hist_kwargs_duplicates(hist_kwargs)
+        ax.hist(
+            sig_df[feature].to_numpy(&#34;float32&#34;),
+            bins=plot_bins,
+            range=plot_range,
+            weights=sig_wt * sig_scale,
+            label=&#34;signal&#34;,
+            **(hist_kwargs),
+        )
+        modify_hist(ax, feature_cfg, plot_range)
+        ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        # fig.suptitle(feature)
+        if plot_cfg.separate_bkg_sig:
+            fig.savefig(f&#34;{save_dir}/{feature}_sig.{plot_cfg.save_format}&#34;)
+        else:
+            fig.savefig(f&#34;{save_dir}/{feature}.{plot_cfg.save_format}&#34;)
+        plt.close()
+
+
+def plot_input_dnn(
+    df_raw: pd.DataFrame,
+    df: pd.DataFrame,
+    job_config: ht.config,
+    dnn_cut: float = None,
+    multi_class_cut_branch: int = 0,
+    save_dir: ht.pathlike = None,
+):
+    &#34;&#34;&#34;Plots input distributions comparision plots with DNN cuts applied&#34;&#34;&#34;
+    logger.info(
+        f&#34;Plotting input distributions with DNN cuts {dnn_cut} applied.&#34;
+    )
+    # prepare
+    ic = job_config.input.clone()
+    ac = job_config.apply.clone()
+    plot_cfg = ac.cfg_cut_kine_study
+    # get sig/bkg DataFrame and weights
+    bkg_df_raw = array_utils.extract_bkg_df(df_raw)
+    sig_df_raw = array_utils.extract_sig_df(df_raw)
+    bkg_weights = bkg_df_raw[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+    sig_weights = sig_df_raw[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+    # get predictions
+    bkg_predictions = array_utils.extract_bkg_df(df)[[&#34;y_pred&#34;]].to_numpy(
+        &#34;float32&#34;
+    )
+    sig_predictions = array_utils.extract_sig_df(df)[[&#34;y_pred&#34;]].to_numpy(
+        &#34;float32&#34;
+    )
+    # normalize
+    if plot_cfg.density:
+        bkg_weights = bkg_weights / np.sum(bkg_weights)
+        sig_weights = sig_weights / np.sum(sig_weights)
+    # plot kinematics with dnn cuts
+    if dnn_cut &lt; 0 or dnn_cut &gt; 1:
+        logger.error(f&#34;DNN cut {dnn_cut} is out of range [0, 1]!&#34;)
+        return
+    # prepare signal
+    sig_predictions = sig_predictions[:, multi_class_cut_branch]
+    sig_cut_index = array_utils.get_cut_index(
+        sig_predictions, [dnn_cut], [&#34;&lt;&#34;]
+    )
+    sig_weights_dnn = sig_weights.copy()
+    sig_weights_dnn[sig_cut_index] = 0
+    # prepare background
+    bkg_predictions = bkg_predictions[:, multi_class_cut_branch]
+    bkg_cut_index = array_utils.get_cut_index(
+        bkg_predictions, [dnn_cut], [&#34;&lt;&#34;]
+    )
+    bkg_weights_dnn = bkg_weights.copy()
+    bkg_weights_dnn[bkg_cut_index] = 0
+    # normalize weights for density plots
+    if plot_cfg.density:
+        bkg_weights_dnn = bkg_weights_dnn / np.sum(bkg_weights)
+        sig_weights_dnn = sig_weights_dnn / np.sum(sig_weights)
+    # plot
+    plot_feature_list = ic.selected_features + ic.validation_features
+    for feature in plot_feature_list:
+        logger.debug(f&#34;Plotting kinematics for {feature}&#34;)
+        bkg_array = bkg_df_raw[feature].to_numpy(&#34;float32&#34;)
+        sig_array = sig_df_raw[feature].to_numpy(&#34;float32&#34;)
+
+        feature_cfg = plot_cfg.clone()
+        if feature in plot_cfg.__dict__.keys():
+            feature_cfg_tmp = getattr(plot_cfg, feature)
+            feature_cfg.update(feature_cfg_tmp.get_config_dict())
+        plot_range = feature_cfg.range_processed
+
+        # plot sig
+        fig, main_ax, ratio_ax = ampl.ratio_axes()
+        main_ax.hist(
+            sig_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=sig_weights,
+            histtype=&#34;step&#34;,
+            color=feature_cfg.sig_color,
+            label=&#34;before DNN cut&#34;,
+        )
+        main_ax.hist(
+            sig_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=sig_weights_dnn,
+            histtype=&#34;stepfilled&#34;,
+            color=feature_cfg.sig_color,
+            label=&#34;after DNN cut&#34;,
+        )
+        sig_bins, sig_edges = np.histogram(
+            sig_array, bins=feature_cfg.bins, weights=sig_weights,
+        )
+        sig_bins_dnn, _ = np.histogram(
+            sig_array, bins=feature_cfg.bins, weights=sig_weights_dnn,
+        )
+        ampl.plot.plot_ratio(
+            sig_edges,
+            sig_bins_dnn,
+            np.zeros(len(sig_bins)),
+            sig_bins,
+            np.zeros(len(sig_bins)),
+            ratio_ax,
+            plottype=&#34;raw&#34;,
+        )
+        if plot_range:
+            main_ax.set_xlim(plot_range[0], plot_range[1])
+            ratio_ax.set_xlim(plot_range[0], plot_range[1])
+        if feature_cfg.log:
+            main_ax.set_yscale(&#34;log&#34;)
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(
+                feature_cfg.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+            )
+        else:
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(0, y_max * 1.4)
+        main_ax.legend(loc=&#34;upper right&#34;)
+        # main_ax.set_ylabel(feature_cfg.y_label)
+        ratio_ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=main_ax, **(ac.atlas_label.get_config_dict())
+            )
+        fig.suptitle(f&#34;{feature} (signal)&#34;)
+        fig.savefig(f&#34;{save_dir}/{feature}(sig).{plot_cfg.save_format}&#34;)
+        plt.close()
+        # plot bkg
+        fig, main_ax, ratio_ax = ampl.ratio_axes()
+        main_ax.hist(
+            bkg_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=bkg_weights,
+            histtype=&#34;step&#34;,
+            color=feature_cfg.bkg_color,
+            label=&#34;before DNN cut&#34;,
+        )
+        main_ax.hist(
+            bkg_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=bkg_weights_dnn,
+            histtype=&#34;stepfilled&#34;,
+            color=feature_cfg.bkg_color,
+            label=&#34;after DNN cut&#34;,
+        )
+        bkg_bins, bkg_edges = np.histogram(
+            bkg_array, bins=feature_cfg.bins, weights=bkg_weights,
+        )
+        bkg_bins_dnn, _ = np.histogram(
+            bkg_array, bins=feature_cfg.bins, weights=bkg_weights_dnn,
+        )
+        ampl.plot.plot_ratio(
+            bkg_edges,
+            bkg_bins_dnn,
+            np.zeros(len(bkg_bins)),
+            bkg_bins,
+            np.zeros(len(bkg_bins)),
+            ratio_ax,
+            plottype=&#34;raw&#34;,
+        )
+        if plot_range:
+            main_ax.set_xlim(plot_range[0], plot_range[1])
+            ratio_ax.set_xlim(plot_range[0], plot_range[1])
+        if feature_cfg.log:
+            main_ax.set_yscale(&#34;log&#34;)
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(
+                feature_cfg.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+            )
+        else:
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(0, y_max * 1.4)
+        main_ax.legend(loc=&#34;upper right&#34;)
+        # main_ax.set_ylabel(feature_cfg.y_label)
+        ratio_ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=main_ax, **(ac.atlas_label.get_config_dict())
+            )
+        fig.suptitle(f&#34;{feature} (background)&#34;)
+        fig.savefig(f&#34;{save_dir}/{feature}(bkg).{plot_cfg.save_format}&#34;)
+        plt.close()
+
+
+def remove_hist_kwargs_duplicates(hist_kwargs: dict):
+    if &#34;bins&#34; in hist_kwargs:
+        del hist_kwargs[&#34;bins&#34;]
+    if &#34;logbin&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logbin&#34;]
+    if &#34;logx&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logx&#34;]
+    if &#34;logy&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logy&#34;]
+    if &#34;range&#34; in hist_kwargs:
+        del hist_kwargs[&#34;range&#34;]
+    if &#34;weights&#34; in hist_kwargs:
+        del hist_kwargs[&#34;weights&#34;]
+    if &#34;label&#34; in hist_kwargs:
+        del hist_kwargs[&#34;label&#34;]
+    return hist_kwargs
+
+
+def modify_hist(ax: ht.ax, feature_cfg: ht.sub_config, plot_range: ht.bound):
+    ax.set_xlabel(feature_cfg.x_label)
+    ax.set_ylabel(feature_cfg.y_label)
+    log_minor_locator = LogLocator(
+        base=10, subs=np.arange(1.0, 10.0) * 0.1, numticks=10
+    )
+    if feature_cfg.logx:
+        ax.set_xscale(&#34;symlog&#34;)
+        ax.xaxis.set_minor_locator(log_minor_locator)
+    if plot_range:
+        ax.set_xlim(plot_range[0], plot_range[1])
+    y_min, y_max = ax.get_ylim()
+    if feature_cfg.logy:
+        ax.set_yscale(&#34;symlog&#34;)
+        log_range = np.log10(y_max)
+        y_max = pow(10, np.log10(y_max) + log_range * 0.4)
+        ax.set_ylim(y_min, y_max * 1.4)
+        ax.yaxis.set_minor_locator(log_minor_locator)
+    else:
+        ax.set_ylim(y_min, y_max * 1.4)
+        ax.yaxis.set_minor_locator(AutoMinorLocator())
+    ax.legend(loc=&#34;upper right&#34;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="hepynet.evaluate.kinematics.modify_hist"><code class="name flex">
+<span>def <span class="ident">modify_hist</span></span>(<span>ax: matplotlib.axes._axes.Axes, feature_cfg: <a title="hepynet.common.config_utils.Hepy_Config_Section" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config_Section">Hepy_Config_Section</a>, plot_range: Union[Tuple[float, float], List[float]])</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def modify_hist(ax: ht.ax, feature_cfg: ht.sub_config, plot_range: ht.bound):
+    ax.set_xlabel(feature_cfg.x_label)
+    ax.set_ylabel(feature_cfg.y_label)
+    log_minor_locator = LogLocator(
+        base=10, subs=np.arange(1.0, 10.0) * 0.1, numticks=10
+    )
+    if feature_cfg.logx:
+        ax.set_xscale(&#34;symlog&#34;)
+        ax.xaxis.set_minor_locator(log_minor_locator)
+    if plot_range:
+        ax.set_xlim(plot_range[0], plot_range[1])
+    y_min, y_max = ax.get_ylim()
+    if feature_cfg.logy:
+        ax.set_yscale(&#34;symlog&#34;)
+        log_range = np.log10(y_max)
+        y_max = pow(10, np.log10(y_max) + log_range * 0.4)
+        ax.set_ylim(y_min, y_max * 1.4)
+        ax.yaxis.set_minor_locator(log_minor_locator)
+    else:
+        ax.set_ylim(y_min, y_max * 1.4)
+        ax.yaxis.set_minor_locator(AutoMinorLocator())
+    ax.legend(loc=&#34;upper right&#34;)</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.kinematics.paint_correlation_matrix"><code class="name flex">
+<span>def <span class="ident">paint_correlation_matrix</span></span>(<span>ax: matplotlib.axes._axes.Axes, corr_matrix: numpy.ndarray, labels: List[str])</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def paint_correlation_matrix(
+    ax: ht.ax, corr_matrix: np.ndarray, labels: List[str]
+):
+    # Generate a mask for the upper triangle
+    mask = np.triu(np.ones_like(corr_matrix, dtype=np.bool))
+    # Generate a custom diverging colormap
+    cmap = sns.diverging_palette(220, 10, as_cmap=True)
+    # Draw the heatmap with the mask and correct aspect ratio
+    sns.heatmap(
+        corr_matrix,
+        mask=mask,
+        cmap=cmap,
+        vmax=0.3,
+        center=0,
+        square=True,
+        xticklabels=labels,
+        yticklabels=labels,
+        linewidths=0.5,
+        cbar_kws={&#34;shrink&#34;: 0.5},
+        ax=ax,
+    )</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.kinematics.plot_correlation_matrix"><code class="name flex">
+<span>def <span class="ident">plot_correlation_matrix</span></span>(<span>df: pandas.core.frame.DataFrame, job_config: <a title="hepynet.common.config_utils.Hepy_Config" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config">Hepy_Config</a>, save_dir: Union[str, os.PathLike] = '.')</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_correlation_matrix(
+    df: pd.DataFrame, job_config: ht.config, save_dir: ht.pathlike = &#34;.&#34;
+):
+    ic = job_config.input.clone()
+    features = ic.selected_features
+    save_dir = pathlib.Path(save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    fig_scale = len(features) / 10 + 1
+    figsize = (8.333 * fig_scale, 4.167 * fig_scale)
+    fig, ax = plt.subplots(ncols=2, figsize=figsize)
+    # plot bkg
+    ax[0].set_title(&#34;bkg correlation&#34;)
+    bkg_df = array_utils.extract_bkg_df(df)
+    if bkg_df.shape[0] &gt; 1000000:
+        logger.warn(
+            f&#34;Too large input detected ({bkg_df.shape[0]} rows), randomly sampling 1000000 rows for background corr_matrix calculation&#34;
+        )
+        bkg_df = bkg_df.sample(n=1000000)
+    bkg_matrix = array_utils.corr_matrix(
+        bkg_df[features].to_numpy(&#34;float32&#34;),
+        bkg_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;),
+    )
+    paint_correlation_matrix(ax[0], bkg_matrix, features)
+    # plot sig
+    ax[1].set_title(&#34;sig correlation&#34;)
+    sig_df = array_utils.extract_sig_df(df)
+    if sig_df.shape[0] &gt; 1000000:
+        logger.warn(
+            f&#34;Too large input detected ({sig_df.shape[0]} rows), randomly sampling 1000000 rows for signal corr_matrix calculation&#34;
+        )
+        sig_df = sig_df.sample(n=1000000)
+    sig_matrix = array_utils.corr_matrix(
+        sig_df[features].to_numpy(&#34;float32&#34;),
+        sig_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;),
+    )
+    paint_correlation_matrix(ax[1], sig_matrix, features)
+    fig_save_path = save_dir / &#34;correlation_matrix.png&#34;
+    logger.debug(f&#34;Save correlation matrix to: {fig_save_path}&#34;)
+    fig.savefig(fig_save_path)</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.kinematics.plot_input"><code class="name flex">
+<span>def <span class="ident">plot_input</span></span>(<span>df: pandas.core.frame.DataFrame, job_config: <a title="hepynet.common.config_utils.Hepy_Config" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config">Hepy_Config</a>, save_dir: Union[str, os.PathLike] = None, is_raw: bool = True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots input distributions comparision plots for sig/bkg/data</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_input(
+    df: pd.DataFrame,
+    job_config: ht.config,
+    save_dir: ht.pathlike = None,
+    is_raw: bool = True,
+):
+    &#34;&#34;&#34;Plots input distributions comparision plots for sig/bkg/data&#34;&#34;&#34;
+    # setup config
+    ic = job_config.input.clone()
+    ac = job_config.apply.clone()
+    plot_cfg = ac.cfg_kine
+    # prepare
+    plot_feature_list = list(
+        set(ic.selected_features + ic.validation_features)
+    )
+    save_dir = pathlib.Path(save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    # plot
+    for feature in plot_feature_list:
+        feature_cfg = plot_cfg.clone()
+        if feature in plot_cfg.__dict__.keys():
+            feature_cfg_tmp = getattr(plot_cfg, feature)
+            feature_cfg.update(feature_cfg_tmp.get_config_dict())
+        if is_raw:
+            plot_range = feature_cfg.range_raw
+            bkg_scale = feature_cfg.bkg_scale_raw
+            sig_scale = feature_cfg.sig_scale_raw
+        else:
+            plot_range = feature_cfg.range_processed
+            bkg_scale = feature_cfg.bkg_scale_processed
+            sig_scale = feature_cfg.sig_scale_processed
+        if feature_cfg.logbin and plot_range:
+            plot_bins = np.logspace(
+                np.log10(plot_range[0]),
+                np.log10(plot_range[1]),
+                feature_cfg.bins,
+            )
+        else:
+            plot_bins = feature_cfg.bins
+        # plot bkg
+        # bkg_df = array_utils.extract_bkg_df(df)
+        bkg_wt = df.loc[
+            (df[&#34;is_mc&#34;] == True) &amp; (df[&#34;is_sig&#34;] == False), &#34;weight&#34;
+        ].to_numpy(&#34;float32&#34;)
+        fig, ax = plt.subplots()
+        hist_kwargs = feature_cfg.hist_kwargs_bkg.get_config_dict()
+        remove_hist_kwargs_duplicates(hist_kwargs)
+        ax.hist(
+            df.loc[
+                (df[&#34;is_mc&#34;] == True) &amp; (df[&#34;is_sig&#34;] == False), feature
+            ].to_numpy(&#34;float32&#34;),
+            bins=plot_bins,
+            range=plot_range,
+            weights=bkg_wt * bkg_scale,
+            label=&#34;background&#34;,
+            **(hist_kwargs),
+        )
+        modify_hist(ax, feature_cfg, plot_range)
+        ax.set_xlabel(feature)
+        # decide wether plot in same place
+        if plot_cfg.separate_bkg_sig:
+            if ac.plot_atlas_label:
+                ampl.plot.draw_atlas_label(
+                    0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+                )
+            # fig.suptitle(feature)
+            fig.savefig(f&#34;{save_dir}/{feature}_bkg.{plot_cfg.save_format}&#34;)
+            plt.close()
+            fig, ax = plt.subplots()
+        # plot sig
+        sig_df = array_utils.extract_sig_df(df)
+        sig_wt = sig_df[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+        hist_kwargs = feature_cfg.hist_kwargs_sig.get_config_dict()
+        remove_hist_kwargs_duplicates(hist_kwargs)
+        ax.hist(
+            sig_df[feature].to_numpy(&#34;float32&#34;),
+            bins=plot_bins,
+            range=plot_range,
+            weights=sig_wt * sig_scale,
+            label=&#34;signal&#34;,
+            **(hist_kwargs),
+        )
+        modify_hist(ax, feature_cfg, plot_range)
+        ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        # fig.suptitle(feature)
+        if plot_cfg.separate_bkg_sig:
+            fig.savefig(f&#34;{save_dir}/{feature}_sig.{plot_cfg.save_format}&#34;)
+        else:
+            fig.savefig(f&#34;{save_dir}/{feature}.{plot_cfg.save_format}&#34;)
+        plt.close()</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.kinematics.plot_input_dnn"><code class="name flex">
+<span>def <span class="ident">plot_input_dnn</span></span>(<span>df_raw: pandas.core.frame.DataFrame, df: pandas.core.frame.DataFrame, job_config: <a title="hepynet.common.config_utils.Hepy_Config" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config">Hepy_Config</a>, dnn_cut: float = None, multi_class_cut_branch: int = 0, save_dir: Union[str, os.PathLike] = None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots input distributions comparision plots with DNN cuts applied</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_input_dnn(
+    df_raw: pd.DataFrame,
+    df: pd.DataFrame,
+    job_config: ht.config,
+    dnn_cut: float = None,
+    multi_class_cut_branch: int = 0,
+    save_dir: ht.pathlike = None,
+):
+    &#34;&#34;&#34;Plots input distributions comparision plots with DNN cuts applied&#34;&#34;&#34;
+    logger.info(
+        f&#34;Plotting input distributions with DNN cuts {dnn_cut} applied.&#34;
+    )
+    # prepare
+    ic = job_config.input.clone()
+    ac = job_config.apply.clone()
+    plot_cfg = ac.cfg_cut_kine_study
+    # get sig/bkg DataFrame and weights
+    bkg_df_raw = array_utils.extract_bkg_df(df_raw)
+    sig_df_raw = array_utils.extract_sig_df(df_raw)
+    bkg_weights = bkg_df_raw[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+    sig_weights = sig_df_raw[&#34;weight&#34;].to_numpy(&#34;float32&#34;)
+    # get predictions
+    bkg_predictions = array_utils.extract_bkg_df(df)[[&#34;y_pred&#34;]].to_numpy(
+        &#34;float32&#34;
+    )
+    sig_predictions = array_utils.extract_sig_df(df)[[&#34;y_pred&#34;]].to_numpy(
+        &#34;float32&#34;
+    )
+    # normalize
+    if plot_cfg.density:
+        bkg_weights = bkg_weights / np.sum(bkg_weights)
+        sig_weights = sig_weights / np.sum(sig_weights)
+    # plot kinematics with dnn cuts
+    if dnn_cut &lt; 0 or dnn_cut &gt; 1:
+        logger.error(f&#34;DNN cut {dnn_cut} is out of range [0, 1]!&#34;)
+        return
+    # prepare signal
+    sig_predictions = sig_predictions[:, multi_class_cut_branch]
+    sig_cut_index = array_utils.get_cut_index(
+        sig_predictions, [dnn_cut], [&#34;&lt;&#34;]
+    )
+    sig_weights_dnn = sig_weights.copy()
+    sig_weights_dnn[sig_cut_index] = 0
+    # prepare background
+    bkg_predictions = bkg_predictions[:, multi_class_cut_branch]
+    bkg_cut_index = array_utils.get_cut_index(
+        bkg_predictions, [dnn_cut], [&#34;&lt;&#34;]
+    )
+    bkg_weights_dnn = bkg_weights.copy()
+    bkg_weights_dnn[bkg_cut_index] = 0
+    # normalize weights for density plots
+    if plot_cfg.density:
+        bkg_weights_dnn = bkg_weights_dnn / np.sum(bkg_weights)
+        sig_weights_dnn = sig_weights_dnn / np.sum(sig_weights)
+    # plot
+    plot_feature_list = ic.selected_features + ic.validation_features
+    for feature in plot_feature_list:
+        logger.debug(f&#34;Plotting kinematics for {feature}&#34;)
+        bkg_array = bkg_df_raw[feature].to_numpy(&#34;float32&#34;)
+        sig_array = sig_df_raw[feature].to_numpy(&#34;float32&#34;)
+
+        feature_cfg = plot_cfg.clone()
+        if feature in plot_cfg.__dict__.keys():
+            feature_cfg_tmp = getattr(plot_cfg, feature)
+            feature_cfg.update(feature_cfg_tmp.get_config_dict())
+        plot_range = feature_cfg.range_processed
+
+        # plot sig
+        fig, main_ax, ratio_ax = ampl.ratio_axes()
+        main_ax.hist(
+            sig_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=sig_weights,
+            histtype=&#34;step&#34;,
+            color=feature_cfg.sig_color,
+            label=&#34;before DNN cut&#34;,
+        )
+        main_ax.hist(
+            sig_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=sig_weights_dnn,
+            histtype=&#34;stepfilled&#34;,
+            color=feature_cfg.sig_color,
+            label=&#34;after DNN cut&#34;,
+        )
+        sig_bins, sig_edges = np.histogram(
+            sig_array, bins=feature_cfg.bins, weights=sig_weights,
+        )
+        sig_bins_dnn, _ = np.histogram(
+            sig_array, bins=feature_cfg.bins, weights=sig_weights_dnn,
+        )
+        ampl.plot.plot_ratio(
+            sig_edges,
+            sig_bins_dnn,
+            np.zeros(len(sig_bins)),
+            sig_bins,
+            np.zeros(len(sig_bins)),
+            ratio_ax,
+            plottype=&#34;raw&#34;,
+        )
+        if plot_range:
+            main_ax.set_xlim(plot_range[0], plot_range[1])
+            ratio_ax.set_xlim(plot_range[0], plot_range[1])
+        if feature_cfg.log:
+            main_ax.set_yscale(&#34;log&#34;)
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(
+                feature_cfg.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+            )
+        else:
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(0, y_max * 1.4)
+        main_ax.legend(loc=&#34;upper right&#34;)
+        # main_ax.set_ylabel(feature_cfg.y_label)
+        ratio_ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=main_ax, **(ac.atlas_label.get_config_dict())
+            )
+        fig.suptitle(f&#34;{feature} (signal)&#34;)
+        fig.savefig(f&#34;{save_dir}/{feature}(sig).{plot_cfg.save_format}&#34;)
+        plt.close()
+        # plot bkg
+        fig, main_ax, ratio_ax = ampl.ratio_axes()
+        main_ax.hist(
+            bkg_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=bkg_weights,
+            histtype=&#34;step&#34;,
+            color=feature_cfg.bkg_color,
+            label=&#34;before DNN cut&#34;,
+        )
+        main_ax.hist(
+            bkg_array,
+            bins=feature_cfg.bins,
+            range=plot_range,
+            weights=bkg_weights_dnn,
+            histtype=&#34;stepfilled&#34;,
+            color=feature_cfg.bkg_color,
+            label=&#34;after DNN cut&#34;,
+        )
+        bkg_bins, bkg_edges = np.histogram(
+            bkg_array, bins=feature_cfg.bins, weights=bkg_weights,
+        )
+        bkg_bins_dnn, _ = np.histogram(
+            bkg_array, bins=feature_cfg.bins, weights=bkg_weights_dnn,
+        )
+        ampl.plot.plot_ratio(
+            bkg_edges,
+            bkg_bins_dnn,
+            np.zeros(len(bkg_bins)),
+            bkg_bins,
+            np.zeros(len(bkg_bins)),
+            ratio_ax,
+            plottype=&#34;raw&#34;,
+        )
+        if plot_range:
+            main_ax.set_xlim(plot_range[0], plot_range[1])
+            ratio_ax.set_xlim(plot_range[0], plot_range[1])
+        if feature_cfg.log:
+            main_ax.set_yscale(&#34;log&#34;)
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(
+                feature_cfg.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+            )
+        else:
+            _, y_max = main_ax.get_ylim()
+            main_ax.set_ylim(0, y_max * 1.4)
+        main_ax.legend(loc=&#34;upper right&#34;)
+        # main_ax.set_ylabel(feature_cfg.y_label)
+        ratio_ax.set_xlabel(feature)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=main_ax, **(ac.atlas_label.get_config_dict())
+            )
+        fig.suptitle(f&#34;{feature} (background)&#34;)
+        fig.savefig(f&#34;{save_dir}/{feature}(bkg).{plot_cfg.save_format}&#34;)
+        plt.close()</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.kinematics.remove_hist_kwargs_duplicates"><code class="name flex">
+<span>def <span class="ident">remove_hist_kwargs_duplicates</span></span>(<span>hist_kwargs: dict)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def remove_hist_kwargs_duplicates(hist_kwargs: dict):
+    if &#34;bins&#34; in hist_kwargs:
+        del hist_kwargs[&#34;bins&#34;]
+    if &#34;logbin&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logbin&#34;]
+    if &#34;logx&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logx&#34;]
+    if &#34;logy&#34; in hist_kwargs:
+        del hist_kwargs[&#34;logy&#34;]
+    if &#34;range&#34; in hist_kwargs:
+        del hist_kwargs[&#34;range&#34;]
+    if &#34;weights&#34; in hist_kwargs:
+        del hist_kwargs[&#34;weights&#34;]
+    if &#34;label&#34; in hist_kwargs:
+        del hist_kwargs[&#34;label&#34;]
+    return hist_kwargs</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="hepynet.evaluate" href="index.html">hepynet.evaluate</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="hepynet.evaluate.kinematics.modify_hist" href="#hepynet.evaluate.kinematics.modify_hist">modify_hist</a></code></li>
+<li><code><a title="hepynet.evaluate.kinematics.paint_correlation_matrix" href="#hepynet.evaluate.kinematics.paint_correlation_matrix">paint_correlation_matrix</a></code></li>
+<li><code><a title="hepynet.evaluate.kinematics.plot_correlation_matrix" href="#hepynet.evaluate.kinematics.plot_correlation_matrix">plot_correlation_matrix</a></code></li>
+<li><code><a title="hepynet.evaluate.kinematics.plot_input" href="#hepynet.evaluate.kinematics.plot_input">plot_input</a></code></li>
+<li><code><a title="hepynet.evaluate.kinematics.plot_input_dnn" href="#hepynet.evaluate.kinematics.plot_input_dnn">plot_input_dnn</a></code></li>
+<li><code><a title="hepynet.evaluate.kinematics.remove_hist_kwargs_duplicates" href="#hepynet.evaluate.kinematics.remove_hist_kwargs_duplicates">remove_hist_kwargs_duplicates</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

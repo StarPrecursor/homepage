@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>hepynet.evaluate.mva_scores API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>hepynet.evaluate.mva_scores</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import itertools
+import logging
+
+import atlas_mpl_style as ampl
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+import hepynet.common.hepy_type as ht
+
+logger = logging.getLogger(&#34;hepynet&#34;)
+
+
+def plot_mva_scores(
+    df_raw: pd.DataFrame,
+    df: pd.DataFrame,
+    job_config: ht.config,
+    save_dir: ht.pathlike,
+    file_name: str = &#34;mva_scores&#34;,
+):
+    # initialize
+    logger.info(&#34;Plotting MVA scores&#34;)
+    tc = job_config.train.clone()
+    ac = job_config.apply.clone()
+    plot_config = ac.cfg_mva_scores_data_mc.clone()
+    # prepare signal
+    sig_scores_dict = {}
+    sig_weights_dict = {}
+    for sig_key in plot_config.sig_list:
+        sig_score = df.loc[df[&#34;sample_name&#34;] == sig_key, &#34;y_pred&#34;].values
+        if sig_score.ndim == 1:
+            sig_score = sig_score.reshape((-1, 1))
+        sig_scores_dict[sig_key] = sig_score
+        sig_weight = df_raw.loc[df[&#34;sample_name&#34;] == sig_key, &#34;weight&#34;].values
+        sig_weights_dict[sig_key] = sig_weight
+    # prepare background
+    bkg_scores_dict = {}
+    bkg_weights_dict = {}
+    for bkg_key in plot_config.bkg_list:
+        bkg_score = df.loc[df[&#34;sample_name&#34;] == bkg_key, &#34;y_pred&#34;].values
+        if bkg_score.ndim == 1:
+            bkg_score = bkg_score.reshape((-1, 1))
+        bkg_scores_dict[bkg_key] = bkg_score
+        bkg_weight = df_raw.loc[df[&#34;sample_name&#34;] == bkg_key, &#34;weight&#34;].values
+        bkg_weights_dict[bkg_key] = bkg_weight
+    # prepare data
+    # TODO: support data plots
+    if plot_config.apply_data:
+        data_key = plot_config.data_key
+        data_scores = df.loc[df[&#34;sample_name&#34;] == data_key, &#34;y_pred&#34;].values
+        if data_scores.ndim == 1:
+            data_scores = data_scores.reshape((-1, 1))
+        data_weights = df_raw.loc[
+            df[&#34;sample_name&#34;] == data_key, &#34;weight&#34;
+        ].values
+
+    # make plots
+    all_nodes = [&#34;sig&#34;] + tc.output_bkg_node_names
+    for node_id, node in enumerate(all_nodes):
+        if plot_config.show_ratio:
+            fig = plt.figure(figsize=(50 / 3, 50 / 3))
+            gs = mpl.gridspec.GridSpec(4, 1, hspace=0.0, wspace=0.0)
+            ax = fig.add_subplot(gs[0:3])
+            ax.tick_params(labelbottom=False)
+            ratio_ax = fig.add_subplot(gs[3], sharex=ax)
+            # ratio_ax.yaxis.set_major_locator(
+            #    mpl.ticker.MaxNLocator(
+            #        symmetric=True, prune=&#34;both&#34;, min_n_ticks=5, nbins=4
+            #    )
+            # )
+            ratio_ax.autoscale(axis=&#34;x&#34;, tight=True)
+            plt.sca(ax)
+        else:
+            fig, ax = plt.subplots(figsize=(50 / 3, 100 / 9))
+        colors = plt.rcParams[&#34;axes.prop_cycle&#34;].by_key()[&#34;color&#34;]
+        color_cycle = itertools.cycle(colors)
+        # plot bkg
+        bkg_collect = list()
+        bkg_scores_all = None
+        bkg_weights_all = None
+        for key, value in bkg_scores_dict.items():
+            node_score = value[:, node_id].flatten()
+            node_weight = bkg_weights_dict[key] * plot_config.bkg_scale
+            bkg_bins, _ = np.histogram(
+                node_score,
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=node_weight,
+                density=plot_config.density,
+            )
+            if plot_config.bkg_scale != 1:
+                bkg_label = f&#34;{key} x{plot_config.bkg_scale}&#34;
+            else:
+                bkg_label = key
+            bkg = ampl.plot.Background(
+                bkg_label, bkg_bins, color=next(color_cycle)
+            )
+            bkg_collect.append(bkg)
+            if bkg_scores_all is None:
+                bkg_scores_all = node_score
+                bkg_weights_all = node_weight
+            else:
+                bkg_scores_all = np.concatenate((bkg_scores_all, node_score))
+                bkg_weights_all = np.concatenate(
+                    (bkg_weights_all, node_weight)
+                )
+        bkg_all_bins, bkg_edges = np.histogram(
+            bkg_scores_all,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=bkg_weights_all,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            bkg_scores_all,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(bkg_weights_all, 2),
+        )
+        bkg_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(bkg_weights_all) * (1 / plot_config.bins)
+            bkg_stats_errs /= norm_sum
+        ampl.plot.plot_backgrounds(bkg_collect, bkg_edges, ax=ax)
+        # plot sig
+        for key, value in sig_scores_dict.items():
+            sig_bins, sig_edges = np.histogram(
+                value[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=sig_weights_dict[key] * plot_config.sig_scale,
+                density=plot_config.density,
+            )
+            if plot_config.sig_scale != 1:
+                sig_label = f&#34;{key} x{plot_config.sig_scale}&#34;
+            else:
+                sig_label = key
+            ampl.plot.plot_signal(
+                sig_label, sig_edges, sig_bins, color=next(color_cycle), ax=ax
+            )
+        # plot data
+        if plot_config.apply_data:
+            data_bins, data_edges = np.histogram(
+                data_scores[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=data_weights * plot_config.data_scale,
+                density=plot_config.density,
+            )
+            sumw2, _ = np.histogram(
+                data_scores[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=np.power(data_weights * plot_config.data_scale, 2),
+            )
+            data_stats_errs = np.sqrt(sumw2)
+            if plot_config.density:
+                norm_sum = np.sum(data_weights * plot_config.data_scale) * (
+                    1 / plot_config.bins
+                )
+                data_stats_errs /= norm_sum
+            if plot_config.data_scale != 1:
+                data_label = f&#34;data x{plot_config.data_scale}&#34;
+            else:
+                data_label = &#34;data&#34;
+            ampl.plot.plot_data(
+                data_edges,
+                data_bins,
+                stat_errs=data_stats_errs,
+                label=data_label,
+                ax=ax,
+            )
+            # plot ratio
+            if plot_config.show_ratio:
+                ampl.plot.plot_ratio(
+                    data_edges,
+                    data_bins,
+                    data_stats_errs,
+                    bkg_all_bins,
+                    bkg_stats_errs,
+                    ratio_ax,
+                    plottype=&#34;raw&#34;,
+                )
+            ratio_ax.set_ylim(0, 2)
+        ax.set_xlim(0, 1)
+        ax.legend(loc=&#34;upper right&#34;, ncol=2)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        # Save lin/log plots
+        _, y_max = ax.get_ylim()
+        ## save lin
+        ax.set_ylim(0, y_max * 1.4)
+        fig.savefig(
+            f&#34;{save_dir}/{file_name}_node_{node}_lin.{plot_config.save_format}&#34;
+        )
+        ## save log
+        ax.set_yscale(&#34;log&#34;)
+        ax.set_ylim(
+            plot_config.logy_min,
+            y_max * np.power(10, np.log10(y_max / plot_config.logy_min) / 2),
+        )
+        fig.savefig(
+            f&#34;{save_dir}/{file_name}_node_{node}_log.{plot_config.save_format}&#34;
+        )
+
+    return 0  # success run
+
+
+def plot_train_test_compare(
+    df: pd.DataFrame, job_config: ht.config, save_dir: ht.pathlike
+):
+    &#34;&#34;&#34;Plots train/test datasets&#39; cores distribution comparison&#34;&#34;&#34;
+    # initialize
+    logger.info(&#34;Plotting train/test scores.&#34;)
+    tc = job_config.train.clone()
+    ac = job_config.apply.clone()
+    plot_config = job_config.apply.cfg_train_test_compare
+    all_nodes = [&#34;sig&#34;] + tc.output_bkg_node_names
+    # get inputs
+    train_index = df[&#34;is_train&#34;] == True
+    test_index = df[&#34;is_train&#34;] == False
+    sig_index = (df[&#34;is_sig&#34;] == True) &amp; (df[&#34;is_mc&#34;] == True)
+    bkg_index = (df[&#34;is_sig&#34;] == False) &amp; (df[&#34;is_mc&#34;] == True)
+    xs_train_scores = df.loc[sig_index &amp; train_index, [&#34;y_pred&#34;]].values
+    xs_test_scores = df.loc[sig_index &amp; test_index, [&#34;y_pred&#34;]].values
+    xs_train_weight = df.loc[sig_index &amp; train_index, [&#34;weight&#34;]].values
+    xs_test_weight = df.loc[sig_index &amp; test_index, [&#34;weight&#34;]].values
+    xb_train_scores = df.loc[bkg_index &amp; train_index, [&#34;y_pred&#34;]].values
+    xb_test_scores = df.loc[bkg_index &amp; test_index, [&#34;y_pred&#34;]].values
+    xb_train_weight = df.loc[bkg_index &amp; train_index, [&#34;weight&#34;]].values
+    xb_test_weight = df.loc[bkg_index &amp; test_index, [&#34;weight&#34;]].values
+
+    # plot for each nodes
+    num_nodes = len(all_nodes)
+    for node_num in range(num_nodes):
+        fig, ax = plt.subplots()
+        # plot test scores
+        bkg_bins, bkg_edges = np.histogram(
+            xb_test_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xb_test_weight,
+            density=plot_config.density,
+        )
+        bkg = ampl.plot.Background(
+            &#34;background (test)&#34;, bkg_bins, color=plot_config.bkg_color
+        )
+        ampl.plot.plot_backgrounds([bkg], bkg_edges, ax=ax)
+        sig_bins, sig_edges = np.histogram(
+            xs_test_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xs_test_weight,
+            density=plot_config.density,
+        )
+        ampl.plot.plot_signal(
+            &#34;signal (test)&#34;, sig_edges, sig_bins, color=plot_config.sig_color
+        )
+        # plot train scores
+        ## bkg
+        bkg_bins, bkg_edges = np.histogram(
+            xb_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xb_train_weight,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            xb_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(xb_train_weight, 2),
+        )
+        bkg_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(xb_train_weight) * (1 / plot_config.bins)
+            bkg_stats_errs /= norm_sum
+        err_x = 0.5 * (bkg_edges[:-1] + bkg_edges[1:])
+        ax.errorbar(
+            err_x,
+            bkg_bins,
+            bkg_stats_errs,
+            0.5 / plot_config.bins,
+            fmt=&#34;.k&#34;,
+            mfc=plot_config.bkg_color,
+            ms=10,
+            label=&#34;background (train)&#34;,
+        )
+        ## sig
+        sig_bins, sig_edges = np.histogram(
+            xs_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xs_train_weight,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            xs_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(xs_train_weight, 2),
+        )
+        sig_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(xs_train_weight) * (1 / plot_config.bins)
+            sig_stats_errs /= norm_sum
+        err_x = 0.5 * (sig_edges[:-1] + sig_edges[1:])
+        ax.errorbar(
+            err_x,
+            sig_bins,
+            sig_stats_errs,
+            0.5 / plot_config.bins,
+            fmt=&#34;.k&#34;,
+            mfc=plot_config.sig_color,
+            ms=10,
+            label=&#34;signal (train)&#34;,
+        )
+        # final adjustments
+        ax.set_xlim(0, 1)
+        ax.legend(loc=&#34;upper right&#34;)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        ax.set_xlabel(&#34;DNN score&#34;)
+        # Save lin/log plots
+        file_name = f&#34;mva_scores_{all_nodes[node_num]}&#34;
+        _, y_max = ax.get_ylim()
+        ## save lin
+        ax.set_ylim(0, y_max * 1.4)
+        fig.savefig(save_dir / f&#34;{file_name}_lin.{plot_config.save_format}&#34;)
+        ## save log
+        ax.set_yscale(&#34;log&#34;)
+        ax.set_ylim(
+            plot_config.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+        )
+        fig.savefig(save_dir / f&#34;{file_name}_log.{plot_config.save_format}&#34;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="hepynet.evaluate.mva_scores.plot_mva_scores"><code class="name flex">
+<span>def <span class="ident">plot_mva_scores</span></span>(<span>df_raw: pandas.core.frame.DataFrame, df: pandas.core.frame.DataFrame, job_config: <a title="hepynet.common.config_utils.Hepy_Config" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config">Hepy_Config</a>, save_dir: Union[str, os.PathLike], file_name: str = 'mva_scores')</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_mva_scores(
+    df_raw: pd.DataFrame,
+    df: pd.DataFrame,
+    job_config: ht.config,
+    save_dir: ht.pathlike,
+    file_name: str = &#34;mva_scores&#34;,
+):
+    # initialize
+    logger.info(&#34;Plotting MVA scores&#34;)
+    tc = job_config.train.clone()
+    ac = job_config.apply.clone()
+    plot_config = ac.cfg_mva_scores_data_mc.clone()
+    # prepare signal
+    sig_scores_dict = {}
+    sig_weights_dict = {}
+    for sig_key in plot_config.sig_list:
+        sig_score = df.loc[df[&#34;sample_name&#34;] == sig_key, &#34;y_pred&#34;].values
+        if sig_score.ndim == 1:
+            sig_score = sig_score.reshape((-1, 1))
+        sig_scores_dict[sig_key] = sig_score
+        sig_weight = df_raw.loc[df[&#34;sample_name&#34;] == sig_key, &#34;weight&#34;].values
+        sig_weights_dict[sig_key] = sig_weight
+    # prepare background
+    bkg_scores_dict = {}
+    bkg_weights_dict = {}
+    for bkg_key in plot_config.bkg_list:
+        bkg_score = df.loc[df[&#34;sample_name&#34;] == bkg_key, &#34;y_pred&#34;].values
+        if bkg_score.ndim == 1:
+            bkg_score = bkg_score.reshape((-1, 1))
+        bkg_scores_dict[bkg_key] = bkg_score
+        bkg_weight = df_raw.loc[df[&#34;sample_name&#34;] == bkg_key, &#34;weight&#34;].values
+        bkg_weights_dict[bkg_key] = bkg_weight
+    # prepare data
+    # TODO: support data plots
+    if plot_config.apply_data:
+        data_key = plot_config.data_key
+        data_scores = df.loc[df[&#34;sample_name&#34;] == data_key, &#34;y_pred&#34;].values
+        if data_scores.ndim == 1:
+            data_scores = data_scores.reshape((-1, 1))
+        data_weights = df_raw.loc[
+            df[&#34;sample_name&#34;] == data_key, &#34;weight&#34;
+        ].values
+
+    # make plots
+    all_nodes = [&#34;sig&#34;] + tc.output_bkg_node_names
+    for node_id, node in enumerate(all_nodes):
+        if plot_config.show_ratio:
+            fig = plt.figure(figsize=(50 / 3, 50 / 3))
+            gs = mpl.gridspec.GridSpec(4, 1, hspace=0.0, wspace=0.0)
+            ax = fig.add_subplot(gs[0:3])
+            ax.tick_params(labelbottom=False)
+            ratio_ax = fig.add_subplot(gs[3], sharex=ax)
+            # ratio_ax.yaxis.set_major_locator(
+            #    mpl.ticker.MaxNLocator(
+            #        symmetric=True, prune=&#34;both&#34;, min_n_ticks=5, nbins=4
+            #    )
+            # )
+            ratio_ax.autoscale(axis=&#34;x&#34;, tight=True)
+            plt.sca(ax)
+        else:
+            fig, ax = plt.subplots(figsize=(50 / 3, 100 / 9))
+        colors = plt.rcParams[&#34;axes.prop_cycle&#34;].by_key()[&#34;color&#34;]
+        color_cycle = itertools.cycle(colors)
+        # plot bkg
+        bkg_collect = list()
+        bkg_scores_all = None
+        bkg_weights_all = None
+        for key, value in bkg_scores_dict.items():
+            node_score = value[:, node_id].flatten()
+            node_weight = bkg_weights_dict[key] * plot_config.bkg_scale
+            bkg_bins, _ = np.histogram(
+                node_score,
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=node_weight,
+                density=plot_config.density,
+            )
+            if plot_config.bkg_scale != 1:
+                bkg_label = f&#34;{key} x{plot_config.bkg_scale}&#34;
+            else:
+                bkg_label = key
+            bkg = ampl.plot.Background(
+                bkg_label, bkg_bins, color=next(color_cycle)
+            )
+            bkg_collect.append(bkg)
+            if bkg_scores_all is None:
+                bkg_scores_all = node_score
+                bkg_weights_all = node_weight
+            else:
+                bkg_scores_all = np.concatenate((bkg_scores_all, node_score))
+                bkg_weights_all = np.concatenate(
+                    (bkg_weights_all, node_weight)
+                )
+        bkg_all_bins, bkg_edges = np.histogram(
+            bkg_scores_all,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=bkg_weights_all,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            bkg_scores_all,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(bkg_weights_all, 2),
+        )
+        bkg_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(bkg_weights_all) * (1 / plot_config.bins)
+            bkg_stats_errs /= norm_sum
+        ampl.plot.plot_backgrounds(bkg_collect, bkg_edges, ax=ax)
+        # plot sig
+        for key, value in sig_scores_dict.items():
+            sig_bins, sig_edges = np.histogram(
+                value[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=sig_weights_dict[key] * plot_config.sig_scale,
+                density=plot_config.density,
+            )
+            if plot_config.sig_scale != 1:
+                sig_label = f&#34;{key} x{plot_config.sig_scale}&#34;
+            else:
+                sig_label = key
+            ampl.plot.plot_signal(
+                sig_label, sig_edges, sig_bins, color=next(color_cycle), ax=ax
+            )
+        # plot data
+        if plot_config.apply_data:
+            data_bins, data_edges = np.histogram(
+                data_scores[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=data_weights * plot_config.data_scale,
+                density=plot_config.density,
+            )
+            sumw2, _ = np.histogram(
+                data_scores[:, node_id].flatten(),
+                bins=plot_config.bins,
+                range=(0, 1),
+                weights=np.power(data_weights * plot_config.data_scale, 2),
+            )
+            data_stats_errs = np.sqrt(sumw2)
+            if plot_config.density:
+                norm_sum = np.sum(data_weights * plot_config.data_scale) * (
+                    1 / plot_config.bins
+                )
+                data_stats_errs /= norm_sum
+            if plot_config.data_scale != 1:
+                data_label = f&#34;data x{plot_config.data_scale}&#34;
+            else:
+                data_label = &#34;data&#34;
+            ampl.plot.plot_data(
+                data_edges,
+                data_bins,
+                stat_errs=data_stats_errs,
+                label=data_label,
+                ax=ax,
+            )
+            # plot ratio
+            if plot_config.show_ratio:
+                ampl.plot.plot_ratio(
+                    data_edges,
+                    data_bins,
+                    data_stats_errs,
+                    bkg_all_bins,
+                    bkg_stats_errs,
+                    ratio_ax,
+                    plottype=&#34;raw&#34;,
+                )
+            ratio_ax.set_ylim(0, 2)
+        ax.set_xlim(0, 1)
+        ax.legend(loc=&#34;upper right&#34;, ncol=2)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        # Save lin/log plots
+        _, y_max = ax.get_ylim()
+        ## save lin
+        ax.set_ylim(0, y_max * 1.4)
+        fig.savefig(
+            f&#34;{save_dir}/{file_name}_node_{node}_lin.{plot_config.save_format}&#34;
+        )
+        ## save log
+        ax.set_yscale(&#34;log&#34;)
+        ax.set_ylim(
+            plot_config.logy_min,
+            y_max * np.power(10, np.log10(y_max / plot_config.logy_min) / 2),
+        )
+        fig.savefig(
+            f&#34;{save_dir}/{file_name}_node_{node}_log.{plot_config.save_format}&#34;
+        )
+
+    return 0  # success run</code></pre>
+</details>
+</dd>
+<dt id="hepynet.evaluate.mva_scores.plot_train_test_compare"><code class="name flex">
+<span>def <span class="ident">plot_train_test_compare</span></span>(<span>df: pandas.core.frame.DataFrame, job_config: <a title="hepynet.common.config_utils.Hepy_Config" href="../common/config_utils.html#hepynet.common.config_utils.Hepy_Config">Hepy_Config</a>, save_dir: Union[str, os.PathLike])</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots train/test datasets' cores distribution comparison</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_train_test_compare(
+    df: pd.DataFrame, job_config: ht.config, save_dir: ht.pathlike
+):
+    &#34;&#34;&#34;Plots train/test datasets&#39; cores distribution comparison&#34;&#34;&#34;
+    # initialize
+    logger.info(&#34;Plotting train/test scores.&#34;)
+    tc = job_config.train.clone()
+    ac = job_config.apply.clone()
+    plot_config = job_config.apply.cfg_train_test_compare
+    all_nodes = [&#34;sig&#34;] + tc.output_bkg_node_names
+    # get inputs
+    train_index = df[&#34;is_train&#34;] == True
+    test_index = df[&#34;is_train&#34;] == False
+    sig_index = (df[&#34;is_sig&#34;] == True) &amp; (df[&#34;is_mc&#34;] == True)
+    bkg_index = (df[&#34;is_sig&#34;] == False) &amp; (df[&#34;is_mc&#34;] == True)
+    xs_train_scores = df.loc[sig_index &amp; train_index, [&#34;y_pred&#34;]].values
+    xs_test_scores = df.loc[sig_index &amp; test_index, [&#34;y_pred&#34;]].values
+    xs_train_weight = df.loc[sig_index &amp; train_index, [&#34;weight&#34;]].values
+    xs_test_weight = df.loc[sig_index &amp; test_index, [&#34;weight&#34;]].values
+    xb_train_scores = df.loc[bkg_index &amp; train_index, [&#34;y_pred&#34;]].values
+    xb_test_scores = df.loc[bkg_index &amp; test_index, [&#34;y_pred&#34;]].values
+    xb_train_weight = df.loc[bkg_index &amp; train_index, [&#34;weight&#34;]].values
+    xb_test_weight = df.loc[bkg_index &amp; test_index, [&#34;weight&#34;]].values
+
+    # plot for each nodes
+    num_nodes = len(all_nodes)
+    for node_num in range(num_nodes):
+        fig, ax = plt.subplots()
+        # plot test scores
+        bkg_bins, bkg_edges = np.histogram(
+            xb_test_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xb_test_weight,
+            density=plot_config.density,
+        )
+        bkg = ampl.plot.Background(
+            &#34;background (test)&#34;, bkg_bins, color=plot_config.bkg_color
+        )
+        ampl.plot.plot_backgrounds([bkg], bkg_edges, ax=ax)
+        sig_bins, sig_edges = np.histogram(
+            xs_test_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xs_test_weight,
+            density=plot_config.density,
+        )
+        ampl.plot.plot_signal(
+            &#34;signal (test)&#34;, sig_edges, sig_bins, color=plot_config.sig_color
+        )
+        # plot train scores
+        ## bkg
+        bkg_bins, bkg_edges = np.histogram(
+            xb_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xb_train_weight,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            xb_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(xb_train_weight, 2),
+        )
+        bkg_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(xb_train_weight) * (1 / plot_config.bins)
+            bkg_stats_errs /= norm_sum
+        err_x = 0.5 * (bkg_edges[:-1] + bkg_edges[1:])
+        ax.errorbar(
+            err_x,
+            bkg_bins,
+            bkg_stats_errs,
+            0.5 / plot_config.bins,
+            fmt=&#34;.k&#34;,
+            mfc=plot_config.bkg_color,
+            ms=10,
+            label=&#34;background (train)&#34;,
+        )
+        ## sig
+        sig_bins, sig_edges = np.histogram(
+            xs_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=xs_train_weight,
+            density=plot_config.density,
+        )
+        sumw2, _ = np.histogram(
+            xs_train_scores,
+            bins=plot_config.bins,
+            range=(0, 1),
+            weights=np.power(xs_train_weight, 2),
+        )
+        sig_stats_errs = np.sqrt(sumw2)
+        if plot_config.density:
+            norm_sum = np.sum(xs_train_weight) * (1 / plot_config.bins)
+            sig_stats_errs /= norm_sum
+        err_x = 0.5 * (sig_edges[:-1] + sig_edges[1:])
+        ax.errorbar(
+            err_x,
+            sig_bins,
+            sig_stats_errs,
+            0.5 / plot_config.bins,
+            fmt=&#34;.k&#34;,
+            mfc=plot_config.sig_color,
+            ms=10,
+            label=&#34;signal (train)&#34;,
+        )
+        # final adjustments
+        ax.set_xlim(0, 1)
+        ax.legend(loc=&#34;upper right&#34;)
+        if ac.plot_atlas_label:
+            ampl.plot.draw_atlas_label(
+                0.05, 0.95, ax=ax, **(ac.atlas_label.get_config_dict())
+            )
+        ax.set_xlabel(&#34;DNN score&#34;)
+        # Save lin/log plots
+        file_name = f&#34;mva_scores_{all_nodes[node_num]}&#34;
+        _, y_max = ax.get_ylim()
+        ## save lin
+        ax.set_ylim(0, y_max * 1.4)
+        fig.savefig(save_dir / f&#34;{file_name}_lin.{plot_config.save_format}&#34;)
+        ## save log
+        ax.set_yscale(&#34;log&#34;)
+        ax.set_ylim(
+            plot_config.logy_min, y_max * np.power(10, np.log10(y_max) / 2)
+        )
+        fig.savefig(save_dir / f&#34;{file_name}_log.{plot_config.save_format}&#34;)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="hepynet.evaluate" href="index.html">hepynet.evaluate</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="hepynet.evaluate.mva_scores.plot_mva_scores" href="#hepynet.evaluate.mva_scores.plot_mva_scores">plot_mva_scores</a></code></li>
+<li><code><a title="hepynet.evaluate.mva_scores.plot_train_test_compare" href="#hepynet.evaluate.mva_scores.plot_train_test_compare">plot_train_test_compare</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>
