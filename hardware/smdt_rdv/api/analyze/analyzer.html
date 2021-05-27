@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>smdt_rdv.analyze.analyzer API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>smdt_rdv.analyze.analyzer</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import logging
+import pathlib
+from typing import Any
+
+import numpy as np
+from smdt_rdv.analyze import track_search
+from smdt_rdv.common.mapping import *
+from smdt_rdv.common.smdt_const import *
+from smdt_rdv.data_io import smdt_db
+from smdt_rdv.job_manager import config_utils
+from smdt_rdv.visualize import hits_display, spectrums
+
+ANALYZER_DEFAULT_CFG = {
+    &#34;job&#34;: {
+        &#34;event_cuts&#34;: {&#34;min_hits&#34;: 1, &#34;max_hits&#34;: 1, &#34;adc_cut&#34;: 0,},
+        &#34;track_cuts&#34;: {
+            &#34;min_hits_pass_event_cut&#34;: 0,
+            &#34;max_err&#34;: 7.5,
+            &#34;min_num_hits_on_track&#34;: 0,
+            &#34;max_num_hits_off_track&#34;: 500,
+            &#34;min_layers&#34;: 0,
+        },
+        &#34;spectrums_cfg&#34;: {&#34;include_unmatched_edges&#34;: False,},
+    }
+}
+
+logger = logging.getLogger(&#34;smdt_rdv&#34;)
+
+
+def analyze_single_file(db_path: str, file_id: int, config_dict: dict) -&gt; dict:
+    &#34;&#34;&#34; Analyzes single database file for spectrums, tracks...
+
+    Args:
+        db_path (str): input database file path
+        file_id (int): file identification number
+        config_dict (dict): job config dictionary
+
+    Returns:
+        dict: sMDT spectrums
+    &#34;&#34;&#34;
+    # initialize:
+    job_config = config_utils.sMDT_Job_Config_Section(ANALYZER_DEFAULT_CFG)
+    job_config.update(config_dict)
+    job_cfg = job_config.job
+    path_cfg = job_config.path
+
+    result_dir = pathlib.Path(path_cfg.results_out_dir)
+
+    smdt_spectrums = {}
+    for chamber_name in job_cfg.chamber_names:
+        smdt_spectrums[chamber_name] = spectrums.init_spectrums_dict()
+
+    # connect to database
+    try:
+        db_connect = smdt_db.connect(db_path)
+        db_cursor = db_connect.cursor()
+        logger.info(f&#34;Successfully connected to database {db_path}&#34;)
+    except:
+        logger.error(f&#34;Can&#39;t connect to database {db_path}&#34;)
+
+    # collect events info from database
+    for chamber_name in job_cfg.chamber_names:
+        # prepare folders for plots
+        if job_cfg.book_hits_plots:
+            result_dir.joinpath(f&#34;{chamber_name}/hits_display/file_{file_id}&#34;).mkdir(
+                parents=True, exist_ok=True
+            )
+        if job_cfg.book_track_plots:
+            result_dir.joinpath(f&#34;{chamber_name}/track_display/file_{file_id}&#34;).mkdir(
+                parents=True, exist_ok=True
+            )
+        # get events
+        smdt_hits = smdt_db.get_events(db_cursor, min_hits=1, chamber_name=chamber_name)
+        current_event_num = None
+        tdc_lead_hits = []
+        tdc_trail_hits = []
+        # loop over hits
+        for current_hit in smdt_hits:
+            (rod_id, event_num, _, _, _, edge_type, _,) = current_hit
+            # deal with new event
+            if event_num != current_event_num:
+                # process hits and save spectrums
+                valid_hits = []
+                process_hits(
+                    job_cfg,
+                    chamber_name,
+                    tdc_lead_hits,
+                    tdc_trail_hits,
+                    valid_hits,
+                    smdt_spectrums,
+                )
+                # plot hits
+                if job_cfg.book_hits_plots:
+                    min_hits_cut = job_cfg.event_cuts.min_hits
+                    max_hits_cut = job_cfg.event_cuts.max_hits
+                    if min_hits_cut &lt; len(valid_hits) &lt; max_hits_cut:
+                        plot_title = f&#34;Chamber: {chamber_name} MROD index: {rod_id} (RO side view)&#34;
+                        save_path = result_dir.joinpath(
+                            f&#34;{chamber_name}/hits_display/file_{file_id}/chamber_event_{event_num}_RO_hits_view.png&#34;
+                        )
+                        hits_display.save_hits(
+                            valid_hits, chamber_name, plot_title, save_path
+                        )
+                # try to search track if there are enough hits pass the event cuts
+                if (
+                    job_cfg.book_track_plots
+                    and len(valid_hits)
+                    &gt;= job_cfg.track_cuts.min_hits_pass_event_cut
+                ):
+                    plot_title = (
+                        f&#34;Chamber: {chamber_name} MROD index: {rod_id} (RO side view)&#34;
+                    )
+                    save_path = result_dir.joinpath(
+                        f&#34;{chamber_name}/track_display/file_{file_id}/chamber_event_{event_num}_RO_hits_view.png&#34;
+                    )
+                    search_tracks(
+                        job_cfg,
+                        chamber_name,
+                        valid_hits,
+                        smdt_spectrums,
+                        plot_title,
+                        save_path,
+                    )
+
+                current_event_num = event_num
+                if job_cfg.max_events_per_file and job_cfg.max_events_per_file &gt; 0:
+                    if event_num &gt; job_cfg.max_events_per_file:
+                        break
+            # get leading tdc
+            if edge_type == 1:
+                tdc_lead_hits.append(current_hit)
+            # get trailing tdc
+            elif edge_type == 0:
+                tdc_trail_hits.append(current_hit)
+            # unknown case
+            else:
+                logger.error(f&#34;Unknown TDC edge type: {edge_type}&#34;)
+
+    return smdt_spectrums
+
+
+def get_dict_value_with_default(key: str, source_dict: dict, default_dict: dict) -&gt; Any:
+    if key in source_dict:
+        if source_dict[key] is not None:  # not None
+            return source_dict[key]
+    if key in default_dict:
+        return default_dict[key]
+    else:
+        logger.warning(f&#34;Undefined value used for {key}&#34;)
+        return None
+
+
+def process_hits(
+    job_cfg,
+    chamber_name: str,
+    tdc_lead_hits: list,
+    tdc_trail_hits: list,
+    valid_hits: list,
+    smdt_spectrums: dict,
+) -&gt; None:
+    &#34;&#34;&#34;Processes hits and make spectrums
+
+    Note:
+        input tdc_lead/trail_hits will be emptied
+        valid_hits will be filled
+        input smdt_spectrums with be changed
+
+    Args:
+        job_cfg: confit contents in - job - section
+        chamber_name (str): name of the chamber to be studied
+        tdc_lead_hits (list): collection of leading TDC edge hits
+        tdc_trail_hits (list): collection of trailing TDC edge hits
+        valid_hits (list): output hits that pass the selection
+        smdt_spectrums (dict): output smdt_spectrums to be updated
+    &#34;&#34;&#34;
+    # save spectrums
+    if tdc_lead_hits:
+        hits_record = (
+            []  # element: (mezz, channel)
+        )  # used to avoid multiple hits in one place
+        while tdc_lead_hits:
+            (_, _, _, mezz, channel, _, tdc_time,) = tdc_lead_hits.pop()
+            # add to leading TDC spectrum
+            logger.debug(f&#34;Add TDC entry to mezz {mezz}, channel {channel}&#34;)
+            # find matched trailing TDC
+            trail_match = None
+            for (i, (_, _, _, mezz_, channel_, _, tdc_time_),) in enumerate(
+                tdc_trail_hits
+            ):
+                if mezz_ == mezz and channel_ == channel and tdc_time_ &gt; tdc_time:
+                    trail_match = i
+
+                    adc_time = tdc_time_ - tdc_time
+                    if (adc_time &gt; job_cfg.event_cuts.adc_cut) and (
+                        (mezz, channel) not in hits_record
+                    ):
+                        if job_cfg.book_spectrums:
+                            current_spectrums = smdt_spectrums[chamber_name][mezz][
+                                channel
+                            ]
+                            current_spectrums[&#34;tdc_lead&#34;][int(tdc_time)] += 1
+                            # add trailing TDC entry
+                            current_spectrums[&#34;tdc_trail&#34;][int(tdc_time_)] += 1
+                            # add adc entry
+                            current_spectrums[&#34;adc&#34;][int(adc_time)] += 1
+                        valid_hits.append(
+                            (mezz, channel, tdc_time, tdc_time_, adc_time,)
+                        )
+                        hits_record.append((mezz, channel))
+                    break
+            # remove matched trailing edge
+            if trail_match:
+                tdc_trail_hits.pop(trail_match)
+        # add remaining trailing TDC entries if any
+        if job_cfg.book_spectrums and job_cfg.spectrums_cfg.include_unmatched_edges:
+            for _, _, _, mezz_, channel_, _, tdc_time_ in tdc_lead_hits:
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_lead&#34;][int(tdc_time_)] += 1
+            for _, _, _, mezz_, channel_, _, tdc_time_ in tdc_trail_hits:
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_trail&#34;][int(tdc_time_)] += 1
+    # empty hits
+    del tdc_lead_hits[:]
+    del tdc_trail_hits[:]
+
+
+def search_tracks(
+    job_cfg,
+    chamber_name: str,
+    valid_hits: list,
+    smdt_spectrums: dict,
+    plot_title: str,
+    save_path: pathlib.Path,
+):
+    if (
+        job_cfg.book_track_plots
+        and len(valid_hits) &gt;= job_cfg.track_cuts.min_hits_pass_event_cut
+    ):
+        fig, ax = hits_display.create_smdt_tubes_axes(title=plot_title)
+        hits_display.plot_smdt_tubes(ax, chamber_name)
+        hits_positions = []
+        hits_tdc_ns = []
+        for (mezz, channel, tdc_time, _, _) in valid_hits:
+            # plot hit based on leading TDC
+            hit_layer, hit_column = mezz_to_tube_layer_column(
+                chamber_name, mezz, channel
+            )
+            hit_xy = mezz_to_tube_x_y(chamber_name, mezz, channel)
+            hits_positions.append(hit_xy)
+            hits_tdc_ns.append(tdc_time * 25 / 32)  # convert digit to ns
+
+        # fitting
+        track_hits_index = []
+        track_hits = []
+        noise_hits = []
+        t0_ns, k, b, min_err = track_search.fit_track(
+            hits_positions,
+            hits_tdc_ns,
+            track_hits_index=track_hits_index,
+            track_hits=track_hits,
+            noise_hits=noise_hits,
+            fit_method=job_cfg.track_fit.fit_method,
+            negative_repel_factor=job_cfg.track_fit.negative_repel_factor,
+            off_track_hit_err=job_cfg.track_fit.off_track_hit_err,
+            k_angle_bound_range=job_cfg.track_fit.k_angle_bound_range,
+            b_bound_range=job_cfg.track_fit.b_bound_range,
+            max_iter=job_cfg.track_fit.max_iter,
+            iter_tolerance=job_cfg.track_fit.iter_tolerance,
+        )
+        y_set = set()
+        for hit in track_hits:
+            x, y, r = hit
+            y_set.add(y)
+        num_layers = len(y_set)
+
+        # select tracks to keep
+        num_hits_on_track = len(track_hits)
+        num_hits_off_track = len(noise_hits)
+        should_save_track = True
+        if (
+            job_cfg.track_cuts.max_err
+            and min_err &gt; job_cfg.track_cuts.max_err
+        ):
+            should_save_track = False
+        if num_hits_on_track &lt; job_cfg.track_cuts.min_num_hits_on_track:
+            should_save_track = False
+        if num_hits_off_track &gt; job_cfg.track_cuts.max_num_hits_off_track:
+            should_save_track = False
+        if num_layers &lt; job_cfg.track_cuts.min_layers:
+            should_save_track = False
+        if should_save_track:
+            # plot track and hits
+            for hit in track_hits:
+                x, y, r = hit
+                y_set.add(y)
+                hits_display.plot_hit_x_y(ax, x, y, r)
+            for hit in noise_hits:
+                x, y, r = hit
+                hits_display.plot_hit_x_y(
+                    ax, x, y, r, fill_color=&#34;brown&#34;, mark_color=&#34;brown&#34;
+                )
+            y = np.linspace(0, 150, 50)
+            ax.plot(k * y + b, y, color=&#34;red&#34;, linewidth=0.5)
+            fig.savefig(save_path)
+        hits_display.close_figures()
+
+        # plot spectrums on track
+        if should_save_track and job_cfg.book_spectrums:
+            for index in track_hits_index:
+                mezz, channel, tdc_time, tdc_time_, adc_time = valid_hits[index]
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_lead_track&#34;][int(tdc_time)] += 1
+                # add trailing TDC entry
+                current_spectrums[&#34;tdc_trail_track&#34;][int(tdc_time_)] += 1
+                # add TDC - T0 entry
+                t0 = t0_ns / (25 / 32)
+                current_spectrums[&#34;tdc_t0_track&#34;][int(tdc_time - t0)] += 1
+                # add adc entry
+                current_spectrums[&#34;adc_track&#34;][int(adc_time)] += 1</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="smdt_rdv.analyze.analyzer.analyze_single_file"><code class="name flex">
+<span>def <span class="ident">analyze_single_file</span></span>(<span>db_path: str, file_id: int, config_dict: dict) ‑> dict</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Analyzes single database file for spectrums, tracks&hellip;</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>db_path</code></strong> :&ensp;<code>str</code></dt>
+<dd>input database file path</dd>
+<dt><strong><code>file_id</code></strong> :&ensp;<code>int</code></dt>
+<dd>file identification number</dd>
+<dt><strong><code>config_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>job config dictionary</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>dict</code></dt>
+<dd>sMDT spectrums</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def analyze_single_file(db_path: str, file_id: int, config_dict: dict) -&gt; dict:
+    &#34;&#34;&#34; Analyzes single database file for spectrums, tracks...
+
+    Args:
+        db_path (str): input database file path
+        file_id (int): file identification number
+        config_dict (dict): job config dictionary
+
+    Returns:
+        dict: sMDT spectrums
+    &#34;&#34;&#34;
+    # initialize:
+    job_config = config_utils.sMDT_Job_Config_Section(ANALYZER_DEFAULT_CFG)
+    job_config.update(config_dict)
+    job_cfg = job_config.job
+    path_cfg = job_config.path
+
+    result_dir = pathlib.Path(path_cfg.results_out_dir)
+
+    smdt_spectrums = {}
+    for chamber_name in job_cfg.chamber_names:
+        smdt_spectrums[chamber_name] = spectrums.init_spectrums_dict()
+
+    # connect to database
+    try:
+        db_connect = smdt_db.connect(db_path)
+        db_cursor = db_connect.cursor()
+        logger.info(f&#34;Successfully connected to database {db_path}&#34;)
+    except:
+        logger.error(f&#34;Can&#39;t connect to database {db_path}&#34;)
+
+    # collect events info from database
+    for chamber_name in job_cfg.chamber_names:
+        # prepare folders for plots
+        if job_cfg.book_hits_plots:
+            result_dir.joinpath(f&#34;{chamber_name}/hits_display/file_{file_id}&#34;).mkdir(
+                parents=True, exist_ok=True
+            )
+        if job_cfg.book_track_plots:
+            result_dir.joinpath(f&#34;{chamber_name}/track_display/file_{file_id}&#34;).mkdir(
+                parents=True, exist_ok=True
+            )
+        # get events
+        smdt_hits = smdt_db.get_events(db_cursor, min_hits=1, chamber_name=chamber_name)
+        current_event_num = None
+        tdc_lead_hits = []
+        tdc_trail_hits = []
+        # loop over hits
+        for current_hit in smdt_hits:
+            (rod_id, event_num, _, _, _, edge_type, _,) = current_hit
+            # deal with new event
+            if event_num != current_event_num:
+                # process hits and save spectrums
+                valid_hits = []
+                process_hits(
+                    job_cfg,
+                    chamber_name,
+                    tdc_lead_hits,
+                    tdc_trail_hits,
+                    valid_hits,
+                    smdt_spectrums,
+                )
+                # plot hits
+                if job_cfg.book_hits_plots:
+                    min_hits_cut = job_cfg.event_cuts.min_hits
+                    max_hits_cut = job_cfg.event_cuts.max_hits
+                    if min_hits_cut &lt; len(valid_hits) &lt; max_hits_cut:
+                        plot_title = f&#34;Chamber: {chamber_name} MROD index: {rod_id} (RO side view)&#34;
+                        save_path = result_dir.joinpath(
+                            f&#34;{chamber_name}/hits_display/file_{file_id}/chamber_event_{event_num}_RO_hits_view.png&#34;
+                        )
+                        hits_display.save_hits(
+                            valid_hits, chamber_name, plot_title, save_path
+                        )
+                # try to search track if there are enough hits pass the event cuts
+                if (
+                    job_cfg.book_track_plots
+                    and len(valid_hits)
+                    &gt;= job_cfg.track_cuts.min_hits_pass_event_cut
+                ):
+                    plot_title = (
+                        f&#34;Chamber: {chamber_name} MROD index: {rod_id} (RO side view)&#34;
+                    )
+                    save_path = result_dir.joinpath(
+                        f&#34;{chamber_name}/track_display/file_{file_id}/chamber_event_{event_num}_RO_hits_view.png&#34;
+                    )
+                    search_tracks(
+                        job_cfg,
+                        chamber_name,
+                        valid_hits,
+                        smdt_spectrums,
+                        plot_title,
+                        save_path,
+                    )
+
+                current_event_num = event_num
+                if job_cfg.max_events_per_file and job_cfg.max_events_per_file &gt; 0:
+                    if event_num &gt; job_cfg.max_events_per_file:
+                        break
+            # get leading tdc
+            if edge_type == 1:
+                tdc_lead_hits.append(current_hit)
+            # get trailing tdc
+            elif edge_type == 0:
+                tdc_trail_hits.append(current_hit)
+            # unknown case
+            else:
+                logger.error(f&#34;Unknown TDC edge type: {edge_type}&#34;)
+
+    return smdt_spectrums</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.analyze.analyzer.get_dict_value_with_default"><code class="name flex">
+<span>def <span class="ident">get_dict_value_with_default</span></span>(<span>key: str, source_dict: dict, default_dict: dict) ‑> Any</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_dict_value_with_default(key: str, source_dict: dict, default_dict: dict) -&gt; Any:
+    if key in source_dict:
+        if source_dict[key] is not None:  # not None
+            return source_dict[key]
+    if key in default_dict:
+        return default_dict[key]
+    else:
+        logger.warning(f&#34;Undefined value used for {key}&#34;)
+        return None</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.analyze.analyzer.process_hits"><code class="name flex">
+<span>def <span class="ident">process_hits</span></span>(<span>job_cfg, chamber_name: str, tdc_lead_hits: list, tdc_trail_hits: list, valid_hits: list, smdt_spectrums: dict) ‑> NoneType</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Processes hits and make spectrums</p>
+<h2 id="note">Note</h2>
+<p>input tdc_lead/trail_hits will be emptied
+valid_hits will be filled
+input smdt_spectrums with be changed</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>job_cfg</code></strong></dt>
+<dd>confit contents in - job - section</dd>
+<dt><strong><code>chamber_name</code></strong> :&ensp;<code>str</code></dt>
+<dd>name of the chamber to be studied</dd>
+<dt><strong><code>tdc_lead_hits</code></strong> :&ensp;<code>list</code></dt>
+<dd>collection of leading TDC edge hits</dd>
+<dt><strong><code>tdc_trail_hits</code></strong> :&ensp;<code>list</code></dt>
+<dd>collection of trailing TDC edge hits</dd>
+<dt><strong><code>valid_hits</code></strong> :&ensp;<code>list</code></dt>
+<dd>output hits that pass the selection</dd>
+<dt><strong><code>smdt_spectrums</code></strong> :&ensp;<code>dict</code></dt>
+<dd>output smdt_spectrums to be updated</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def process_hits(
+    job_cfg,
+    chamber_name: str,
+    tdc_lead_hits: list,
+    tdc_trail_hits: list,
+    valid_hits: list,
+    smdt_spectrums: dict,
+) -&gt; None:
+    &#34;&#34;&#34;Processes hits and make spectrums
+
+    Note:
+        input tdc_lead/trail_hits will be emptied
+        valid_hits will be filled
+        input smdt_spectrums with be changed
+
+    Args:
+        job_cfg: confit contents in - job - section
+        chamber_name (str): name of the chamber to be studied
+        tdc_lead_hits (list): collection of leading TDC edge hits
+        tdc_trail_hits (list): collection of trailing TDC edge hits
+        valid_hits (list): output hits that pass the selection
+        smdt_spectrums (dict): output smdt_spectrums to be updated
+    &#34;&#34;&#34;
+    # save spectrums
+    if tdc_lead_hits:
+        hits_record = (
+            []  # element: (mezz, channel)
+        )  # used to avoid multiple hits in one place
+        while tdc_lead_hits:
+            (_, _, _, mezz, channel, _, tdc_time,) = tdc_lead_hits.pop()
+            # add to leading TDC spectrum
+            logger.debug(f&#34;Add TDC entry to mezz {mezz}, channel {channel}&#34;)
+            # find matched trailing TDC
+            trail_match = None
+            for (i, (_, _, _, mezz_, channel_, _, tdc_time_),) in enumerate(
+                tdc_trail_hits
+            ):
+                if mezz_ == mezz and channel_ == channel and tdc_time_ &gt; tdc_time:
+                    trail_match = i
+
+                    adc_time = tdc_time_ - tdc_time
+                    if (adc_time &gt; job_cfg.event_cuts.adc_cut) and (
+                        (mezz, channel) not in hits_record
+                    ):
+                        if job_cfg.book_spectrums:
+                            current_spectrums = smdt_spectrums[chamber_name][mezz][
+                                channel
+                            ]
+                            current_spectrums[&#34;tdc_lead&#34;][int(tdc_time)] += 1
+                            # add trailing TDC entry
+                            current_spectrums[&#34;tdc_trail&#34;][int(tdc_time_)] += 1
+                            # add adc entry
+                            current_spectrums[&#34;adc&#34;][int(adc_time)] += 1
+                        valid_hits.append(
+                            (mezz, channel, tdc_time, tdc_time_, adc_time,)
+                        )
+                        hits_record.append((mezz, channel))
+                    break
+            # remove matched trailing edge
+            if trail_match:
+                tdc_trail_hits.pop(trail_match)
+        # add remaining trailing TDC entries if any
+        if job_cfg.book_spectrums and job_cfg.spectrums_cfg.include_unmatched_edges:
+            for _, _, _, mezz_, channel_, _, tdc_time_ in tdc_lead_hits:
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_lead&#34;][int(tdc_time_)] += 1
+            for _, _, _, mezz_, channel_, _, tdc_time_ in tdc_trail_hits:
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_trail&#34;][int(tdc_time_)] += 1
+    # empty hits
+    del tdc_lead_hits[:]
+    del tdc_trail_hits[:]</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.analyze.analyzer.search_tracks"><code class="name flex">
+<span>def <span class="ident">search_tracks</span></span>(<span>job_cfg, chamber_name: str, valid_hits: list, smdt_spectrums: dict, plot_title: str, save_path: pathlib.Path)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def search_tracks(
+    job_cfg,
+    chamber_name: str,
+    valid_hits: list,
+    smdt_spectrums: dict,
+    plot_title: str,
+    save_path: pathlib.Path,
+):
+    if (
+        job_cfg.book_track_plots
+        and len(valid_hits) &gt;= job_cfg.track_cuts.min_hits_pass_event_cut
+    ):
+        fig, ax = hits_display.create_smdt_tubes_axes(title=plot_title)
+        hits_display.plot_smdt_tubes(ax, chamber_name)
+        hits_positions = []
+        hits_tdc_ns = []
+        for (mezz, channel, tdc_time, _, _) in valid_hits:
+            # plot hit based on leading TDC
+            hit_layer, hit_column = mezz_to_tube_layer_column(
+                chamber_name, mezz, channel
+            )
+            hit_xy = mezz_to_tube_x_y(chamber_name, mezz, channel)
+            hits_positions.append(hit_xy)
+            hits_tdc_ns.append(tdc_time * 25 / 32)  # convert digit to ns
+
+        # fitting
+        track_hits_index = []
+        track_hits = []
+        noise_hits = []
+        t0_ns, k, b, min_err = track_search.fit_track(
+            hits_positions,
+            hits_tdc_ns,
+            track_hits_index=track_hits_index,
+            track_hits=track_hits,
+            noise_hits=noise_hits,
+            fit_method=job_cfg.track_fit.fit_method,
+            negative_repel_factor=job_cfg.track_fit.negative_repel_factor,
+            off_track_hit_err=job_cfg.track_fit.off_track_hit_err,
+            k_angle_bound_range=job_cfg.track_fit.k_angle_bound_range,
+            b_bound_range=job_cfg.track_fit.b_bound_range,
+            max_iter=job_cfg.track_fit.max_iter,
+            iter_tolerance=job_cfg.track_fit.iter_tolerance,
+        )
+        y_set = set()
+        for hit in track_hits:
+            x, y, r = hit
+            y_set.add(y)
+        num_layers = len(y_set)
+
+        # select tracks to keep
+        num_hits_on_track = len(track_hits)
+        num_hits_off_track = len(noise_hits)
+        should_save_track = True
+        if (
+            job_cfg.track_cuts.max_err
+            and min_err &gt; job_cfg.track_cuts.max_err
+        ):
+            should_save_track = False
+        if num_hits_on_track &lt; job_cfg.track_cuts.min_num_hits_on_track:
+            should_save_track = False
+        if num_hits_off_track &gt; job_cfg.track_cuts.max_num_hits_off_track:
+            should_save_track = False
+        if num_layers &lt; job_cfg.track_cuts.min_layers:
+            should_save_track = False
+        if should_save_track:
+            # plot track and hits
+            for hit in track_hits:
+                x, y, r = hit
+                y_set.add(y)
+                hits_display.plot_hit_x_y(ax, x, y, r)
+            for hit in noise_hits:
+                x, y, r = hit
+                hits_display.plot_hit_x_y(
+                    ax, x, y, r, fill_color=&#34;brown&#34;, mark_color=&#34;brown&#34;
+                )
+            y = np.linspace(0, 150, 50)
+            ax.plot(k * y + b, y, color=&#34;red&#34;, linewidth=0.5)
+            fig.savefig(save_path)
+        hits_display.close_figures()
+
+        # plot spectrums on track
+        if should_save_track and job_cfg.book_spectrums:
+            for index in track_hits_index:
+                mezz, channel, tdc_time, tdc_time_, adc_time = valid_hits[index]
+                current_spectrums = smdt_spectrums[chamber_name][mezz][channel]
+                current_spectrums[&#34;tdc_lead_track&#34;][int(tdc_time)] += 1
+                # add trailing TDC entry
+                current_spectrums[&#34;tdc_trail_track&#34;][int(tdc_time_)] += 1
+                # add TDC - T0 entry
+                t0 = t0_ns / (25 / 32)
+                current_spectrums[&#34;tdc_t0_track&#34;][int(tdc_time - t0)] += 1
+                # add adc entry
+                current_spectrums[&#34;adc_track&#34;][int(adc_time)] += 1</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="smdt_rdv.analyze" href="index.html">smdt_rdv.analyze</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="smdt_rdv.analyze.analyzer.analyze_single_file" href="#smdt_rdv.analyze.analyzer.analyze_single_file">analyze_single_file</a></code></li>
+<li><code><a title="smdt_rdv.analyze.analyzer.get_dict_value_with_default" href="#smdt_rdv.analyze.analyzer.get_dict_value_with_default">get_dict_value_with_default</a></code></li>
+<li><code><a title="smdt_rdv.analyze.analyzer.process_hits" href="#smdt_rdv.analyze.analyzer.process_hits">process_hits</a></code></li>
+<li><code><a title="smdt_rdv.analyze.analyzer.search_tracks" href="#smdt_rdv.analyze.analyzer.search_tracks">search_tracks</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>smdt_rdv.common.smdt_const API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>smdt_rdv.common.smdt_const</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python"># Bool value
+TRUE_VALUE = 1
+FALSE_VALUE = 0
+
+# Geometry
+BUFFER_MAX = 0x10000  # maximum size of input buffer
+MAXNUMBERMEZZANINE = 18
+MAXNUMBERCHANNEL = 24
+MAXNUMBERTUBE = 144  # In case all mezzanines for only ML, such as BEE chamber
+MAXNUMBERROW = 8
+AMTSETUP_LENGTH = 180  # length of binary AMT setup array needed for 1 mezz card
+ASD_SETUP_LENGTH = 53
+ASD_MAIN_THRESH = 11
+## chamber
+SMDT_TUBE_RADIUS = 7.5
+SMDT_TUBE_DISTANCE = 15.0991
+SMDT_LAYER_DISTANCE = 13.0889
+SMDT_SPACER_DISTANCE = 45.59
+NUM_MULTILAYER = 4
+## mezz
+NUM_MEZZ_LAYER = 4
+NUM_MEZZ_COLUMN = 6
+## CSM
+NUM_CSM_CHANNEL = 18
+
+# Define AMT and MROD data type
+TDC_HEADER = 0xA  # ID code of TDC header for TDC 00-15
+TDC_HEADER2 = 0xB  # ID code of TDC header for TDC 16-17
+TDC_TRAILER = 0xC  # ID code of TDC trailer
+TDC_MASK = 0x2  # ID code of TDC masked hit
+TDC_EDGE = 0x3  # ID code of TDC edge timing
+TDC_PAIR = 0x4  # ID code of TDC paired timing
+TDC_ERROR = 0x6  # ID code of TDC error
+TDC_DEBUG = 0x7  # ID code of TDC debug
+HPTDC_LEADING = 0x4  # ID code of HPTDC leading edge timing
+HPTDC_PAIR = 0x4  # ID code of HPTDC combined/paired timing
+HPTDC_TRAILING = 0x5  # ID code of HPTDC trailing edge timing
+# MROD_TTERROR= 0x5  # ID code of MROD for TDC Transmission Error
+MROD_TTERROR = 0x9  # ID code of MROD for TDC Transmission Error
+MROD_BOBLOCK = 0x8  # ID code of MROD Begin of Block
+# MROD_BOGROUP= 0x9  # ID code of MROD Begin of Group, used as MROD_TTERROR from 2017
+MROD_CTERROR = 0xD  # ID code of MROD for CSM Transmission Error
+MROD_STSFLAGS = 0xE  # ID code of MROD Status Flags
+MROD_EOBLOCK = 0xF  # ID code of MROD End of Block
+
+WORDCOUNTBIT0LOCATION = 0
+WORDCOUNTBITS = 0xFFF
+BCIDBIT0LOCATION = 0
+BCIDBITS = 0xFFF
+EVIDBIT0LOCATION = 12
+EVIDBITS = 0xFFF
+MAINIDBIT0LOCATION = 28
+MAINIDBITS = 0xF
+SUBIDBIT0LOCATION = 24
+SUBIDBITS = 0xF
+TDCNUMBERBIT0LOCATION = 24
+TDCNUMBERBITS = 0xF
+TDCFULLNUMBERBITS = 0x1F  # bit 24~28 to determin TDC number for BOT data word
+TDCNUMBERMASK = 0x0F000000
+CHANNELNUMBERBIT0LOCATION = 19
+CHANNELNUMBERBITS = 0x1F
+CHANNELNUMBERMASK = 0x00F80000
+WIRENUMBERBIT0LOCATION = 19
+WIRENUMBERBITS = 0x1FF
+WIRENUMBERMASK = 0x0FF80000
+FINETIMEBIT0LOCATION = 0
+FINETIMEBITS = 0x1F
+MASKFLAGSBIT0LOCATION = 0
+MASKFLAGSBITS = 0xFFFFFF
+STYPEBIT0LOCATION = 18
+STYPEBITS = 0x1
+SERRORBIT0LOCATION = 17
+SERRORBITS = 0x1
+STDCTIMEBIT0LOCATION = 0
+STDCTIMEBITS = 0x1FFFF
+SCOARSETIMEBIT0LOCATION = 5
+SCOARSETIMEBITS = 0xFFF
+PTDCTIMEBIT0LOCATION = 0
+PTDCTIMEBITS = 0x7FF
+PCOARSETIMEBIT0LOCATION = 5
+PCOARSETIMEBITS = 0x3F
+PWIDTHBIT0LOCATION = 11
+PWIDTHBITS = 0xFF
+SHPTDCTIMEBIT0LOCATION = 0
+SHPTDCTIMEBITS = 0x7FFFF
+NTRIGBIT0LOCATION = 24
+NTRIGBITS = 0xF
+NEVENTBIT0LOCATION = 28
+NEVENTBITS = 0x7
+WCONLY = 0x1
+WCONLYBIT0LOCATION = 31
+WCONLYBITS = 0x1
+SOURCEIDBIT0LOCATION = 0
+SOURCEIDBITS = 0xFFFF
+SUBDETIDBIT0LOCATION = 16
+SUBDETIDBITS = 0xFFFF
+RUNNUMBERBIT0LOCATION = 0
+RUNNUMBERBITS = 0xFFFFFF
+RUNTYPEBIT0LOCATION = 24
+RUNTYPEBITS = 0xFF
+L1IDBIT0LOCATION = 0
+L1IDBITS = 0xFFFFFF
+L1TYPEBIT0LOCATION = 0
+L1TYPEBITS = 0xFF
+MRODBCIDBIT0LOCATION = 0
+MRODBCIDBITS = 0xFFF
+MRODWCBIT0LOCATION = 0
+MRODWCBITS = 0xFFFF
+MRODCSMLINKBIT0LOCATION = 0
+MRODCSMLINKBITS = 0xF
+MRODSNBIT0LOCATION = 4
+MRODSNBITS = 0xFFF
+
+# Define MDT Chamber Type
+CNUMBERMASK = 0x000000FF
+CTYPEMASK = 0x0000FF00
+CTYPEUNKNOWN = 0x0000FFFF
+CTYPEEMA = 0x00000100
+CTYPEEMC = 0x00000200
+CTYPEEIA = 0x00000300
+CTYPEEIC = 0x00000400
+CTYPEEOA = 0x00000500
+CTYPEEOC = 0x00000600
+CTYPEEEA = 0x00000700
+CTYPEEEC = 0x00000800
+CTYPEEML1A = 0x00001000
+CTYPEEML1C = 0x00001100
+CTYPEEML2A = 0x00001200
+CTYPEEML2C = 0x00001300
+CTYPEEML3A = 0x00001400
+CTYPEEML3C = 0x00001500
+CTYPEEML4A = 0x00001600
+CTYPEEML4C = 0x00001700
+CTYPEEML5A = 0x00001800
+CTYPEEML5C = 0x00001900
+CTYPEEMS1A = 0x00002000
+CTYPEEMS1C = 0x00002100
+CTYPEEMS2A = 0x00002200
+CTYPEEMS2C = 0x00002300
+CTYPEEMS3A = 0x00002400
+CTYPEEMS3C = 0x00002500
+CTYPEEMS4A = 0x00002600
+CTYPEEMS4C = 0x00002700
+CTYPEEMS5A = 0x00002800
+CTYPEEMS5C = 0x00002900
+CTYPEEIL1A = 0x00003000
+CTYPEEIL1C = 0x00003100
+CTYPEEIL2A = 0x00003200
+CTYPEEIL2C = 0x00003300
+CTYPEEIL3A = 0x00003400
+CTYPEEIL3C = 0x00003500
+CTYPEEIL4A = 0x00003600
+CTYPEEIL4C = 0x00003700
+CTYPEEIL5A = 0x00003800
+CTYPEEIL5C = 0x00003900
+CTYPEEIL23A = 0x00003A00
+CTYPEEIL23C = 0x00003B00
+CTYPEEIS1A = 0x00004000
+CTYPEEIS1C = 0x00004100
+CTYPEEIS2A = 0x00004200
+CTYPEEIS2C = 0x00004300
+CTYPEEIS3A = 0x00004400
+CTYPEEIS3C = 0x00004500
+CTYPEEIS4A = 0x00004600
+CTYPEEIS4C = 0x00004700
+CTYPEEIS5A = 0x00004800
+CTYPEEIS5C = 0x00004900
+CTYPEEOL1A = 0x00005000
+CTYPEEOL1C = 0x00005100
+CTYPEEOL2A = 0x00005200
+CTYPEEOL2C = 0x00005300
+CTYPEEOL3A = 0x00005400
+CTYPEEOL3C = 0x00005500
+CTYPEEOL4A = 0x00005600
+CTYPEEOL4C = 0x00005700
+CTYPEEOL5A = 0x00005800
+CTYPEEOL5C = 0x00005900
+CTYPEEOL6A = 0x00005A00
+CTYPEEOL6C = 0x00005B00
+CTYPEEOS1A = 0x00006000
+CTYPEEOS1C = 0x00006100
+CTYPEEOS2A = 0x00006200
+CTYPEEOS2C = 0x00006300
+CTYPEEOS3A = 0x00006400
+CTYPEEOS3C = 0x00006500
+CTYPEEOS4A = 0x00006600
+CTYPEEOS4C = 0x00006700
+CTYPEEOS5A = 0x00006800
+CTYPEEOS5C = 0x00006900
+CTYPEEOS6A = 0x00006A00
+CTYPEEOS6C = 0x00006B00
+CTYPEEEL1A = 0x00007000
+CTYPEEEL1C = 0x00007100
+CTYPEEEL2A = 0x00007200
+CTYPEEEL2C = 0x00007300
+CTYPEEEL3A = 0x00007400
+CTYPEEEL3C = 0x00007500
+CTYPEEEL4A = 0x00007600
+CTYPEEEL4C = 0x00007700
+CTYPEEEL5A = 0x00007800
+CTYPEEEL5C = 0x00007900
+CTYPEEES1A = 0x00008000
+CTYPEEES1C = 0x00008100
+CTYPEEES2A = 0x00008200
+CTYPEEES2C = 0x00008300
+CTYPEEES3A = 0x00008400
+CTYPEEES3C = 0x00008500
+CTYPEEES4A = 0x00008600
+CTYPEEES4C = 0x00008700
+CTYPEEES5A = 0x00008800
+CTYPEEES5C = 0x00008900
+CTYPEEILM4A = 0x00008A00
+CTYPEEILM4C = 0x00008B00
+CTYPEBIA = 0x00009000
+CTYPEBIC = 0x00009100
+CTYPEBMA = 0x00009200
+CTYPEBMC = 0x00009300
+CTYPEBOA = 0x00009400
+CTYPEBOC = 0x00009500
+CTYPEBEEA = 0x00009600
+CTYPEBEEC = 0x00009700
+CTYPEBIL1A = 0x00009800
+CTYPEBIL2A = 0x00009900
+CTYPEBIL3A = 0x00009A00
+CTYPEBIL4A = 0x00009B00
+CTYPEBIL5A = 0x00009C00
+CTYPEBIL6A = 0x00009D00
+CTYPEBIL1C = 0x00009E00
+CTYPEBIL2C = 0x00009F00
+CTYPEBIL3C = 0x0000A000
+CTYPEBIL4C = 0x0000A100
+CTYPEBIL5C = 0x0000A200
+CTYPEBIL6C = 0x0000A300
+CTYPEBIS1A = 0x0000A400
+CTYPEBIS2A = 0x0000A500
+CTYPEBIS3A = 0x0000A600
+CTYPEBIS4A = 0x0000A700
+CTYPEBIS5A = 0x0000A800
+CTYPEBIS6A = 0x0000A900
+CTYPEBIX7A = 0x0000AA00
+CTYPEBIY7A = 0x0000AB00
+CTYPEBIS1C = 0x0000AC00
+CTYPEBIS2C = 0x0000AD00
+CTYPEBIS3C = 0x0000AE00
+CTYPEBIS4C = 0x0000AF00
+CTYPEBIS5C = 0x0000B000
+CTYPEBIS6C = 0x0000B100
+CTYPEBIS7C = 0x0000B200
+CTYPEBIS8C = 0x0000B300
+CTYPEBIM1A = 0x0000B400
+CTYPEBIM2A = 0x0000B500
+CTYPEBIM3A = 0x0000B600
+CTYPEBIM4A = 0x0000B700
+CTYPEBIM5A = 0x0000B800
+CTYPEBIM1C = 0x0000B900
+CTYPEBIM2C = 0x0000BA00
+CTYPEBIM3C = 0x0000BB00
+CTYPEBIM4C = 0x0000BC00
+CTYPEBIM5C = 0x0000BD00
+CTYPEBIR1A = 0x0000BE00
+CTYPEBIR2A = 0x0000BF00
+CTYPEBIR3A = 0x0000C000
+CTYPEBIR4A = 0x0000C100
+CTYPEBIR5A = 0x0000C200
+CTYPEBIR6A = 0x0000C300
+CTYPEBIR1C = 0x0000C400
+CTYPEBIR2C = 0x0000C500
+CTYPEBIR3C = 0x0000C600
+CTYPEBIR4C = 0x0000C700
+CTYPEBIR5C = 0x0000C800
+CTYPEBIR6C = 0x0000C900
+CTYPEBML1A = 0x0000CA00
+CTYPEBML2A = 0x0000CB00
+CTYPEBML3A = 0x0000CC00
+CTYPEBML4A = 0x0000CD00
+CTYPEBML5A = 0x0000CE00
+CTYPEBML6A = 0x0000CF00
+CTYPEBML1C = 0x0000D000
+CTYPEBML2C = 0x0000D100
+CTYPEBML3C = 0x0000D200
+CTYPEBML4C = 0x0000D300
+CTYPEBML5C = 0x0000D400
+CTYPEBML6C = 0x0000D500
+CTYPEBMS1A = 0x0000D600
+CTYPEBMS2A = 0x0000D700
+CTYPEBMS3A = 0x0000D800
+CTYPEBMS4A = 0x0000D900
+CTYPEBMS5A = 0x0000DA00
+CTYPEBMS6A = 0x0000DB00
+CTYPEBMS1C = 0x0000DC00
+CTYPEBMS2C = 0x0000DD00
+CTYPEBMS3C = 0x0000DE00
+CTYPEBMS4C = 0x0000DF00
+CTYPEBMS5C = 0x0000E000
+CTYPEBMS6C = 0x0000E100
+CTYPEBMF1A = 0x0000E200
+CTYPEBMF2A = 0x0000E300
+CTYPEBMF3A = 0x0000E400
+CTYPEBMF1C = 0x0000E500
+CTYPEBMF2C = 0x0000E600
+CTYPEBMF3C = 0x0000E700
+CTYPEBOL1A = 0x0000E800
+CTYPEBOL2A = 0x0000E900
+CTYPEBOL3A = 0x0000EA00
+CTYPEBOL4A = 0x0000EB00
+CTYPEBOL5A = 0x0000EC00
+CTYPEBOL6A = 0x0000ED00
+CTYPEBOL1C = 0x0000EE00
+CTYPEBOL2C = 0x0000EF00
+CTYPEBOL3C = 0x0000F000
+CTYPEBOL4C = 0x0000F100
+CTYPEBOL5C = 0x0000F200
+CTYPEBOL6C = 0x0000F300
+CTYPEBOS1A = 0x0000F400
+CTYPEBOS2A = 0x0000F500
+CTYPEBOS3A = 0x0000F600
+CTYPEBOS4A = 0x0000F700
+CTYPEBOS5A = 0x0000F800
+CTYPEBOS6A = 0x0000F900
+CTYPEBOS1C = 0x0000FA00
+CTYPEBOS2C = 0x0000FB00
+CTYPEBOS3C = 0x0000FC00
+CTYPEBOS4C = 0x0000FD00
+CTYPEBOS5C = 0x0000FE00
+CTYPEBOS6C = 0x0000FF00
+CTYPEBOG0A = 0x00000A00
+CTYPEBOG2A = 0x00000B00
+CTYPEBOG4A = 0x00000C00
+CTYPEBOG6A = 0x00000D00
+CTYPEBOG8A = 0x00000E00
+CTYPEBOG0C = 0x00001A00
+CTYPEBOG2C = 0x00001B00
+CTYPEBOG4C = 0x00001C00
+CTYPEBOG6C = 0x00001D00
+CTYPEBOG8C = 0x00001E00
+CTYPEBOF1A = 0x00002C00
+CTYPEBOF3A = 0x00002D00
+CTYPEBOF5A = 0x00002E00
+CTYPEBOF7A = 0x00002F00
+CTYPEBOF1C = 0x00003C00
+CTYPEBOF3C = 0x00003D00
+CTYPEBOF5C = 0x00003E00
+CTYPEBOF7C = 0x00003F00
+CTYPEBEE1A = 0x00004A00
+CTYPEBEE2A = 0x00004B00
+CTYPEBEE1C = 0x00004C00
+CTYPEBEE2C = 0x00004D00
+CTYPEBEE12A = 0x00004E00
+CTYPEBEE12C = 0x00004F00
+CTYPEBIS78A = 0x00005E00
+CTYPEBIS78C = 0x00005F00
+CTYPEBMG2A = 0x00000F00
+CTYPEBMG2C = 0x00001F00
+CTYPEBMG4A = 0x00002A00
+CTYPEBMG4C = 0x00002B00
+CTYPEBMG6A = 0x00005C00
+CTYPEBMG6C = 0x00005D00
+CTYPEBME4A = 0x00006E00
+CTYPEBME4C = 0x00006F00
+CTYPEBME5A = 0x00007A00
+CTYPEBME5C = 0x00007B00
+CTYPEBOE3A = 0x00007C00
+CTYPEBOE3C = 0x00007D00
+CTYPEBMR4A = 0x00008C00
+CTYPEBMR4C = 0x00008D00
+CTYPEBOR3A = 0x00008E00
+CTYPEBOR3C = 0x00008F00
+
+# Constant for Analysis
+NUMBERANALYSISCOUNTER = 800
+ANALYSEDEVENT = 0
+ANALYSEDEVENTHIGH = 1
+WRONGEVENT = 2
+WARNINGEVENT = 3
+DISCARDEDEVENT = 4
+NUMBERHUGEEVENT = 5
+WORDCOUNTERERROR = 6
+CSMWORDCOUNTERERR = 7
+EVIDMISMATCH = 8
+BCIDMISMATCH = 9
+EMPTYEVENT = 10
+EXTRAWORD = 11
+EXTRAWORDINTDC = 12  # 18 TDCs, 0 for EvtBuilt
+CSMHEADEREVIDMISMATCH = 30
+CSMTRAILEREVIDMISMATCH = 31
+CSMABORTEVIDMISMATCH = 32
+CSMBCIDMISMATCH = 33
+CSMERROR = 34
+CSMERRORINTDC = 35  # 18 TDCs
+CSMABORT = 53
+MISSCSMHEADER = 54
+EXTRACSMHEADER = 55
+MISSCSMTRAILER = 56
+EXTRACSMTRAILER = 57
+CSMPARITYERROR = 58
+PARITYERRORINTDC = 59  # 18 TDCs
+TDCBCIDMISMATCH = 77
+TDCBCIDMISMATCHINTDC = 78  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+TDCHEADEREVIDMISMATCH = 96
+TDCHEADEREVIDMISMATCHINTDC = (
+    97  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+)
+TDCTRAILEREVIDMISMATCH = 115
+TDCTRAILEREVIDMISMATCHINTDC = (
+    116  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+)
+TDCEDGEERROR = 134
+TDCEDGEERRORINTDC = 135  # 18 TDCs
+TDCEDGEERRW20 = 153
+TDCEDGEERRW20INTDC = 154  # 18 TDCs
+MISSTDCHEADER = 172
+EXTRATDCHEADER = 173
+MISSTDCTRAILER = 174
+EXTRATDCTRAILER = 175
+TDCSOFTERROR = 176
+TDCHARDERROR = 177
+TDCERROR = 178
+TDCERRORLIST = 179  # 14 different errors in TDC error word
+TDCERRORINTDC = 193  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+TDCERROREMPTY = 211
+TDCMASKWORD = 212
+TDCMASKWORDINTDC = 213  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+TDCMASKEMPTY = 231
+TDCDEBUGWORD = 232
+TDCDEBUGWORDINTDC = 233  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+TDCHEADERWRONGTDCID = 251
+TDCHEADERMISSTDCID = 252  # 18 TDCs, 16 TDC IDs in TDC header (4 bits) for EvtBuilt
+TDCHEADEREXTRATDCID = 270  # 18 TDCs, 16 TDC IDs in TDC header (4 bits) for EvtBuilt
+TDCTRAILERWRONGTDCID = 288
+TDCTRAILERMISSTDCID = 289  # 18 TDCs, 16 TDC IDs in TDC trailer (4 bits) for EvtBuilt
+TDCTRAILEREXTRATDCID = 307  # 18 TDCs, 16 TDC IDs in TDC trailer (4 bits) for EvtBuilt
+TDCHEADERAFTERITSDATA = 325
+TDCHEADERAFTERITSDATALIST = (
+    326  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+)
+TDCTRAILERAHEADDATA = 344
+TDCTRAILERAHEADDATALIST = (
+    345  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+)
+TDCWCMISMATCH = 363
+TDCWCMISMATCHLIST = 364  # 18 TDCs, 16 TDCs for EvtBuilt due to 4 bit limit on TDC ID
+TDCCONTSAMEEDGE = 382
+TDCCONTSAMEEDGEINTDC = 383  # 18 TDCs
+TDCCONTTRAILINGEDGE = 401
+TDCCONTTRAILINGEDGEINTDC = 402  # 18 TDCs
+TDCUNEXPECTEDDATA = 420
+TDCUNEXPECTEDDATAINTDC = 421  # 18 TDCs
+TDCTIMEWRONGORDER = 439
+TDCTIMEWRONGORDERINTDC = 440  # 18 TDCs
+EVENTNOTDCHITS = 458
+EVENTNOTDCHITSLIST = 459  # 18 TDCs
+EVENTONLYTDCHDANDTR = 477
+EVENTONLYTDCHDANDTRLIST = 478  # 18 TDCs
+NBCIDERRDUETRIGFIFOOV = 496
+DISCARDEDTRAILINGONLY = 497
+DISCARDEDTRAILINGONLYINTDC = 498  # 18 TDCs
+DISCARDEDLEADINGONLY = 516
+DISCARDEDLEADINGONLYINTDC = 517  # 18 TDCs
+DISCARDEDTDCWORDS = 535
+DISCARDEDTDCWORDSINTDC = 536  # 18 TDCs
+EXPECTEDTDCWCERROR = 554
+EXPECTEDTDCWCERRORINTDC = 555  # 18 TDCs
+UNEXPECTEDTDCWCERROR = 573
+UNEXPECTEDTDCWCERRORINTDC = 574  # 18 TDCs
+WRONGCSMFIFOOVERFLOW = 592
+WRONGCSMFIFOOVERFLOWINTDC = 593  # 18 TDCs
+CSMFIFOOVERFLOW1 = 611
+CSMFIFOOVERFLOW1INTDC = 612  # 18 TDCs
+CSMFIFOOVERFLOW2 = 630
+CSMFIFOOVERFLOW2INTDC = 631  # 18 TDCs
+CSMFIFOOVERFLOWS = 649
+CSMFIFOOVERFLOWSINTDC = 650  # 18 TDCs
+CSMEVTPRESCALEERR = 668
+CSMEVTPRESCALEERRINTDC = 669  # 18 TDCs
+CSMPAIRERROR = 687
+CSMPAIRERRORINTDC = 688  # 18 TDCs
+NREQUESTEDSTOP = 706
+NREQUESTEDPAUSE = 707
+NTOTALWORD = 708
+NTOTALWORDHIGH = 709
+PROCESSEDEVENT = 710
+PROCESSEDEVENTHIGH = 711
+NDATAWORD = 712
+NDATAWORDHIGH = 713
+NEVENTWORD = 714
+NEVENTWORDHIGH = 715
+NGOODCYCLE = 716
+NGOODCYCLEHIGH = 717
+NEMPTYCYCLE = 718
+NEMPTYCYCLEHIGH = 719
+NBADCYCLE = 720
+NBADCYCLEATBEGINNING = 721
+CURREVENTSIZE = 722
+MINEVENTSIZE = 723
+MAXEVENTSIZE = 724
+CURREVENTID = 725
+NBUFFERPOINTERERROR = 726
+TXPARITYERROR = 727
+TXPARITYERRORINTDC = 728  # 18 TDC slots
+LHCCLOCKUNLOCKED = 746
+XMT1CLOCKUNLOCKED = 747
+XMT2CLOCKUNLOCKED = 748
+CSMPHASEERROR = 749
+I2COPERATIONFAILED = 750
+UNEXPECTEDTTCRXSETUP = 751
+CSMHASERROR = 752
+NUMBERTRIGGER = 753
+NUMBERSAMETRIGGER = 754
+NUMBERTRIGGERLOW = 755
+NUMBERUNMATCHEDTRIGGERLOW = 756
+NUMBERTRIGGERHIGH = 757
+NUMBERUNMATCHEDTRIGGERHIGH = 758
+UNKNOWNSWORD = 759
+NNOTDCEVENTWORD = 760
+NNOTDCEVENTWORDHIGH = 761
+NUNEXPECTEDMRODLWC = 762
+NWRONGMRODEVTSIZE = 763
+NSHORTMRODEVTSIZE = 764
+NNOMRODTWC = 765
+
+# Define MDT Chamber HV status
+MDTCHAMBERHVOFF = 0
+MDTCHAMBERHVON = 1
+MDTCHAMBERHVUNKNOWN = 2
+MDTCHAMBERHVNOTAPPLY = 3</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="smdt_rdv.common" href="index.html">smdt_rdv.common</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

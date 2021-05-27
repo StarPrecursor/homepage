@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>smdt_rdv.visualize.hits_display API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>smdt_rdv.visualize.hits_display</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import logging
+from typing import Tuple, Union
+
+import matplotlib
+import matplotlib.pyplot as plt
+
+from smdt_rdv.common.mapping import *
+from smdt_rdv.common.smdt_const import *
+from smdt_rdv.common.smdt_info import *
+
+matplotlib.use(&#34;Agg&#34;)
+matplotlib.rc(&#34;figure&#34;, max_open_warning=0)
+
+logger = logging.getLogger(&#34;smdt_rdv&#34;)
+
+
+def close_figures(plt_close_arg=None) -&gt; None:
+    &#34;&#34;&#34;Wrapper of plt.close()
+
+    Args:
+        plt_close_arg (optional): argument passed to plt.close(). Defaults to None.
+    &#34;&#34;&#34;
+    plt.close(plt_close_arg)
+
+
+def create_smdt_tubes_axes(title: str = &#34;sMDT hits display&#34;) -&gt; (plt.figure, plt.axes):
+    &#34;&#34;&#34;Creates figure and axes objects for track/hits display
+
+    Args:
+        title (str, optional): title of the plot name. Defaults to &#34;sMDT hits display&#34;)-&gt;(plt.figure.
+
+    Returns:
+        plt.figure: matplotlib figure object for track/hits display
+        plt.axes: matplotlib axes object for track/hits display
+    &#34;&#34;&#34;
+    fig, ax = plt.subplots(figsize=(16, 6))
+    ax.set_title(title)
+    ax.set_xlabel(&#34;(mm)&#34;)
+    ax.set_ylabel(&#34;(mm)&#34;)
+    ax.set_aspect(&#34;equal&#34;, &#34;box&#34;)
+    return fig, ax
+
+
+def plot_smdt_tubes(ax: plt.axes, chamber_name: str) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots 2D sMDT tubes&#39; geometry
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        chamber_name (str): chamber name
+
+    Returns:
+        plt.axes: axes object with tubes&#39; geometry plotted 
+    &#34;&#34;&#34;
+    # check chamber information for plotting
+    chamber_category = chamber_name[-3:]
+    if chamber_category in [&#34;A02&#34;, &#34;A04&#34;, &#34;A06&#34;]:
+        csm1_map = csm1_map_a2
+        csm2_map = csm2_map_a2
+        mezz_map = mezz_a_map
+        is_a_side = True
+    elif chamber_category in [&#34;C02&#34;, &#34;C04&#34;, &#34;C06&#34;]:
+        csm1_map = csm1_map_c2
+        csm2_map = csm2_map_c2
+        mezz_map = mezz_c_map
+        is_a_side = False
+    elif chamber_category in [&#34;A08&#34;, &#34;A10&#34;, &#34;C12&#34;, &#34;A14&#34;, &#34;A16&#34;]:
+        csm1_map = csm1_map_a8
+        csm2_map = csm2_map_a8
+        mezz_map = mezz_a_map
+        is_a_side = True
+    elif chamber_category in [&#34;C08&#34;, &#34;C10&#34;, &#34;A12&#34;, &#34;C14&#34;, &#34;C16&#34;]:
+        csm1_map = csm1_map_c8
+        csm2_map = csm2_map_c8
+        mezz_map = mezz_c_map
+        is_a_side = False
+    else:
+        logger.error(f&#34;Unsupported chamber: {chamber_name}&#34;)
+
+    if &#34;BIX7&#34; in chamber_name:
+        csm_maps = [csm1_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    elif &#34;BIY7&#34; in chamber_name:
+        csm_maps = [csm2_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    elif &#34;BIS7&#34; in chamber_name:
+        if is_a_side:
+            csm_maps = [csm2_map, csm1_map]
+        else:
+            csm_maps = [csm1_map, csm2_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54 * 2
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    else:
+        logger.error(f&#34;Unsupported chamber: {chamber_name}&#34;)
+
+    # make plots
+    if is_a_side:
+        center_x_shift = 1
+    else:
+        center_x_shift = 0
+    ax.set_aspect(&#34;equal&#34;, &#34;box&#34;)
+    ax.axis([0, x_length, 0, y_length])
+    for csm_num, csm_map in enumerate(csm_maps):
+        for mezz_layer, mezz_column in csm_map.values():
+            for tube_layer, tube_column in mezz_map.values():
+                layer = mezz_layer * NUM_MEZZ_LAYER + tube_layer
+                column = (
+                    csm_num * NUM_CSM_CHANNEL / 2 + mezz_column
+                ) * NUM_MEZZ_COLUMN + tube_column
+                center_x = (
+                    SMDT_TUBE_RADIUS
+                    + column * SMDT_TUBE_DISTANCE
+                    + ((layer + center_x_shift) % 2) * SMDT_TUBE_DISTANCE / 2.0
+                )
+                if layer &lt; NUM_MULTILAYER:
+                    center_y = SMDT_TUBE_RADIUS + layer * SMDT_LAYER_DISTANCE
+                else:
+                    center_y = (
+                        SMDT_TUBE_RADIUS
+                        + (layer - 1) * SMDT_LAYER_DISTANCE
+                        + SMDT_SPACER_DISTANCE
+                    )
+                logger.debug(f&#34;layer {layer}, colum {column}&#34;)
+                logger.debug(f&#34;x {center_x}, y (center_y)&#34;)
+                if (column // NUM_MEZZ_COLUMN) % 2 == 0:
+                    fill_color = &#34;silver&#34;
+                else:
+                    fill_color = &#34;ivory&#34;
+                ax.add_patch(
+                    plt.Circle(
+                        (center_x, center_y),
+                        SMDT_TUBE_RADIUS,
+                        facecolor=fill_color,
+                        edgecolor=&#34;royalblue&#34;,
+                        alpha=0.5,
+                    )
+                )
+
+    return ax
+
+
+def plot_hit_layer_column(
+    ax: plt.axes,
+    chamber_name: str,
+    layer: int,
+    column: int,
+    radius: float = SMDT_TUBE_RADIUS,
+) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots single hit
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        chamber_name (str): chamber name
+        layer (int): layer of the tubes, 0~8 from bottom to top
+        column (int): column of the tubes, 0~54 from left to right
+        radius (float, optional): radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.
+
+    Returns:
+        plt.axes: axes object with single hit plotted 
+    &#34;&#34;&#34;
+    center_x, center_y = tube_layer_column_to_x_y(chamber_name, layer, column)
+    ax.add_patch(
+        plt.Circle(
+            (center_x, center_y), radius, facecolor=&#34;gold&#34;, edgecolor=&#34;none&#34;, alpha=0.8,
+        )
+    )
+    return ax
+
+
+def plot_hit_x_y(
+    ax: plt.axes,
+    center_x: float,
+    center_y: float,
+    radius: float = SMDT_TUBE_RADIUS,
+    fill_color: str = &#34;gold&#34;,
+    mark_hits: bool = True,
+    mark_color: str = &#34;black&#34;,
+) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots single hit
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        center_x (float): x coordinate of tube center where hit happened
+        center_y (float): y coordinate of tube center where hit happened
+        radius (float, optional): radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.
+
+    Returns:
+        plt.axes: axes object with single hit plotted 
+    &#34;&#34;&#34;
+    ax.add_patch(
+        plt.Circle(
+            (center_x, center_y),
+            radius,
+            facecolor=fill_color,
+            edgecolor=&#34;none&#34;,
+            alpha=0.8,
+        )
+    )
+    if mark_hits:
+        ax.add_patch(
+            plt.Circle(
+                (center_x, center_y),
+                SMDT_TUBE_RADIUS,
+                fill=False,
+                edgecolor=mark_color,
+                alpha=0.8,
+            )
+        )
+    return ax
+
+
+def save_hits(
+    valid_hits: list, chamber_name: str, plot_title: str, save_path: str
+) -&gt; None:
+    &#34;&#34;&#34;Saves the plots of selected hits
+
+    Args:
+        valid_hits (list): tdc leading edges information
+        chamber_name (str): chamber name
+        plot_title (str): title of the saved plot
+        save_path (str): path to save the plot, this also specify the save format
+    &#34;&#34;&#34;
+    fig, ax = create_smdt_tubes_axes(title=plot_title)
+    plot_smdt_tubes(ax, chamber_name)
+    for (mezz, channel, _, _, _,) in valid_hits:
+        # plot hit based on leading TDC
+        hit_layer, hit_column = mezz_to_tube_layer_column(chamber_name, mezz, channel)
+        plot_hit_layer_column(ax, chamber_name, hit_layer, hit_column)
+    fig.savefig(save_path)
+    close_figures()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="smdt_rdv.visualize.hits_display.close_figures"><code class="name flex">
+<span>def <span class="ident">close_figures</span></span>(<span>plt_close_arg=None) ‑> NoneType</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapper of plt.close()</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>plt_close_arg</code></strong> :&ensp;<code>optional</code></dt>
+<dd>argument passed to plt.close(). Defaults to None.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def close_figures(plt_close_arg=None) -&gt; None:
+    &#34;&#34;&#34;Wrapper of plt.close()
+
+    Args:
+        plt_close_arg (optional): argument passed to plt.close(). Defaults to None.
+    &#34;&#34;&#34;
+    plt.close(plt_close_arg)</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.visualize.hits_display.create_smdt_tubes_axes"><code class="name flex">
+<span>def <span class="ident">create_smdt_tubes_axes</span></span>(<span>title: str = 'sMDT hits display') ‑> (<function figure at 0x000001EA93711040>, <function axes at 0x000001EA93711820>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Creates figure and axes objects for track/hits display</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>title</code></strong> :&ensp;<code>str</code>, optional</dt>
+<dd>title of the plot name. Defaults to "sMDT hits display")-&gt;(plt.figure.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>plt.figure</code></dt>
+<dd>matplotlib figure object for track/hits display</dd>
+<dt><code>plt.axes</code></dt>
+<dd>matplotlib axes object for track/hits display</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_smdt_tubes_axes(title: str = &#34;sMDT hits display&#34;) -&gt; (plt.figure, plt.axes):
+    &#34;&#34;&#34;Creates figure and axes objects for track/hits display
+
+    Args:
+        title (str, optional): title of the plot name. Defaults to &#34;sMDT hits display&#34;)-&gt;(plt.figure.
+
+    Returns:
+        plt.figure: matplotlib figure object for track/hits display
+        plt.axes: matplotlib axes object for track/hits display
+    &#34;&#34;&#34;
+    fig, ax = plt.subplots(figsize=(16, 6))
+    ax.set_title(title)
+    ax.set_xlabel(&#34;(mm)&#34;)
+    ax.set_ylabel(&#34;(mm)&#34;)
+    ax.set_aspect(&#34;equal&#34;, &#34;box&#34;)
+    return fig, ax</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.visualize.hits_display.plot_hit_layer_column"><code class="name flex">
+<span>def <span class="ident">plot_hit_layer_column</span></span>(<span>ax: <function axes at 0x000001EA93711820>, chamber_name: str, layer: int, column: int, radius: float = 7.5) ‑> <function axes at 0x000001EA93711820></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots single hit</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>ax</code></strong> :&ensp;<code>plt.axes</code></dt>
+<dd>matplotlib axes object for plotting</dd>
+<dt><strong><code>chamber_name</code></strong> :&ensp;<code>str</code></dt>
+<dd>chamber name</dd>
+<dt><strong><code>layer</code></strong> :&ensp;<code>int</code></dt>
+<dd>layer of the tubes, 0~8 from bottom to top</dd>
+<dt><strong><code>column</code></strong> :&ensp;<code>int</code></dt>
+<dd>column of the tubes, 0~54 from left to right</dd>
+<dt><strong><code>radius</code></strong> :&ensp;<code>float</code>, optional</dt>
+<dd>radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>plt.axes</code></dt>
+<dd>axes object with single hit plotted</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_hit_layer_column(
+    ax: plt.axes,
+    chamber_name: str,
+    layer: int,
+    column: int,
+    radius: float = SMDT_TUBE_RADIUS,
+) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots single hit
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        chamber_name (str): chamber name
+        layer (int): layer of the tubes, 0~8 from bottom to top
+        column (int): column of the tubes, 0~54 from left to right
+        radius (float, optional): radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.
+
+    Returns:
+        plt.axes: axes object with single hit plotted 
+    &#34;&#34;&#34;
+    center_x, center_y = tube_layer_column_to_x_y(chamber_name, layer, column)
+    ax.add_patch(
+        plt.Circle(
+            (center_x, center_y), radius, facecolor=&#34;gold&#34;, edgecolor=&#34;none&#34;, alpha=0.8,
+        )
+    )
+    return ax</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.visualize.hits_display.plot_hit_x_y"><code class="name flex">
+<span>def <span class="ident">plot_hit_x_y</span></span>(<span>ax: <function axes at 0x000001EA93711820>, center_x: float, center_y: float, radius: float = 7.5, fill_color: str = 'gold', mark_hits: bool = True, mark_color: str = 'black') ‑> <function axes at 0x000001EA93711820></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots single hit</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>ax</code></strong> :&ensp;<code>plt.axes</code></dt>
+<dd>matplotlib axes object for plotting</dd>
+<dt><strong><code>center_x</code></strong> :&ensp;<code>float</code></dt>
+<dd>x coordinate of tube center where hit happened</dd>
+<dt><strong><code>center_y</code></strong> :&ensp;<code>float</code></dt>
+<dd>y coordinate of tube center where hit happened</dd>
+<dt><strong><code>radius</code></strong> :&ensp;<code>float</code>, optional</dt>
+<dd>radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>plt.axes</code></dt>
+<dd>axes object with single hit plotted</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_hit_x_y(
+    ax: plt.axes,
+    center_x: float,
+    center_y: float,
+    radius: float = SMDT_TUBE_RADIUS,
+    fill_color: str = &#34;gold&#34;,
+    mark_hits: bool = True,
+    mark_color: str = &#34;black&#34;,
+) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots single hit
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        center_x (float): x coordinate of tube center where hit happened
+        center_y (float): y coordinate of tube center where hit happened
+        radius (float, optional): radius of the hit (via R-T function). Defaults to SMDT_TUBE_RADIUS.
+
+    Returns:
+        plt.axes: axes object with single hit plotted 
+    &#34;&#34;&#34;
+    ax.add_patch(
+        plt.Circle(
+            (center_x, center_y),
+            radius,
+            facecolor=fill_color,
+            edgecolor=&#34;none&#34;,
+            alpha=0.8,
+        )
+    )
+    if mark_hits:
+        ax.add_patch(
+            plt.Circle(
+                (center_x, center_y),
+                SMDT_TUBE_RADIUS,
+                fill=False,
+                edgecolor=mark_color,
+                alpha=0.8,
+            )
+        )
+    return ax</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.visualize.hits_display.plot_smdt_tubes"><code class="name flex">
+<span>def <span class="ident">plot_smdt_tubes</span></span>(<span>ax: <function axes at 0x000001EA93711820>, chamber_name: str) ‑> <function axes at 0x000001EA93711820></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Plots 2D sMDT tubes' geometry</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>ax</code></strong> :&ensp;<code>plt.axes</code></dt>
+<dd>matplotlib axes object for plotting</dd>
+<dt><strong><code>chamber_name</code></strong> :&ensp;<code>str</code></dt>
+<dd>chamber name</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>plt.axes</code></dt>
+<dd>axes object with tubes' geometry plotted</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_smdt_tubes(ax: plt.axes, chamber_name: str) -&gt; plt.axes:
+    &#34;&#34;&#34;Plots 2D sMDT tubes&#39; geometry
+
+    Args:
+        ax (plt.axes): matplotlib axes object for plotting
+        chamber_name (str): chamber name
+
+    Returns:
+        plt.axes: axes object with tubes&#39; geometry plotted 
+    &#34;&#34;&#34;
+    # check chamber information for plotting
+    chamber_category = chamber_name[-3:]
+    if chamber_category in [&#34;A02&#34;, &#34;A04&#34;, &#34;A06&#34;]:
+        csm1_map = csm1_map_a2
+        csm2_map = csm2_map_a2
+        mezz_map = mezz_a_map
+        is_a_side = True
+    elif chamber_category in [&#34;C02&#34;, &#34;C04&#34;, &#34;C06&#34;]:
+        csm1_map = csm1_map_c2
+        csm2_map = csm2_map_c2
+        mezz_map = mezz_c_map
+        is_a_side = False
+    elif chamber_category in [&#34;A08&#34;, &#34;A10&#34;, &#34;C12&#34;, &#34;A14&#34;, &#34;A16&#34;]:
+        csm1_map = csm1_map_a8
+        csm2_map = csm2_map_a8
+        mezz_map = mezz_a_map
+        is_a_side = True
+    elif chamber_category in [&#34;C08&#34;, &#34;C10&#34;, &#34;A12&#34;, &#34;C14&#34;, &#34;C16&#34;]:
+        csm1_map = csm1_map_c8
+        csm2_map = csm2_map_c8
+        mezz_map = mezz_c_map
+        is_a_side = False
+    else:
+        logger.error(f&#34;Unsupported chamber: {chamber_name}&#34;)
+
+    if &#34;BIX7&#34; in chamber_name:
+        csm_maps = [csm1_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    elif &#34;BIY7&#34; in chamber_name:
+        csm_maps = [csm2_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    elif &#34;BIS7&#34; in chamber_name:
+        if is_a_side:
+            csm_maps = [csm2_map, csm1_map]
+        else:
+            csm_maps = [csm1_map, csm2_map]
+        x_length = SMDT_TUBE_RADIUS + SMDT_TUBE_DISTANCE * 54 * 2
+        y_length = (
+            2 * SMDT_TUBE_RADIUS
+            + 2 * (NUM_MULTILAYER - 1) * SMDT_LAYER_DISTANCE
+            + SMDT_SPACER_DISTANCE
+        )
+    else:
+        logger.error(f&#34;Unsupported chamber: {chamber_name}&#34;)
+
+    # make plots
+    if is_a_side:
+        center_x_shift = 1
+    else:
+        center_x_shift = 0
+    ax.set_aspect(&#34;equal&#34;, &#34;box&#34;)
+    ax.axis([0, x_length, 0, y_length])
+    for csm_num, csm_map in enumerate(csm_maps):
+        for mezz_layer, mezz_column in csm_map.values():
+            for tube_layer, tube_column in mezz_map.values():
+                layer = mezz_layer * NUM_MEZZ_LAYER + tube_layer
+                column = (
+                    csm_num * NUM_CSM_CHANNEL / 2 + mezz_column
+                ) * NUM_MEZZ_COLUMN + tube_column
+                center_x = (
+                    SMDT_TUBE_RADIUS
+                    + column * SMDT_TUBE_DISTANCE
+                    + ((layer + center_x_shift) % 2) * SMDT_TUBE_DISTANCE / 2.0
+                )
+                if layer &lt; NUM_MULTILAYER:
+                    center_y = SMDT_TUBE_RADIUS + layer * SMDT_LAYER_DISTANCE
+                else:
+                    center_y = (
+                        SMDT_TUBE_RADIUS
+                        + (layer - 1) * SMDT_LAYER_DISTANCE
+                        + SMDT_SPACER_DISTANCE
+                    )
+                logger.debug(f&#34;layer {layer}, colum {column}&#34;)
+                logger.debug(f&#34;x {center_x}, y (center_y)&#34;)
+                if (column // NUM_MEZZ_COLUMN) % 2 == 0:
+                    fill_color = &#34;silver&#34;
+                else:
+                    fill_color = &#34;ivory&#34;
+                ax.add_patch(
+                    plt.Circle(
+                        (center_x, center_y),
+                        SMDT_TUBE_RADIUS,
+                        facecolor=fill_color,
+                        edgecolor=&#34;royalblue&#34;,
+                        alpha=0.5,
+                    )
+                )
+
+    return ax</code></pre>
+</details>
+</dd>
+<dt id="smdt_rdv.visualize.hits_display.save_hits"><code class="name flex">
+<span>def <span class="ident">save_hits</span></span>(<span>valid_hits: list, chamber_name: str, plot_title: str, save_path: str) ‑> NoneType</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves the plots of selected hits</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>valid_hits</code></strong> :&ensp;<code>list</code></dt>
+<dd>tdc leading edges information</dd>
+<dt><strong><code>chamber_name</code></strong> :&ensp;<code>str</code></dt>
+<dd>chamber name</dd>
+<dt><strong><code>plot_title</code></strong> :&ensp;<code>str</code></dt>
+<dd>title of the saved plot</dd>
+<dt><strong><code>save_path</code></strong> :&ensp;<code>str</code></dt>
+<dd>path to save the plot, this also specify the save format</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_hits(
+    valid_hits: list, chamber_name: str, plot_title: str, save_path: str
+) -&gt; None:
+    &#34;&#34;&#34;Saves the plots of selected hits
+
+    Args:
+        valid_hits (list): tdc leading edges information
+        chamber_name (str): chamber name
+        plot_title (str): title of the saved plot
+        save_path (str): path to save the plot, this also specify the save format
+    &#34;&#34;&#34;
+    fig, ax = create_smdt_tubes_axes(title=plot_title)
+    plot_smdt_tubes(ax, chamber_name)
+    for (mezz, channel, _, _, _,) in valid_hits:
+        # plot hit based on leading TDC
+        hit_layer, hit_column = mezz_to_tube_layer_column(chamber_name, mezz, channel)
+        plot_hit_layer_column(ax, chamber_name, hit_layer, hit_column)
+    fig.savefig(save_path)
+    close_figures()</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="smdt_rdv.visualize" href="index.html">smdt_rdv.visualize</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="smdt_rdv.visualize.hits_display.close_figures" href="#smdt_rdv.visualize.hits_display.close_figures">close_figures</a></code></li>
+<li><code><a title="smdt_rdv.visualize.hits_display.create_smdt_tubes_axes" href="#smdt_rdv.visualize.hits_display.create_smdt_tubes_axes">create_smdt_tubes_axes</a></code></li>
+<li><code><a title="smdt_rdv.visualize.hits_display.plot_hit_layer_column" href="#smdt_rdv.visualize.hits_display.plot_hit_layer_column">plot_hit_layer_column</a></code></li>
+<li><code><a title="smdt_rdv.visualize.hits_display.plot_hit_x_y" href="#smdt_rdv.visualize.hits_display.plot_hit_x_y">plot_hit_x_y</a></code></li>
+<li><code><a title="smdt_rdv.visualize.hits_display.plot_smdt_tubes" href="#smdt_rdv.visualize.hits_display.plot_smdt_tubes">plot_smdt_tubes</a></code></li>
+<li><code><a title="smdt_rdv.visualize.hits_display.save_hits" href="#smdt_rdv.visualize.hits_display.save_hits">save_hits</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

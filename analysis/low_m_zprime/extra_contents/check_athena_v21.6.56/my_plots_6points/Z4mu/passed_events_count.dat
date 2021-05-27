@@ -1,0 +1,90 @@
+# BEGIN PLOT
+LegendOnly=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp005/Zp005_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp015/Zp015_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp035/Zp035_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp045/Zp045_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp060/Zp060_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp075/Zp075_out_.yoda.gz/Z4mu/passed_events_count
+DrawOnly=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp005/Zp005_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp015/Zp015_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp035/Zp035_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp045/Zp045_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp060/Zp060_out_.yoda.gz/Z4mu/passed_events_count //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp075/Zp075_out_.yoda.gz/Z4mu/passed_events_count
+Legend=1
+LogY=1
+# END PLOT
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp005/Zp005_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp005/Zp005_out_.yoda.gz/Z4mu/passed_events_count
+Scale=1385.16766924
+ScaledBy=3.34351358995145715e-04
+Title=Zp005
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	6.370053e-01	1.457172e-03	1.457172e-03
+1.000000e+00	2.000000e+00	3.629947e-01	1.099995e-03	1.099995e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp015/Zp015_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp015/Zp015_out_.yoda.gz/Z4mu/passed_events_count
+Scale=275.10278295
+ScaledBy=7.48126343000406289e-04
+Title=Zp015
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	4.460131e-01	1.219331e-03	1.219331e-03
+1.000000e+00	2.000000e+00	5.539869e-01	1.358935e-03	1.358935e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp035/Zp035_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp035/Zp035_out_.yoda.gz/Z4mu/passed_events_count
+Scale=31.6846662254
+ScaledBy=7.79859990955757382e-04
+Title=Zp035
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	2.872468e-01	1.694828e-03	1.694828e-03
+1.000000e+00	2.000000e+00	7.127532e-01	2.669752e-03	2.669752e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp045/Zp045_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=orange
+LineStyle=solid
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp045/Zp045_out_.yoda.gz/Z4mu/passed_events_count
+Scale=10.4345482352
+ScaledBy=2.84307238471105629e-04
+Title=Zp045
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	2.539663e-01	9.201021e-04	9.201021e-04
+1.000000e+00	2.000000e+00	7.460337e-01	1.576958e-03	1.576958e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp060/Zp060_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=lilac
+LineStyle=solid
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp060/Zp060_out_.yoda.gz/Z4mu/passed_events_count
+Scale=1.61035971308
+ScaledBy=2.57891149429508970e-04
+Title=Zp060
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	2.402583e-01	8.949134e-04	8.949134e-04
+1.000000e+00	2.000000e+00	7.597417e-01	1.591390e-03	1.591390e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp075/Zp075_out_.yoda.gz/Z4mu/passed_events_count
+ErrorBars=1
+LineColor=red
+LineStyle=dashed
+Path=//net/s3_data_home/yangz/analysis/zprime/rivet/run_2021_0308/Zp075/Zp075_out_.yoda.gz/Z4mu/passed_events_count
+Scale=0.31568195615
+ScaledBy=2.63342597429482581e-04
+Title=Zp075
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.947961e-01	8.059054e-04	8.059054e-04
+1.000000e+00	2.000000e+00	8.052039e-01	1.638373e-03	1.638373e-03
+# END HISTO1D
+

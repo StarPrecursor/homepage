@@ -221,7 +221,7 @@ BEGIN:VEVENT
 SUMMARY:Low mass Z' (4mu) meeting
 DTSTART;VALUE=DATE-TIME:20210111T130000Z
 DTEND;VALUE=DATE-TIME:20210111T140000Z
-DTSTAMP;VALUE=DATE-TIME:20210115T155104Z
+DTSTAMP;VALUE=DATE-TIME:20210118T170027Z
 UID:indico-event-992022@indico.cern.ch
 DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
  sscode: 1234\n\nhttps://indico.cern.ch/event/992022/
@@ -232,11 +232,187 @@ BEGIN:VEVENT
 SUMMARY:Low mass Z' (4mu) meeting
 DTSTART;VALUE=DATE-TIME:20210115T120000Z
 DTEND;VALUE=DATE-TIME:20210115T130000Z
-DTSTAMP;VALUE=DATE-TIME:20210115T155104Z
+DTSTAMP;VALUE=DATE-TIME:20210125T170044Z
 UID:indico-event-996195@indico.cern.ch
 DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
  sscode: 1234\n\nhttps://indico.cern.ch/event/996195/
 LOCATION:
 URL:https://indico.cern.ch/event/996195/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210125T130000Z
+DTEND;VALUE=DATE-TIME:20210125T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210201T170055Z
+UID:indico-event-999950@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/999950/
+LOCATION:
+URL:https://indico.cern.ch/event/999950/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210201T130000Z
+DTEND;VALUE=DATE-TIME:20210201T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210208T170050Z
+UID:indico-event-1003224@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1003224/
+LOCATION:
+URL:https://indico.cern.ch/event/1003224/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210208T130000Z
+DTEND;VALUE=DATE-TIME:20210208T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210215T170048Z
+UID:indico-event-1005857@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1005857/
+LOCATION:
+URL:https://indico.cern.ch/event/1005857/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210215T130000Z
+DTEND;VALUE=DATE-TIME:20210215T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210222T170035Z
+UID:indico-event-1008650@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1008650/
+LOCATION:
+URL:https://indico.cern.ch/event/1008650/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210301T130000Z
+DTEND;VALUE=DATE-TIME:20210301T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210308T170051Z
+UID:indico-event-1013190@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1013190/
+LOCATION:
+URL:https://indico.cern.ch/event/1013190/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210308T130000Z
+DTEND;VALUE=DATE-TIME:20210308T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210315T170111Z
+UID:indico-event-1015580@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1015580/
+LOCATION:
+URL:https://indico.cern.ch/event/1015580/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210315T130000Z
+DTEND;VALUE=DATE-TIME:20210315T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210322T170036Z
+UID:indico-event-1018148@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1018148/
+LOCATION:
+URL:https://indico.cern.ch/event/1018148/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210322T130000Z
+DTEND;VALUE=DATE-TIME:20210322T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210329T160022Z
+UID:indico-event-1020374@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1020374/
+LOCATION:
+URL:https://indico.cern.ch/event/1020374/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210329T120000Z
+DTEND;VALUE=DATE-TIME:20210329T132000Z
+DTSTAMP;VALUE=DATE-TIME:20210405T160036Z
+UID:indico-event-1022789@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1022789/
+LOCATION:
+URL:https://indico.cern.ch/event/1022789/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210412T120000Z
+DTEND;VALUE=DATE-TIME:20210412T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210419T160031Z
+UID:indico-event-1027203@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1027203/
+LOCATION:
+URL:https://indico.cern.ch/event/1027203/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210419T120000Z
+DTEND;VALUE=DATE-TIME:20210419T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210426T160055Z
+UID:indico-event-1029900@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1029900/
+LOCATION:
+URL:https://indico.cern.ch/event/1029900/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210426T120000Z
+DTEND;VALUE=DATE-TIME:20210426T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210503T160104Z
+UID:indico-event-1032603@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1032603/
+LOCATION:
+URL:https://indico.cern.ch/event/1032603/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210503T120000Z
+DTEND;VALUE=DATE-TIME:20210503T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210510T160054Z
+UID:indico-event-1035172@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1035172/
+LOCATION:
+URL:https://indico.cern.ch/event/1035172/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210510T120000Z
+DTEND;VALUE=DATE-TIME:20210510T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210517T160128Z
+UID:indico-event-1037695@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1037695/
+LOCATION:
+URL:https://indico.cern.ch/event/1037695/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210517T120000Z
+DTEND;VALUE=DATE-TIME:20210517T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210524T160041Z
+UID:indico-event-1039393@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1039393/
+LOCATION:
+URL:https://indico.cern.ch/event/1039393/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Low mass Z' (4mu) meeting
+DTSTART;VALUE=DATE-TIME:20210524T120000Z
+DTEND;VALUE=DATE-TIME:20210524T130000Z
+DTSTAMP;VALUE=DATE-TIME:20210524T160041Z
+UID:indico-event-1041671@indico.cern.ch
+DESCRIPTION:Join zoom meeting\n\nhttps://umich.zoom.us/j/94756875907\n\nPa
+ sscode: 1234\n\nhttps://indico.cern.ch/event/1041671/
+LOCATION:
+URL:https://indico.cern.ch/event/1041671/
 END:VEVENT
 END:VCALENDAR

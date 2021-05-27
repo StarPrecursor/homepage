@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>smdt_rdv.data_io.db_dumper API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>smdt_rdv.data_io.db_dumper</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import gzip
+import logging
+import pathlib
+import time
+
+import numpy as np
+
+from smdt_rdv.common.smdt_const import *
+from smdt_rdv.common.smdt_info import smdt_info
+from smdt_rdv.data_io import io_utils, smdt_db
+from smdt_rdv.job_manager import config_utils
+
+logger = logging.getLogger(&#34;smdt_rdv&#34;)
+
+
+def dump_database_single_file(data_path: pathlib.Path, config_dict: dict) -&gt; None:
+    &#34;&#34;&#34;Executes database dumping job for single file
+
+    Args:
+        data_path (pathlib.Path): path to the input data
+        config_dict (dict): job configurations in dictionary format
+
+    Raises:
+        ValueError: unknown input data format
+    &#34;&#34;&#34;
+    # initialize:
+    job_config = config_utils.sMDT_Job_Config_Section(config_dict)
+    job_cfg = job_config.job
+    path_cfg = job_config.path
+    perf_cfg = job_config.performance
+
+    data_path_suffix = data_path.suffix
+    db_path_base = pathlib.Path(path_cfg.database_out_dir).joinpath(data_path.name)
+    if data_path_suffix == &#34;.data&#34;:
+        db_path_tmp = db_path_base.with_suffix(&#34;.data.tmp.db&#34;)
+        db_path = db_path_base.with_suffix(&#34;.data.db&#34;)
+    elif data_path_suffix == &#34;.gz&#34;:
+        db_path_tmp = db_path_base.with_suffix(&#34;.tmp.db&#34;)
+        db_path = db_path_base.with_suffix(&#34;.db&#34;)
+    else:
+        logger.error(
+            f&#34;Unknown file type: {data_path_suffix}, please implement if want to use!&#34;
+        )
+    # remove tmp file if any
+    db_path_tmp.unlink(missing_ok=True)
+    # check whether final database is already there
+    if db_path.exists():
+        if path_cfg.overwrite:
+            logger.info(
+                f&#34;Found existing database file: {db_path}, will overwrite the existing file!&#34;
+            )
+            db_path.unlink(missing_ok=True)
+        else:
+            logger.info(f&#34;Found existing database file: {db_path}, skip current file!&#34;)
+            logger.info(f&#34;Successfully generate database file: {db_path}&#34;)
+            return
+
+    # open data
+    word_array = np.array([])
+    try:
+        if data_path_suffix == &#34;.data&#34;:
+            with open(data_path, mode=&#34;rb&#34;) as test_data_file:
+                logger.debug(f&#34;Successfully opened data file {data_path}&#34;)
+                word_array = np.fromfile(test_data_file, np.uint32)
+        elif data_path_suffix == &#34;.gz&#34;:
+            with gzip.open(data_path, mode=&#34;rb&#34;) as test_data_file:
+                word_array = np.frombuffer(test_data_file.read(), np.uint32)
+                logger.debug(f&#34;Successfully opened compressed data file {data_path}&#34;)
+        else:
+            raise ValueError
+    except IOError:
+        logger.error(f&#34;Can&#39;t open file or file format is not recognized&#34;)
+        logger.error(f&#34;[1] Try to check input path settings&#34;)
+        logger.error(f&#34;[2] Try to use command: kinit&#34;)
+    word_entries = len(word_array)
+    logger.debug(f&#34;Total entries (32-bit per entry) of current file: {word_entries}&#34;)
+
+    # connect to new database
+    db_connect = smdt_db.connect(db_path_tmp)
+    db_cursor = (
+        db_connect.cursor()
+    )  # it&#39;s important to use cursor, otherwise unexpected error could happen during multiprocessing
+    smdt_db.create_rods_table(db_cursor)
+    smdt_db.create_lws_table(db_cursor)
+    smdt_db.create_tds_table(db_cursor)
+
+    # initialize variables
+    start_event_num = 0
+    processed_events = 0
+    accepted_events = 0
+    rejected_events = 0
+    event_num = 0
+    max_events = job_cfg.max_events_per_file
+    min_hits = job_cfg.event_cuts.min_hits
+    max_hits = job_cfg.event_cuts.max_hits
+
+    # decode
+    rod_header_ids = np.where(word_array == 0xEE1234EE)[0]
+    num_rod_headers = len(rod_header_ids)
+    if num_rod_headers &gt; 0:
+        logger.debug(f&#34;Found {num_rod_headers} ROD headers&#34;)
+        logger.debug(f&#34;ROD header positions {rod_header_ids}&#34;)
+    else:
+        logger.warn(f&#34;No ROD header found! Might due to compressed file&#34;)
+
+    previousL1ID = 0
+    currentL1ID = 0
+    rod_loop_time_start_period = time.time()
+    rod_loop_time_start = rod_loop_time_start_period
+
+    smdt_db.begin_transaction(db_cursor)
+    cache_size = perf_cfg.cache_size
+    if not cache_size:
+        cache_size = 100
+    for index_id, index in enumerate(rod_header_ids):
+        if index_id % cache_size == 0:
+            smdt_db.restart_transaction(db_cursor)
+        word_h2 = word_array[index + 1]
+        if word_h2 != 0x00000009:
+            logger.warn(f&#34;ROD Header size not equal to 0x00000009, skip&#34;)
+            continue
+        word_h4 = word_array[index + 3]
+        sourceID = (word_h4 &gt;&gt; SOURCEIDBIT0LOCATION) &amp; SOURCEIDBITS
+        subdetID = (word_h4 &gt;&gt; SUBDETIDBIT0LOCATION) &amp; SUBDETIDBITS
+        word_h5 = word_array[index + 4]
+        runNumber = (word_h5 &gt;&gt; RUNNUMBERBIT0LOCATION) &amp; RUNNUMBERBITS
+        runType = (word_h5 &gt;&gt; RUNTYPEBIT0LOCATION) &amp; RUNTYPEBITS
+        word_h6 = word_array[index + 5]
+        currentL1ID = (word_h6 &gt;&gt; L1IDBIT0LOCATION) &amp; L1IDBITS
+        word_h7 = word_array[index + 6]
+        currentBCID = (word_h7 &gt;&gt; MRODBCIDBIT0LOCATION) &amp; MRODBCIDBITS
+        word_h8 = word_array[index + 7]
+        L1Type = (word_h8 &gt;&gt; L1TYPEBIT0LOCATION) &amp; L1TYPEBITS
+        # process MROD header
+        knownMROD = False
+        chamberID = CTYPEUNKNOWN
+        word_bob = word_array[index + 9]  # MROD BOB (Begin Of Block) word
+        bob_header, bob_sub_header = io_utils.get_mrod_header(word_bob)
+        if (bob_header != 0x8) or (bob_sub_header != 0x0):  # why doing this?
+            logger.debug(&#34;Wrong L1ID, skip&#34;)
+            continue
+        knownMROD = (
+            (subdetID &gt;= 0x0061)
+            and (subdetID &lt;= 0x0064)
+            and (sourceID &gt;= 0x0000)
+            and (sourceID &lt;= 0x0080)
+        )
+        if currentL1ID != previousL1ID:
+            event_num += 1
+            if event_num &gt;= start_event_num:
+                processed_events += 1
+            previousL1ID = currentL1ID
+            if max_events &gt; 0 and event_num &gt;= max_events:
+                break
+        if (subdetID == 0x0077) and (sourceID == 0x0000):
+            # trigger blocks
+            logger.debug(&#34;Met trigger blocks, skip&#34;)
+            continue
+        if not knownMROD:
+            logger.warn(&#34;Unknown MROD, skip&#34;)
+            continue
+        db_rod_cache = (
+            int(index_id),
+            int(sourceID),
+            int(subdetID),
+            int(runNumber),
+            int(event_num),
+            int(currentL1ID),
+            int(currentBCID),
+            int(L1Type),
+        )
+        db_rod_saved = False
+        logger.debug(f&#34;sourceID: {sourceID}, subdetID: {subdetID}&#34;)
+        # process MROD blocks
+        endMRODBlock = False
+        chamber_links = []
+        link_word_index = index + 10
+        if index_id &lt; num_rod_headers - 1:
+            next_index = rod_header_ids[index_id + 1]
+        else:
+            next_index = word_entries
+        link_word_count = 0
+        link_word_id = -1
+        while not endMRODBlock:
+            # go to next link word
+            link_word_index = link_word_index + link_word_count
+            link_word_id += 1
+            if link_word_index &gt; next_index:
+                logger.warn(&#34;Reach the end of the link word, but no EOB found!&#34;)
+                break
+            # MROD LWC (Link Word Count) word
+            word_lwc = word_array[link_word_index]
+            lwc_header, lwc_sub_header = io_utils.get_mrod_header(word_lwc)
+            if lwc_header == 0xF:  # check if arrive MROD EOB (End Of Block) word
+                # logger.debug(&#34;Reached EOB word&#34;)
+                endMRODBlock = True
+                break
+            if (lwc_header != 0x8) or (lwc_sub_header != 0x1):
+                logger.warn(
+                    f&#34;Unknown MROD LWC (Link Word Count) word found: {hex(word_lwc)}&#34;
+                )
+                break
+            link_word_count = (word_lwc &gt;&gt; MRODWCBIT0LOCATION) &amp; MRODWCBITS
+            if link_word_count &lt; 4:
+                logger.warn(&#34;link word count &lt; 4, skip&#34;)
+                break
+            elif link_word_count == 4:  # empty TDC Data words
+                continue
+            # MROD BOL (Begin Of Link) word
+            word_bol = word_array[link_word_index + 1]
+            bol_header, bol_sub_header = io_utils.get_mrod_header(word_bol)
+            CSMLink = (word_bol &gt;&gt; MRODCSMLINKBIT0LOCATION) &amp; MRODCSMLINKBITS
+            MRODSN = (word_bol &gt;&gt; MRODSNBIT0LOCATION) &amp; MRODSNBITS
+            chamber_info_key = (subdetID, sourceID, CSMLink)
+            if chamber_info_key in smdt_info:
+                chamber_info = smdt_info[chamber_info_key]
+                chamber_name = chamber_info[&#34;chamber_name&#34;]
+                chamber_id = chamber_info[&#34;chamber_id&#34;]
+                tdc_type = chamber_info[&#34;tdc_type&#34;]
+                if chamber_name not in job_cfg.chamber_names:
+                    continue
+                logger.debug(
+                    f&#34;Chamber info: chamber name: {chamber_name}, chamber id: {hex(chamber_id)}, CSM: {CSMLink}, TDC type: {tdc_type}&#34;
+                )
+                logger.debug(f&#34;run number: {runNumber}, event number: {event_num}&#34;)
+            else:
+                chamber_name = &#34;unknown&#34;
+                chamber_id = CTYPEUNKNOWN
+                tdc_type = 0
+                continue
+            if (bol_header != 0x1) or (bol_sub_header != 0x8):
+                logger.warn(
+                    f&#34;Unknown MROD BOL (Begin Of Link) word found: {hex(word_bol)}&#34;
+                )
+                continue
+            db_lw_cache = (
+                index_id,
+                link_word_id,
+                int(link_word_count),
+                int(CSMLink),
+                chamber_name,
+                chamber_id,
+                tdc_type,
+            )
+            db_lw_saved = False
+            # MROD TLP (TDC Link Present) word
+            word_tlp = word_array[link_word_index + 2]
+            tlp_header, tlp_sub_header = io_utils.get_mrod_header(word_tlp)
+            if tlp_header == MROD_BOBLOCK:
+                tdc = tlp_sub_header
+            else:
+                logger.warn(
+                    f&#34;Unknown TLP (TDC Link Present) word found: {hex(word_tlp)}&#34;
+                )
+            # MROD TDC data contents
+            # - MROD BOT (Begin Of TDC) word
+            # - MROD TD (TDC Data) word
+            # - MROD EOT (End of TDC) word
+            word_tdc_contents = word_array[
+                link_word_index + 3 : link_word_index + link_word_count
+            ]
+            ## accept events with number of hits in specified range
+            num_hits = io_utils.check_hits_quantity(word_tdc_contents, tdc_type)
+            if num_hits &gt; max_hits or num_hits &lt; min_hits:
+                logger.debug(
+                    f&#34;Number of hits is out of range, reject event {event_num}&#34;
+                )
+                rejected_events += 1
+                continue
+            else:
+                accepted_events += 1
+
+            if not db_rod_saved:
+                smdt_db.add_rod_info(db_cursor, db_rod_cache)
+                db_rod_saved = True
+            if not db_lw_saved:
+                smdt_db.add_lw_info(db_cursor, db_lw_cache)
+                db_lw_saved = True
+
+            if chamber_name in job_cfg.chamber_names:
+                # if True:
+                tdc = MAXNUMBERMEZZANINE
+                type_reco = []
+                hits = []
+                tlem_count = 0
+                for i, word_td in enumerate(word_tdc_contents):
+                    word_td_type = io_utils.get_mrod_td_type(word_td, tdc_type)
+                    type_reco.append(word_td_type)
+                    if word_td_type == &#34;bot&#34;:
+                        bot_header, bot_sub_header = io_utils.get_mrod_header(word_tlp)
+                        tdc_id = (word_td &gt;&gt; TDCNUMBERBIT0LOCATION) &amp; TDCFULLNUMBERBITS
+                    if word_td_type == &#34;tlem&#34;:
+                        tlem_count += 1
+                        channel = (
+                            word_td &gt;&gt; CHANNELNUMBERBIT0LOCATION
+                        ) &amp; CHANNELNUMBERBITS
+                        mezz = tdc_id
+                        tdc_time = (word_td &gt;&gt; SHPTDCTIMEBIT0LOCATION) &amp; SHPTDCTIMEBITS
+                        tdc_time /= (
+                            4.0  # HPTDC 19 bits time converted to AMT 17 bit time
+                        )
+                        logger.debug(f&#34;mezz: {mezz}, channel: {channel}&#34;)
+                        hits.append((i, int(mezz), int(channel), 1, tdc_time))
+                    if word_td_type == &#34;ttem&#34;:
+                        tlem_count += 1
+                        channel = (
+                            word_td &gt;&gt; CHANNELNUMBERBIT0LOCATION
+                        ) &amp; CHANNELNUMBERBITS
+                        mezz = tdc_id
+                        tdc_time = (word_td &gt;&gt; SHPTDCTIMEBIT0LOCATION) &amp; SHPTDCTIMEBITS
+                        tdc_time /= 4.0
+                        logger.debug(f&#34;mezz: {mezz}, channel: {channel}&#34;)
+                        hits.append((i, int(mezz), int(channel), 0, tdc_time))
+                    if word_td_type == &#34;unknown&#34;:
+                        logger.debug(
+                            f&#34;Got TDC Data word type: {word_td_type} for word_td={hex(word_td)}, tdc_type={tdc_type}&#34;
+                        )
+                    else:
+                        logger.debug(f&#34;Got TDC Data word type: {word_td_type}&#34;)
+                for hit in hits:
+                    db_td_cache = (index_id, link_word_id) + hit
+                    smdt_db.add_td_info(db_cursor, db_td_cache)
+
+    smdt_db.end_transaction(db_cursor)
+
+    # commit and close database command
+    db_connect.commit()
+    db_connect.close()
+
+    db_path_tmp.rename(db_path)
+    logger.info(f&#34;Successfully generate database file: {db_path}&#34;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="smdt_rdv.data_io.db_dumper.dump_database_single_file"><code class="name flex">
+<span>def <span class="ident">dump_database_single_file</span></span>(<span>data_path: pathlib.Path, config_dict: dict) ‑> NoneType</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes database dumping job for single file</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>data_path</code></strong> :&ensp;<code>pathlib.Path</code></dt>
+<dd>path to the input data</dd>
+<dt><strong><code>config_dict</code></strong> :&ensp;<code>dict</code></dt>
+<dd>job configurations in dictionary format</dd>
+</dl>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>ValueError</code></dt>
+<dd>unknown input data format</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def dump_database_single_file(data_path: pathlib.Path, config_dict: dict) -&gt; None:
+    &#34;&#34;&#34;Executes database dumping job for single file
+
+    Args:
+        data_path (pathlib.Path): path to the input data
+        config_dict (dict): job configurations in dictionary format
+
+    Raises:
+        ValueError: unknown input data format
+    &#34;&#34;&#34;
+    # initialize:
+    job_config = config_utils.sMDT_Job_Config_Section(config_dict)
+    job_cfg = job_config.job
+    path_cfg = job_config.path
+    perf_cfg = job_config.performance
+
+    data_path_suffix = data_path.suffix
+    db_path_base = pathlib.Path(path_cfg.database_out_dir).joinpath(data_path.name)
+    if data_path_suffix == &#34;.data&#34;:
+        db_path_tmp = db_path_base.with_suffix(&#34;.data.tmp.db&#34;)
+        db_path = db_path_base.with_suffix(&#34;.data.db&#34;)
+    elif data_path_suffix == &#34;.gz&#34;:
+        db_path_tmp = db_path_base.with_suffix(&#34;.tmp.db&#34;)
+        db_path = db_path_base.with_suffix(&#34;.db&#34;)
+    else:
+        logger.error(
+            f&#34;Unknown file type: {data_path_suffix}, please implement if want to use!&#34;
+        )
+    # remove tmp file if any
+    db_path_tmp.unlink(missing_ok=True)
+    # check whether final database is already there
+    if db_path.exists():
+        if path_cfg.overwrite:
+            logger.info(
+                f&#34;Found existing database file: {db_path}, will overwrite the existing file!&#34;
+            )
+            db_path.unlink(missing_ok=True)
+        else:
+            logger.info(f&#34;Found existing database file: {db_path}, skip current file!&#34;)
+            logger.info(f&#34;Successfully generate database file: {db_path}&#34;)
+            return
+
+    # open data
+    word_array = np.array([])
+    try:
+        if data_path_suffix == &#34;.data&#34;:
+            with open(data_path, mode=&#34;rb&#34;) as test_data_file:
+                logger.debug(f&#34;Successfully opened data file {data_path}&#34;)
+                word_array = np.fromfile(test_data_file, np.uint32)
+        elif data_path_suffix == &#34;.gz&#34;:
+            with gzip.open(data_path, mode=&#34;rb&#34;) as test_data_file:
+                word_array = np.frombuffer(test_data_file.read(), np.uint32)
+                logger.debug(f&#34;Successfully opened compressed data file {data_path}&#34;)
+        else:
+            raise ValueError
+    except IOError:
+        logger.error(f&#34;Can&#39;t open file or file format is not recognized&#34;)
+        logger.error(f&#34;[1] Try to check input path settings&#34;)
+        logger.error(f&#34;[2] Try to use command: kinit&#34;)
+    word_entries = len(word_array)
+    logger.debug(f&#34;Total entries (32-bit per entry) of current file: {word_entries}&#34;)
+
+    # connect to new database
+    db_connect = smdt_db.connect(db_path_tmp)
+    db_cursor = (
+        db_connect.cursor()
+    )  # it&#39;s important to use cursor, otherwise unexpected error could happen during multiprocessing
+    smdt_db.create_rods_table(db_cursor)
+    smdt_db.create_lws_table(db_cursor)
+    smdt_db.create_tds_table(db_cursor)
+
+    # initialize variables
+    start_event_num = 0
+    processed_events = 0
+    accepted_events = 0
+    rejected_events = 0
+    event_num = 0
+    max_events = job_cfg.max_events_per_file
+    min_hits = job_cfg.event_cuts.min_hits
+    max_hits = job_cfg.event_cuts.max_hits
+
+    # decode
+    rod_header_ids = np.where(word_array == 0xEE1234EE)[0]
+    num_rod_headers = len(rod_header_ids)
+    if num_rod_headers &gt; 0:
+        logger.debug(f&#34;Found {num_rod_headers} ROD headers&#34;)
+        logger.debug(f&#34;ROD header positions {rod_header_ids}&#34;)
+    else:
+        logger.warn(f&#34;No ROD header found! Might due to compressed file&#34;)
+
+    previousL1ID = 0
+    currentL1ID = 0
+    rod_loop_time_start_period = time.time()
+    rod_loop_time_start = rod_loop_time_start_period
+
+    smdt_db.begin_transaction(db_cursor)
+    cache_size = perf_cfg.cache_size
+    if not cache_size:
+        cache_size = 100
+    for index_id, index in enumerate(rod_header_ids):
+        if index_id % cache_size == 0:
+            smdt_db.restart_transaction(db_cursor)
+        word_h2 = word_array[index + 1]
+        if word_h2 != 0x00000009:
+            logger.warn(f&#34;ROD Header size not equal to 0x00000009, skip&#34;)
+            continue
+        word_h4 = word_array[index + 3]
+        sourceID = (word_h4 &gt;&gt; SOURCEIDBIT0LOCATION) &amp; SOURCEIDBITS
+        subdetID = (word_h4 &gt;&gt; SUBDETIDBIT0LOCATION) &amp; SUBDETIDBITS
+        word_h5 = word_array[index + 4]
+        runNumber = (word_h5 &gt;&gt; RUNNUMBERBIT0LOCATION) &amp; RUNNUMBERBITS
+        runType = (word_h5 &gt;&gt; RUNTYPEBIT0LOCATION) &amp; RUNTYPEBITS
+        word_h6 = word_array[index + 5]
+        currentL1ID = (word_h6 &gt;&gt; L1IDBIT0LOCATION) &amp; L1IDBITS
+        word_h7 = word_array[index + 6]
+        currentBCID = (word_h7 &gt;&gt; MRODBCIDBIT0LOCATION) &amp; MRODBCIDBITS
+        word_h8 = word_array[index + 7]
+        L1Type = (word_h8 &gt;&gt; L1TYPEBIT0LOCATION) &amp; L1TYPEBITS
+        # process MROD header
+        knownMROD = False
+        chamberID = CTYPEUNKNOWN
+        word_bob = word_array[index + 9]  # MROD BOB (Begin Of Block) word
+        bob_header, bob_sub_header = io_utils.get_mrod_header(word_bob)
+        if (bob_header != 0x8) or (bob_sub_header != 0x0):  # why doing this?
+            logger.debug(&#34;Wrong L1ID, skip&#34;)
+            continue
+        knownMROD = (
+            (subdetID &gt;= 0x0061)
+            and (subdetID &lt;= 0x0064)
+            and (sourceID &gt;= 0x0000)
+            and (sourceID &lt;= 0x0080)
+        )
+        if currentL1ID != previousL1ID:
+            event_num += 1
+            if event_num &gt;= start_event_num:
+                processed_events += 1
+            previousL1ID = currentL1ID
+            if max_events &gt; 0 and event_num &gt;= max_events:
+                break
+        if (subdetID == 0x0077) and (sourceID == 0x0000):
+            # trigger blocks
+            logger.debug(&#34;Met trigger blocks, skip&#34;)
+            continue
+        if not knownMROD:
+            logger.warn(&#34;Unknown MROD, skip&#34;)
+            continue
+        db_rod_cache = (
+            int(index_id),
+            int(sourceID),
+            int(subdetID),
+            int(runNumber),
+            int(event_num),
+            int(currentL1ID),
+            int(currentBCID),
+            int(L1Type),
+        )
+        db_rod_saved = False
+        logger.debug(f&#34;sourceID: {sourceID}, subdetID: {subdetID}&#34;)
+        # process MROD blocks
+        endMRODBlock = False
+        chamber_links = []
+        link_word_index = index + 10
+        if index_id &lt; num_rod_headers - 1:
+            next_index = rod_header_ids[index_id + 1]
+        else:
+            next_index = word_entries
+        link_word_count = 0
+        link_word_id = -1
+        while not endMRODBlock:
+            # go to next link word
+            link_word_index = link_word_index + link_word_count
+            link_word_id += 1
+            if link_word_index &gt; next_index:
+                logger.warn(&#34;Reach the end of the link word, but no EOB found!&#34;)
+                break
+            # MROD LWC (Link Word Count) word
+            word_lwc = word_array[link_word_index]
+            lwc_header, lwc_sub_header = io_utils.get_mrod_header(word_lwc)
+            if lwc_header == 0xF:  # check if arrive MROD EOB (End Of Block) word
+                # logger.debug(&#34;Reached EOB word&#34;)
+                endMRODBlock = True
+                break
+            if (lwc_header != 0x8) or (lwc_sub_header != 0x1):
+                logger.warn(
+                    f&#34;Unknown MROD LWC (Link Word Count) word found: {hex(word_lwc)}&#34;
+                )
+                break
+            link_word_count = (word_lwc &gt;&gt; MRODWCBIT0LOCATION) &amp; MRODWCBITS
+            if link_word_count &lt; 4:
+                logger.warn(&#34;link word count &lt; 4, skip&#34;)
+                break
+            elif link_word_count == 4:  # empty TDC Data words
+                continue
+            # MROD BOL (Begin Of Link) word
+            word_bol = word_array[link_word_index + 1]
+            bol_header, bol_sub_header = io_utils.get_mrod_header(word_bol)
+            CSMLink = (word_bol &gt;&gt; MRODCSMLINKBIT0LOCATION) &amp; MRODCSMLINKBITS
+            MRODSN = (word_bol &gt;&gt; MRODSNBIT0LOCATION) &amp; MRODSNBITS
+            chamber_info_key = (subdetID, sourceID, CSMLink)
+            if chamber_info_key in smdt_info:
+                chamber_info = smdt_info[chamber_info_key]
+                chamber_name = chamber_info[&#34;chamber_name&#34;]
+                chamber_id = chamber_info[&#34;chamber_id&#34;]
+                tdc_type = chamber_info[&#34;tdc_type&#34;]
+                if chamber_name not in job_cfg.chamber_names:
+                    continue
+                logger.debug(
+                    f&#34;Chamber info: chamber name: {chamber_name}, chamber id: {hex(chamber_id)}, CSM: {CSMLink}, TDC type: {tdc_type}&#34;
+                )
+                logger.debug(f&#34;run number: {runNumber}, event number: {event_num}&#34;)
+            else:
+                chamber_name = &#34;unknown&#34;
+                chamber_id = CTYPEUNKNOWN
+                tdc_type = 0
+                continue
+            if (bol_header != 0x1) or (bol_sub_header != 0x8):
+                logger.warn(
+                    f&#34;Unknown MROD BOL (Begin Of Link) word found: {hex(word_bol)}&#34;
+                )
+                continue
+            db_lw_cache = (
+                index_id,
+                link_word_id,
+                int(link_word_count),
+                int(CSMLink),
+                chamber_name,
+                chamber_id,
+                tdc_type,
+            )
+            db_lw_saved = False
+            # MROD TLP (TDC Link Present) word
+            word_tlp = word_array[link_word_index + 2]
+            tlp_header, tlp_sub_header = io_utils.get_mrod_header(word_tlp)
+            if tlp_header == MROD_BOBLOCK:
+                tdc = tlp_sub_header
+            else:
+                logger.warn(
+                    f&#34;Unknown TLP (TDC Link Present) word found: {hex(word_tlp)}&#34;
+                )
+            # MROD TDC data contents
+            # - MROD BOT (Begin Of TDC) word
+            # - MROD TD (TDC Data) word
+            # - MROD EOT (End of TDC) word
+            word_tdc_contents = word_array[
+                link_word_index + 3 : link_word_index + link_word_count
+            ]
+            ## accept events with number of hits in specified range
+            num_hits = io_utils.check_hits_quantity(word_tdc_contents, tdc_type)
+            if num_hits &gt; max_hits or num_hits &lt; min_hits:
+                logger.debug(
+                    f&#34;Number of hits is out of range, reject event {event_num}&#34;
+                )
+                rejected_events += 1
+                continue
+            else:
+                accepted_events += 1
+
+            if not db_rod_saved:
+                smdt_db.add_rod_info(db_cursor, db_rod_cache)
+                db_rod_saved = True
+            if not db_lw_saved:
+                smdt_db.add_lw_info(db_cursor, db_lw_cache)
+                db_lw_saved = True
+
+            if chamber_name in job_cfg.chamber_names:
+                # if True:
+                tdc = MAXNUMBERMEZZANINE
+                type_reco = []
+                hits = []
+                tlem_count = 0
+                for i, word_td in enumerate(word_tdc_contents):
+                    word_td_type = io_utils.get_mrod_td_type(word_td, tdc_type)
+                    type_reco.append(word_td_type)
+                    if word_td_type == &#34;bot&#34;:
+                        bot_header, bot_sub_header = io_utils.get_mrod_header(word_tlp)
+                        tdc_id = (word_td &gt;&gt; TDCNUMBERBIT0LOCATION) &amp; TDCFULLNUMBERBITS
+                    if word_td_type == &#34;tlem&#34;:
+                        tlem_count += 1
+                        channel = (
+                            word_td &gt;&gt; CHANNELNUMBERBIT0LOCATION
+                        ) &amp; CHANNELNUMBERBITS
+                        mezz = tdc_id
+                        tdc_time = (word_td &gt;&gt; SHPTDCTIMEBIT0LOCATION) &amp; SHPTDCTIMEBITS
+                        tdc_time /= (
+                            4.0  # HPTDC 19 bits time converted to AMT 17 bit time
+                        )
+                        logger.debug(f&#34;mezz: {mezz}, channel: {channel}&#34;)
+                        hits.append((i, int(mezz), int(channel), 1, tdc_time))
+                    if word_td_type == &#34;ttem&#34;:
+                        tlem_count += 1
+                        channel = (
+                            word_td &gt;&gt; CHANNELNUMBERBIT0LOCATION
+                        ) &amp; CHANNELNUMBERBITS
+                        mezz = tdc_id
+                        tdc_time = (word_td &gt;&gt; SHPTDCTIMEBIT0LOCATION) &amp; SHPTDCTIMEBITS
+                        tdc_time /= 4.0
+                        logger.debug(f&#34;mezz: {mezz}, channel: {channel}&#34;)
+                        hits.append((i, int(mezz), int(channel), 0, tdc_time))
+                    if word_td_type == &#34;unknown&#34;:
+                        logger.debug(
+                            f&#34;Got TDC Data word type: {word_td_type} for word_td={hex(word_td)}, tdc_type={tdc_type}&#34;
+                        )
+                    else:
+                        logger.debug(f&#34;Got TDC Data word type: {word_td_type}&#34;)
+                for hit in hits:
+                    db_td_cache = (index_id, link_word_id) + hit
+                    smdt_db.add_td_info(db_cursor, db_td_cache)
+
+    smdt_db.end_transaction(db_cursor)
+
+    # commit and close database command
+    db_connect.commit()
+    db_connect.close()
+
+    db_path_tmp.rename(db_path)
+    logger.info(f&#34;Successfully generate database file: {db_path}&#34;)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="smdt_rdv.data_io" href="index.html">smdt_rdv.data_io</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="smdt_rdv.data_io.db_dumper.dump_database_single_file" href="#smdt_rdv.data_io.db_dumper.dump_database_single_file">dump_database_single_file</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,2771 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CERN//INDICO//EN
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150108T140000Z
+DTEND;VALUE=DATE-TIME:20150108T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015244Z
+UID:indico-event-360776@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/360776/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/360776/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150115T140000Z
+DTEND;VALUE=DATE-TIME:20150115T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015244Z
+UID:indico-event-365080@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/365080/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/365080/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150122T140000Z
+DTEND;VALUE=DATE-TIME:20150122T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015244Z
+UID:indico-event-365082@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/365082/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/365082/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150129T140000Z
+DTEND;VALUE=DATE-TIME:20150129T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015245Z
+UID:indico-event-365083@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/365083/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/365083/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150205T133000Z
+DTEND;VALUE=DATE-TIME:20150205T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015245Z
+UID:indico-event-365084@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/365084/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/365084/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150212T133000Z
+DTEND;VALUE=DATE-TIME:20150212T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015245Z
+UID:indico-event-371480@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371480/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371480/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150219T133000Z
+DTEND;VALUE=DATE-TIME:20150219T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015245Z
+UID:indico-event-371481@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371481/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371481/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150226T133000Z
+DTEND;VALUE=DATE-TIME:20150226T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015246Z
+UID:indico-event-371482@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371482/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371482/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150305T133000Z
+DTEND;VALUE=DATE-TIME:20150305T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015246Z
+UID:indico-event-371483@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371483/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371483/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150312T133000Z
+DTEND;VALUE=DATE-TIME:20150312T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015246Z
+UID:indico-event-371484@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371484/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371484/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150319T133000Z
+DTEND;VALUE=DATE-TIME:20150319T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015247Z
+UID:indico-event-371485@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371485/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371485/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150326T133000Z
+DTEND;VALUE=DATE-TIME:20150326T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015247Z
+UID:indico-event-371486@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371486/
+LOCATION:CERN 42/R-001
+URL:https://indico.cern.ch/event/371486/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150402T123000Z
+DTEND;VALUE=DATE-TIME:20150402T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015247Z
+UID:indico-event-371487@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371487/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371487/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150409T123000Z
+DTEND;VALUE=DATE-TIME:20150409T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015248Z
+UID:indico-event-371488@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371488/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371488/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150416T123000Z
+DTEND;VALUE=DATE-TIME:20150416T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015248Z
+UID:indico-event-371489@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371489/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371489/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150423T123000Z
+DTEND;VALUE=DATE-TIME:20150423T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015248Z
+UID:indico-event-371490@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371490/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371490/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150430T123000Z
+DTEND;VALUE=DATE-TIME:20150430T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015249Z
+UID:indico-event-371491@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371491/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371491/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150507T123000Z
+DTEND;VALUE=DATE-TIME:20150507T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015249Z
+UID:indico-event-371492@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371492/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371492/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150514T123000Z
+DTEND;VALUE=DATE-TIME:20150514T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015249Z
+UID:indico-event-371493@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371493/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371493/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150521T123000Z
+DTEND;VALUE=DATE-TIME:20150521T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015250Z
+UID:indico-event-371494@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371494/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371494/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150528T123000Z
+DTEND;VALUE=DATE-TIME:20150528T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015250Z
+UID:indico-event-371495@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371495/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371495/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150604T123000Z
+DTEND;VALUE=DATE-TIME:20150604T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015250Z
+UID:indico-event-371496@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371496/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371496/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150611T123000Z
+DTEND;VALUE=DATE-TIME:20150611T140500Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015250Z
+UID:indico-event-371497@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371497/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371497/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150618T123000Z
+DTEND;VALUE=DATE-TIME:20150618T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015251Z
+UID:indico-event-371498@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371498/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371498/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150625T123000Z
+DTEND;VALUE=DATE-TIME:20150625T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015251Z
+UID:indico-event-371499@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371499/
+LOCATION:CERN
+URL:https://indico.cern.ch/event/371499/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150702T123000Z
+DTEND;VALUE=DATE-TIME:20150702T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015251Z
+UID:indico-event-371500@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371500/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371500/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150709T123000Z
+DTEND;VALUE=DATE-TIME:20150709T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015252Z
+UID:indico-event-371501@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371501/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371501/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150716T123000Z
+DTEND;VALUE=DATE-TIME:20150716T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015252Z
+UID:indico-event-371502@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371502/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371502/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150723T123000Z
+DTEND;VALUE=DATE-TIME:20150723T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015252Z
+UID:indico-event-371503@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371503/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371503/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150730T123000Z
+DTEND;VALUE=DATE-TIME:20150730T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015253Z
+UID:indico-event-371504@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371504/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371504/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150806T123000Z
+DTEND;VALUE=DATE-TIME:20150806T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015253Z
+UID:indico-event-371505@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371505/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371505/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150813T123000Z
+DTEND;VALUE=DATE-TIME:20150813T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015253Z
+UID:indico-event-371506@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371506/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371506/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150820T123000Z
+DTEND;VALUE=DATE-TIME:20150820T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015253Z
+UID:indico-event-371507@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371507/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371507/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CANCELLED: Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150827T123000Z
+DTEND;VALUE=DATE-TIME:20150827T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015254Z
+UID:indico-event-371508@indico.cern.ch
+DESCRIPTION:Meeting CANCELLED today\n\nDilepton Search for BSM physics suc
+ h as resonant (Z') and non-resonant (CI) signals.\nTwiki: https://twiki.ce
+ rn.ch/twiki/bin/viewauth/AtlasProtected/DileptonAnalysis2015\n\nhttps://in
+ dico.cern.ch/event/371508/
+LOCATION:CANCELLED
+URL:https://indico.cern.ch/event/371508/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150903T123000Z
+DTEND;VALUE=DATE-TIME:20150903T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015254Z
+UID:indico-event-371509@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/371509/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/371509/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150917T123000Z
+DTEND;VALUE=DATE-TIME:20150917T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015254Z
+UID:indico-event-446193@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446193/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446193/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20150924T123000Z
+DTEND;VALUE=DATE-TIME:20150924T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015255Z
+UID:indico-event-446195@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446195/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446195/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151001T123000Z
+DTEND;VALUE=DATE-TIME:20151001T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015255Z
+UID:indico-event-446196@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446196/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446196/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151008T123000Z
+DTEND;VALUE=DATE-TIME:20151008T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015255Z
+UID:indico-event-446197@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446197/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446197/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151015T123000Z
+DTEND;VALUE=DATE-TIME:20151015T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015255Z
+UID:indico-event-446198@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446198/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446198/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151022T123000Z
+DTEND;VALUE=DATE-TIME:20151022T140000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015256Z
+UID:indico-event-446199@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446199/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446199/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151029T133000Z
+DTEND;VALUE=DATE-TIME:20151029T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015256Z
+UID:indico-event-446200@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446200/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446200/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151105T133000Z
+DTEND;VALUE=DATE-TIME:20151105T151500Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015256Z
+UID:indico-event-446201@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446201/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446201/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151112T133000Z
+DTEND;VALUE=DATE-TIME:20151112T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015257Z
+UID:indico-event-446202@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446202/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446202/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151119T133000Z
+DTEND;VALUE=DATE-TIME:20151119T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015257Z
+UID:indico-event-446203@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446203/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446203/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151126T133000Z
+DTEND;VALUE=DATE-TIME:20151126T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015257Z
+UID:indico-event-446204@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446204/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446204/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151203T133000Z
+DTEND;VALUE=DATE-TIME:20151203T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015258Z
+UID:indico-event-446205@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446205/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446205/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151210T133000Z
+DTEND;VALUE=DATE-TIME:20151210T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015258Z
+UID:indico-event-446206@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446206/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446206/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151217T133000Z
+DTEND;VALUE=DATE-TIME:20151217T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015258Z
+UID:indico-event-446207@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446207/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446207/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20151224T133000Z
+DTEND;VALUE=DATE-TIME:20151224T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015258Z
+UID:indico-event-446208@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/446208/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/446208/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160107T133000Z
+DTEND;VALUE=DATE-TIME:20160107T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015259Z
+UID:indico-event-474378@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/474378/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/474378/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160114T133000Z
+DTEND;VALUE=DATE-TIME:20160114T150000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015259Z
+UID:indico-event-481389@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/481389/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/481389/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160118T150000Z
+DTEND;VALUE=DATE-TIME:20160118T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015259Z
+UID:indico-event-479498@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/479498/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/479498/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160125T150000Z
+DTEND;VALUE=DATE-TIME:20160125T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015300Z
+UID:indico-event-485900@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485900/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485900/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160201T150000Z
+DTEND;VALUE=DATE-TIME:20160201T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015300Z
+UID:indico-event-485924@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485924/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485924/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160208T150000Z
+DTEND;VALUE=DATE-TIME:20160208T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015300Z
+UID:indico-event-485925@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485925/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485925/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160215T150000Z
+DTEND;VALUE=DATE-TIME:20160215T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015300Z
+UID:indico-event-485926@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485926/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485926/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160222T150000Z
+DTEND;VALUE=DATE-TIME:20160222T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015301Z
+UID:indico-event-485927@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485927/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485927/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160229T150000Z
+DTEND;VALUE=DATE-TIME:20160229T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015301Z
+UID:indico-event-485928@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485928/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485928/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160307T150000Z
+DTEND;VALUE=DATE-TIME:20160307T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015301Z
+UID:indico-event-485929@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485929/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485929/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160314T150000Z
+DTEND;VALUE=DATE-TIME:20160314T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015302Z
+UID:indico-event-485930@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485930/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485930/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160321T150000Z
+DTEND;VALUE=DATE-TIME:20160321T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015302Z
+UID:indico-event-485931@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485931/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485931/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160328T140000Z
+DTEND;VALUE=DATE-TIME:20160328T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015302Z
+UID:indico-event-485932@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485932/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485932/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160404T140000Z
+DTEND;VALUE=DATE-TIME:20160404T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015302Z
+UID:indico-event-485933@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485933/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485933/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160411T140000Z
+DTEND;VALUE=DATE-TIME:20160411T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015303Z
+UID:indico-event-485934@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485934/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485934/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160418T140000Z
+DTEND;VALUE=DATE-TIME:20160418T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015303Z
+UID:indico-event-485935@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485935/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485935/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160425T140000Z
+DTEND;VALUE=DATE-TIME:20160425T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015303Z
+UID:indico-event-485936@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485936/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485936/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160502T140000Z
+DTEND;VALUE=DATE-TIME:20160502T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015304Z
+UID:indico-event-485937@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485937/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485937/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160509T140000Z
+DTEND;VALUE=DATE-TIME:20160509T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015304Z
+UID:indico-event-485938@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485938/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485938/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160516T140000Z
+DTEND;VALUE=DATE-TIME:20160516T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015304Z
+UID:indico-event-485939@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485939/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485939/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160523T140000Z
+DTEND;VALUE=DATE-TIME:20160523T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015304Z
+UID:indico-event-485940@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485940/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485940/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160530T140000Z
+DTEND;VALUE=DATE-TIME:20160530T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015305Z
+UID:indico-event-485941@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485941/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485941/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160606T140000Z
+DTEND;VALUE=DATE-TIME:20160606T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015305Z
+UID:indico-event-485942@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485942/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485942/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160613T140000Z
+DTEND;VALUE=DATE-TIME:20160613T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015305Z
+UID:indico-event-485943@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485943/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485943/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160620T140000Z
+DTEND;VALUE=DATE-TIME:20160620T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015306Z
+UID:indico-event-485944@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485944/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485944/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160627T140000Z
+DTEND;VALUE=DATE-TIME:20160627T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015306Z
+UID:indico-event-485945@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/485945/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/485945/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160704T140000Z
+DTEND;VALUE=DATE-TIME:20160704T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015306Z
+UID:indico-event-549086@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549086/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549086/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160711T140000Z
+DTEND;VALUE=DATE-TIME:20160711T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015307Z
+UID:indico-event-549087@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549087/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549087/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160718T140000Z
+DTEND;VALUE=DATE-TIME:20160718T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015307Z
+UID:indico-event-549088@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549088/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549088/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160725T140000Z
+DTEND;VALUE=DATE-TIME:20160725T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015307Z
+UID:indico-event-549089@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549089/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549089/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160801T140000Z
+DTEND;VALUE=DATE-TIME:20160801T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015308Z
+UID:indico-event-549090@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549090/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549090/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160808T140000Z
+DTEND;VALUE=DATE-TIME:20160808T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015308Z
+UID:indico-event-549091@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549091/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549091/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160815T140000Z
+DTEND;VALUE=DATE-TIME:20160815T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015308Z
+UID:indico-event-549092@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549092/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549092/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160822T140000Z
+DTEND;VALUE=DATE-TIME:20160822T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015308Z
+UID:indico-event-549093@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549093/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549093/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160829T140000Z
+DTEND;VALUE=DATE-TIME:20160829T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015309Z
+UID:indico-event-549094@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549094/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549094/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160905T140000Z
+DTEND;VALUE=DATE-TIME:20160905T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015309Z
+UID:indico-event-549095@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549095/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549095/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160912T140000Z
+DTEND;VALUE=DATE-TIME:20160912T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015309Z
+UID:indico-event-549096@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549096/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549096/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160919T140000Z
+DTEND;VALUE=DATE-TIME:20160919T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015310Z
+UID:indico-event-549097@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549097/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549097/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20160926T140000Z
+DTEND;VALUE=DATE-TIME:20160926T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015310Z
+UID:indico-event-549098@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549098/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549098/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161003T140000Z
+DTEND;VALUE=DATE-TIME:20161003T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015310Z
+UID:indico-event-549099@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549099/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549099/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161010T140000Z
+DTEND;VALUE=DATE-TIME:20161010T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015310Z
+UID:indico-event-549100@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549100/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549100/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161017T140000Z
+DTEND;VALUE=DATE-TIME:20161017T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015311Z
+UID:indico-event-549101@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549101/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549101/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161024T140000Z
+DTEND;VALUE=DATE-TIME:20161024T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015311Z
+UID:indico-event-549102@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549102/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549102/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161031T150000Z
+DTEND;VALUE=DATE-TIME:20161031T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015311Z
+UID:indico-event-549103@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549103/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549103/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161107T150000Z
+DTEND;VALUE=DATE-TIME:20161107T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015312Z
+UID:indico-event-549104@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549104/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549104/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161114T150000Z
+DTEND;VALUE=DATE-TIME:20161114T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015312Z
+UID:indico-event-549105@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549105/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549105/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161121T150000Z
+DTEND;VALUE=DATE-TIME:20161121T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015312Z
+UID:indico-event-549106@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549106/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549106/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161128T150000Z
+DTEND;VALUE=DATE-TIME:20161128T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015313Z
+UID:indico-event-549107@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549107/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549107/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161205T150000Z
+DTEND;VALUE=DATE-TIME:20161205T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015313Z
+UID:indico-event-549108@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549108/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549108/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161212T150000Z
+DTEND;VALUE=DATE-TIME:20161212T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015313Z
+UID:indico-event-549109@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549109/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549109/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161219T150000Z
+DTEND;VALUE=DATE-TIME:20161219T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015314Z
+UID:indico-event-549110@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549110/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549110/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20161226T150000Z
+DTEND;VALUE=DATE-TIME:20161226T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015314Z
+UID:indico-event-549111@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/549111/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/549111/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170109T150000Z
+DTEND;VALUE=DATE-TIME:20170109T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015314Z
+UID:indico-event-597591@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597591/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597591/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170116T150000Z
+DTEND;VALUE=DATE-TIME:20170116T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015315Z
+UID:indico-event-597592@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597592/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597592/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170123T150000Z
+DTEND;VALUE=DATE-TIME:20170123T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015315Z
+UID:indico-event-597593@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597593/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597593/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170130T150000Z
+DTEND;VALUE=DATE-TIME:20170130T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015315Z
+UID:indico-event-597594@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597594/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597594/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170206T150000Z
+DTEND;VALUE=DATE-TIME:20170206T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015315Z
+UID:indico-event-597595@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597595/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597595/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170213T150000Z
+DTEND;VALUE=DATE-TIME:20170213T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015316Z
+UID:indico-event-597596@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597596/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597596/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170220T150000Z
+DTEND;VALUE=DATE-TIME:20170220T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015316Z
+UID:indico-event-597597@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597597/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597597/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170227T150000Z
+DTEND;VALUE=DATE-TIME:20170227T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015316Z
+UID:indico-event-597598@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/view/AtlasP
+ rotected/DileptonAnalysis2016\n\nhttps://indico.cern.ch/event/597598/
+LOCATION:CERN
+URL:https://indico.cern.ch/event/597598/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170306T150000Z
+DTEND;VALUE=DATE-TIME:20170306T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015317Z
+UID:indico-event-597599@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597599/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597599/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170313T150000Z
+DTEND;VALUE=DATE-TIME:20170313T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015317Z
+UID:indico-event-597600@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597600/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597600/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170320T150000Z
+DTEND;VALUE=DATE-TIME:20170320T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015317Z
+UID:indico-event-597601@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597601/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597601/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170327T140000Z
+DTEND;VALUE=DATE-TIME:20170327T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015317Z
+UID:indico-event-597602@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597602/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597602/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170403T140000Z
+DTEND;VALUE=DATE-TIME:20170403T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015318Z
+UID:indico-event-597603@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597603/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597603/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170410T140000Z
+DTEND;VALUE=DATE-TIME:20170410T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015318Z
+UID:indico-event-597604@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597604/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597604/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170417T140000Z
+DTEND;VALUE=DATE-TIME:20170417T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015318Z
+UID:indico-event-597605@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597605/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597605/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170424T140000Z
+DTEND;VALUE=DATE-TIME:20170424T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015319Z
+UID:indico-event-597606@indico.cern.ch
+DESCRIPTION:Dilepton Search for BSM physics such as resonant (Z') and non-
+ resonant (CI) signals.\nTwiki: https://twiki.cern.ch/twiki/bin/viewauth/At
+ lasProtected/DileptonAnalysis2015\n\nhttps://indico.cern.ch/event/597606/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/597606/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170529T140000Z
+DTEND;VALUE=DATE-TIME:20170529T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015319Z
+UID:indico-event-642792@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/642792/
+LOCATION:CERN 42/3-002
+URL:https://indico.cern.ch/event/642792/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170612T140000Z
+DTEND;VALUE=DATE-TIME:20170612T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015320Z
+UID:indico-event-645662@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/645662/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/645662/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Code discussion
+DTSTART;VALUE=DATE-TIME:20170615T123000Z
+DTEND;VALUE=DATE-TIME:20170615T133000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015320Z
+UID:indico-event-646982@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/646982/
+LOCATION:CERN 53/R-044
+URL:https://indico.cern.ch/event/646982/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Code discussion
+DTSTART;VALUE=DATE-TIME:20170619T140000Z
+DTEND;VALUE=DATE-TIME:20170619T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015320Z
+UID:indico-event-647773@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/647773/
+LOCATION:CERN 42/3-002
+URL:https://indico.cern.ch/event/647773/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170619T140000Z
+DTEND;VALUE=DATE-TIME:20170619T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015320Z
+UID:indico-event-647529@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/647529/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/647529/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170626T140000Z
+DTEND;VALUE=DATE-TIME:20170626T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015321Z
+UID:indico-event-647528@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/647528/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/647528/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170703T140000Z
+DTEND;VALUE=DATE-TIME:20170703T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015321Z
+UID:indico-event-650803@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/650803/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/650803/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170717T140000Z
+DTEND;VALUE=DATE-TIME:20170717T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015321Z
+UID:indico-event-654000@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/654000/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/654000/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170724T140000Z
+DTEND;VALUE=DATE-TIME:20170724T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015322Z
+UID:indico-event-655379@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/655379/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/655379/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170731T140000Z
+DTEND;VALUE=DATE-TIME:20170731T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015322Z
+UID:indico-event-656840@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/656840/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/656840/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170807T140000Z
+DTEND;VALUE=DATE-TIME:20170807T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015322Z
+UID:indico-event-658305@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/658305/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/658305/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170814T140000Z
+DTEND;VALUE=DATE-TIME:20170814T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015322Z
+UID:indico-event-659578@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/659578/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/659578/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Discussion
+DTSTART;VALUE=DATE-TIME:20170824T150000Z
+DTEND;VALUE=DATE-TIME:20170824T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015323Z
+UID:indico-event-661588@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/661588/
+LOCATION:CERN 42/3-032
+URL:https://indico.cern.ch/event/661588/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170828T140000Z
+DTEND;VALUE=DATE-TIME:20170828T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015323Z
+UID:indico-event-661770@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/661770/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/661770/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search Workshop
+DTSTART;VALUE=DATE-TIME:20170830T120000Z
+DTEND;VALUE=DATE-TIME:20170830T190000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015323Z
+UID:indico-event-655316@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/655316/
+LOCATION:CERN 42/3-002
+URL:https://indico.cern.ch/event/655316/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170904T140000Z
+DTEND;VALUE=DATE-TIME:20170904T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015324Z
+UID:indico-event-663363@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/663363/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/663363/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170918T140000Z
+DTEND;VALUE=DATE-TIME:20170918T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015324Z
+UID:indico-event-666481@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/666481/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/666481/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20170925T140000Z
+DTEND;VALUE=DATE-TIME:20170925T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015324Z
+UID:indico-event-668271@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/668271/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/668271/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Discussion
+DTSTART;VALUE=DATE-TIME:20171002T140000Z
+DTEND;VALUE=DATE-TIME:20171002T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015324Z
+UID:indico-event-670538@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/670538/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/670538/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171009T140000Z
+DTEND;VALUE=DATE-TIME:20171009T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015325Z
+UID:indico-event-671863@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/671863/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/671863/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171016T140000Z
+DTEND;VALUE=DATE-TIME:20171016T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015325Z
+UID:indico-event-673386@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/673386/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/673386/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171023T140000Z
+DTEND;VALUE=DATE-TIME:20171023T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015325Z
+UID:indico-event-674883@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/674883/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/674883/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171030T150000Z
+DTEND;VALUE=DATE-TIME:20171030T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015326Z
+UID:indico-event-676510@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/676510/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/676510/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171106T150000Z
+DTEND;VALUE=DATE-TIME:20171106T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015326Z
+UID:indico-event-678792@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/678792/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/678792/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171120T150000Z
+DTEND;VALUE=DATE-TIME:20171120T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015326Z
+UID:indico-event-681940@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/681940/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/681940/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171127T150000Z
+DTEND;VALUE=DATE-TIME:20171127T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015327Z
+UID:indico-event-683865@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/683865/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/683865/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171204T150000Z
+DTEND;VALUE=DATE-TIME:20171204T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015327Z
+UID:indico-event-685468@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/685468/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/685468/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Extrapolation
+DTSTART;VALUE=DATE-TIME:20171205T150000Z
+DTEND;VALUE=DATE-TIME:20171205T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015327Z
+UID:indico-event-686443@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/686443/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/686443/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171211T150000Z
+DTEND;VALUE=DATE-TIME:20171211T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015328Z
+UID:indico-event-687056@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/687056/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/687056/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20171218T150000Z
+DTEND;VALUE=DATE-TIME:20171218T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015328Z
+UID:indico-event-688132@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/688132/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/688132/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Extrapolation
+DTSTART;VALUE=DATE-TIME:20180112T140000Z
+DTEND;VALUE=DATE-TIME:20180112T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015328Z
+UID:indico-event-694545@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/694545/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/694545/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180115T150000Z
+DTEND;VALUE=DATE-TIME:20180115T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015329Z
+UID:indico-event-694552@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/694552/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/694552/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180122T150000Z
+DTEND;VALUE=DATE-TIME:20180122T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015329Z
+UID:indico-event-698326@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/698326/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/698326/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180129T150000Z
+DTEND;VALUE=DATE-TIME:20180129T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015329Z
+UID:indico-event-700246@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/700246/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/700246/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180205T150000Z
+DTEND;VALUE=DATE-TIME:20180205T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015330Z
+UID:indico-event-702279@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/702279/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/702279/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180212T144500Z
+DTEND;VALUE=DATE-TIME:20180212T170500Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015330Z
+UID:indico-event-704905@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/704905/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/704905/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180219T150000Z
+DTEND;VALUE=DATE-TIME:20180219T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015330Z
+UID:indico-event-706494@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/706494/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/706494/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180226T150000Z
+DTEND;VALUE=DATE-TIME:20180226T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015331Z
+UID:indico-event-707866@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/707866/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/707866/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180305T150000Z
+DTEND;VALUE=DATE-TIME:20180305T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015331Z
+UID:indico-event-710758@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/710758/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/710758/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180312T150000Z
+DTEND;VALUE=DATE-TIME:20180312T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015331Z
+UID:indico-event-713060@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/713060/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/713060/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180319T150000Z
+DTEND;VALUE=DATE-TIME:20180319T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015331Z
+UID:indico-event-715026@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/715026/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/715026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180326T140000Z
+DTEND;VALUE=DATE-TIME:20180326T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015332Z
+UID:indico-event-716810@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/716810/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/716810/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180409T140000Z
+DTEND;VALUE=DATE-TIME:20180409T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015332Z
+UID:indico-event-719690@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/719690/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/719690/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180416T140000Z
+DTEND;VALUE=DATE-TIME:20180416T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015333Z
+UID:indico-event-722268@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/722268/
+LOCATION:CERN 1/1-025
+URL:https://indico.cern.ch/event/722268/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180423T143000Z
+DTEND;VALUE=DATE-TIME:20180423T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015333Z
+UID:indico-event-724247@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/724247/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/724247/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180430T140000Z
+DTEND;VALUE=DATE-TIME:20180430T153000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015333Z
+UID:indico-event-725933@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/725933/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/725933/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180507T140000Z
+DTEND;VALUE=DATE-TIME:20180507T153000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015334Z
+UID:indico-event-727472@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/727472/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/727472/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180514T140000Z
+DTEND;VALUE=DATE-TIME:20180514T153000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015334Z
+UID:indico-event-729288@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/729288/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/729288/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180528T140000Z
+DTEND;VALUE=DATE-TIME:20180528T153000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015334Z
+UID:indico-event-732264@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/732264/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/732264/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180604T140000Z
+DTEND;VALUE=DATE-TIME:20180604T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015334Z
+UID:indico-event-733646@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/733646/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/733646/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180611T140000Z
+DTEND;VALUE=DATE-TIME:20180611T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015335Z
+UID:indico-event-734842@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/734842/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/734842/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180618T140000Z
+DTEND;VALUE=DATE-TIME:20180618T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015335Z
+UID:indico-event-737184@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/737184/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/737184/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180702T150000Z
+DTEND;VALUE=DATE-TIME:20180702T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015335Z
+UID:indico-event-740743@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/740743/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/740743/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180709T140000Z
+DTEND;VALUE=DATE-TIME:20180709T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015336Z
+UID:indico-event-742687@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/742687/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/742687/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180716T140000Z
+DTEND;VALUE=DATE-TIME:20180716T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015336Z
+UID:indico-event-744059@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/744059/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/744059/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180723T140000Z
+DTEND;VALUE=DATE-TIME:20180723T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015336Z
+UID:indico-event-745540@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/745540/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/745540/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180730T140000Z
+DTEND;VALUE=DATE-TIME:20180730T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015336Z
+UID:indico-event-747244@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/747244/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/747244/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180806T140000Z
+DTEND;VALUE=DATE-TIME:20180806T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015337Z
+UID:indico-event-748391@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/748391/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/748391/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180813T140000Z
+DTEND;VALUE=DATE-TIME:20180813T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015337Z
+UID:indico-event-749792@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/749792/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/749792/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180820T140000Z
+DTEND;VALUE=DATE-TIME:20180820T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015337Z
+UID:indico-event-750802@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/750802/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/750802/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180827T140000Z
+DTEND;VALUE=DATE-TIME:20180827T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015338Z
+UID:indico-event-752382@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/752382/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/752382/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180903T140000Z
+DTEND;VALUE=DATE-TIME:20180903T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015338Z
+UID:indico-event-754303@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/754303/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/754303/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180910T140000Z
+DTEND;VALUE=DATE-TIME:20180910T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015338Z
+UID:indico-event-755636@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/755636/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/755636/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180917T140000Z
+DTEND;VALUE=DATE-TIME:20180917T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015339Z
+UID:indico-event-757836@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/757836/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/757836/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20180924T140000Z
+DTEND;VALUE=DATE-TIME:20180924T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015339Z
+UID:indico-event-759410@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/759410/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/759410/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181001T140000Z
+DTEND;VALUE=DATE-TIME:20181001T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015339Z
+UID:indico-event-761483@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/761483/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/761483/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181008T140000Z
+DTEND;VALUE=DATE-TIME:20181008T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015339Z
+UID:indico-event-763395@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/763395/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/763395/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181015T140000Z
+DTEND;VALUE=DATE-TIME:20181015T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015340Z
+UID:indico-event-765281@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/765281/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/765281/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181022T140000Z
+DTEND;VALUE=DATE-TIME:20181022T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015340Z
+UID:indico-event-766607@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/766607/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/766607/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181029T150000Z
+DTEND;VALUE=DATE-TIME:20181029T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015340Z
+UID:indico-event-768331@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/768331/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/768331/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181105T150000Z
+DTEND;VALUE=DATE-TIME:20181105T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015341Z
+UID:indico-event-770239@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/770239/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/770239/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181112T150000Z
+DTEND;VALUE=DATE-TIME:20181112T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015341Z
+UID:indico-event-772512@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/772512/
+LOCATION:CERN 4/3-001 - New Capacity following HSE rules about COVID: 5
+URL:https://indico.cern.ch/event/772512/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181119T150000Z
+DTEND;VALUE=DATE-TIME:20181119T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015341Z
+UID:indico-event-774724@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/774724/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/774724/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181126T150000Z
+DTEND;VALUE=DATE-TIME:20181126T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015341Z
+UID:indico-event-776314@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/776314/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/776314/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181203T150000Z
+DTEND;VALUE=DATE-TIME:20181203T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015342Z
+UID:indico-event-777735@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/777735/
+LOCATION: Vidyo-only
+URL:https://indico.cern.ch/event/777735/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181210T150000Z
+DTEND;VALUE=DATE-TIME:20181210T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015342Z
+UID:indico-event-779866@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/779866/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/779866/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20181217T150000Z
+DTEND;VALUE=DATE-TIME:20181217T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015342Z
+UID:indico-event-781772@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/781772/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/781772/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190107T150000Z
+DTEND;VALUE=DATE-TIME:20190107T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015343Z
+UID:indico-event-783089@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/783089/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/783089/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190114T150000Z
+DTEND;VALUE=DATE-TIME:20190114T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015343Z
+UID:indico-event-787933@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/787933/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/787933/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190121T150000Z
+DTEND;VALUE=DATE-TIME:20190121T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015343Z
+UID:indico-event-790893@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/790893/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/790893/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190128T150000Z
+DTEND;VALUE=DATE-TIME:20190128T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015344Z
+UID:indico-event-793048@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/793048/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/793048/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190204T150000Z
+DTEND;VALUE=DATE-TIME:20190204T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015344Z
+UID:indico-event-795311@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/795311/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/795311/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190211T150000Z
+DTEND;VALUE=DATE-TIME:20190211T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015344Z
+UID:indico-event-797472@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/797472/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/797472/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190218T150000Z
+DTEND;VALUE=DATE-TIME:20190218T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015344Z
+UID:indico-event-799326@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/799326/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/799326/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190225T150000Z
+DTEND;VALUE=DATE-TIME:20190225T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015345Z
+UID:indico-event-801035@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/801035/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/801035/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190304T150000Z
+DTEND;VALUE=DATE-TIME:20190304T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015345Z
+UID:indico-event-802938@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/802938/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/802938/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190311T150000Z
+DTEND;VALUE=DATE-TIME:20190311T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015345Z
+UID:indico-event-804708@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/804708/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/804708/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190318T150000Z
+DTEND;VALUE=DATE-TIME:20190318T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015346Z
+UID:indico-event-806455@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/806455/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/806455/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190325T150000Z
+DTEND;VALUE=DATE-TIME:20190325T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015346Z
+UID:indico-event-808582@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/808582/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/808582/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190401T140000Z
+DTEND;VALUE=DATE-TIME:20190401T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015346Z
+UID:indico-event-810089@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/810089/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/810089/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190408T140000Z
+DTEND;VALUE=DATE-TIME:20190408T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015346Z
+UID:indico-event-812034@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/812034/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/812034/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190415T140000Z
+DTEND;VALUE=DATE-TIME:20190415T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015347Z
+UID:indico-event-813742@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/813742/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/813742/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190429T140000Z
+DTEND;VALUE=DATE-TIME:20190429T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015347Z
+UID:indico-event-816469@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/816469/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/816469/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190506T140000Z
+DTEND;VALUE=DATE-TIME:20190506T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015347Z
+UID:indico-event-818175@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/818175/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/818175/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190513T140000Z
+DTEND;VALUE=DATE-TIME:20190513T160000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015348Z
+UID:indico-event-820426@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/820426/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/820426/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190520T150000Z
+DTEND;VALUE=DATE-TIME:20190520T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015348Z
+UID:indico-event-821427@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/821427/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/821427/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190527T150000Z
+DTEND;VALUE=DATE-TIME:20190527T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015348Z
+UID:indico-event-823680@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/823680/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/823680/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190603T150000Z
+DTEND;VALUE=DATE-TIME:20190603T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015349Z
+UID:indico-event-825324@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/825324/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/825324/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190617T150000Z
+DTEND;VALUE=DATE-TIME:20190617T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015349Z
+UID:indico-event-828730@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/828730/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/828730/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190617T150000Z
+DTEND;VALUE=DATE-TIME:20190617T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015349Z
+UID:indico-event-827307@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/827307/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/827307/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190624T150000Z
+DTEND;VALUE=DATE-TIME:20190624T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015349Z
+UID:indico-event-829982@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/829982/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/829982/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190701T140000Z
+DTEND;VALUE=DATE-TIME:20190701T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015350Z
+UID:indico-event-831675@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/831675/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/831675/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190715T150000Z
+DTEND;VALUE=DATE-TIME:20190715T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015350Z
+UID:indico-event-835178@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/835178/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/835178/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190722T150000Z
+DTEND;VALUE=DATE-TIME:20190722T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015351Z
+UID:indico-event-836787@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/836787/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/836787/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190729T150000Z
+DTEND;VALUE=DATE-TIME:20190729T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015351Z
+UID:indico-event-838226@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/838226/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/838226/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190805T150000Z
+DTEND;VALUE=DATE-TIME:20190805T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015351Z
+UID:indico-event-839507@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/839507/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/839507/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190819T150000Z
+DTEND;VALUE=DATE-TIME:20190819T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015351Z
+UID:indico-event-842030@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/842030/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/842030/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190826T150000Z
+DTEND;VALUE=DATE-TIME:20190826T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015352Z
+UID:indico-event-843384@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/843384/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/843384/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190909T150000Z
+DTEND;VALUE=DATE-TIME:20190909T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015352Z
+UID:indico-event-846520@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/846520/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/846520/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190916T150000Z
+DTEND;VALUE=DATE-TIME:20190916T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015352Z
+UID:indico-event-848804@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/848804/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/848804/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190923T150000Z
+DTEND;VALUE=DATE-TIME:20190923T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015353Z
+UID:indico-event-850392@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/850392/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/850392/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20190930T150000Z
+DTEND;VALUE=DATE-TIME:20190930T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015353Z
+UID:indico-event-851996@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/851996/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/851996/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191007T170000Z
+DTEND;VALUE=DATE-TIME:20191007T190000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015353Z
+UID:indico-event-853913@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/853913/
+LOCATION:CERN 40/5-A01
+URL:https://indico.cern.ch/event/853913/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191014T150000Z
+DTEND;VALUE=DATE-TIME:20191014T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015354Z
+UID:indico-event-855962@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/855962/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/855962/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191020T150000Z
+DTEND;VALUE=DATE-TIME:20191020T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015354Z
+UID:indico-event-857825@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/857825/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/857825/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191028T160000Z
+DTEND;VALUE=DATE-TIME:20191028T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015354Z
+UID:indico-event-859565@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/859565/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/859565/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191104T160000Z
+DTEND;VALUE=DATE-TIME:20191104T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015355Z
+UID:indico-event-861126@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/861126/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/861126/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191111T160000Z
+DTEND;VALUE=DATE-TIME:20191111T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015355Z
+UID:indico-event-862845@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/862845/
+LOCATION:CERN 42/R-C10
+URL:https://indico.cern.ch/event/862845/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191118T160000Z
+DTEND;VALUE=DATE-TIME:20191118T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015355Z
+UID:indico-event-864781@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/864781/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/864781/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191125T150000Z
+DTEND;VALUE=DATE-TIME:20191125T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015355Z
+UID:indico-event-866547@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/866547/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/866547/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191202T160000Z
+DTEND;VALUE=DATE-TIME:20191202T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015356Z
+UID:indico-event-868074@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/868074/
+LOCATION:CERN 40/R-D10
+URL:https://indico.cern.ch/event/868074/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20191216T160000Z
+DTEND;VALUE=DATE-TIME:20191216T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015356Z
+UID:indico-event-871481@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/871481/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/871481/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200113T160000Z
+DTEND;VALUE=DATE-TIME:20200113T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015356Z
+UID:indico-event-877639@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/877639/
+LOCATION:CERN 42/R-403
+URL:https://indico.cern.ch/event/877639/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200120T160000Z
+DTEND;VALUE=DATE-TIME:20200120T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015357Z
+UID:indico-event-881122@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/881122/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/881122/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200127T160000Z
+DTEND;VALUE=DATE-TIME:20200127T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015357Z
+UID:indico-event-883447@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/883447/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/883447/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200203T160000Z
+DTEND;VALUE=DATE-TIME:20200203T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015357Z
+UID:indico-event-885531@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/885531/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/885531/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200210T160000Z
+DTEND;VALUE=DATE-TIME:20200210T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015357Z
+UID:indico-event-887541@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/887541/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/887541/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200224T160000Z
+DTEND;VALUE=DATE-TIME:20200224T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015358Z
+UID:indico-event-891875@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/891875/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/891875/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200302T160000Z
+DTEND;VALUE=DATE-TIME:20200302T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015358Z
+UID:indico-event-893858@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/893858/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/893858/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200316T160000Z
+DTEND;VALUE=DATE-TIME:20200316T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015358Z
+UID:indico-event-898763@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/898763/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/898763/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200323T160000Z
+DTEND;VALUE=DATE-TIME:20200323T180000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015359Z
+UID:indico-event-901684@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/901684/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/901684/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200406T150000Z
+DTEND;VALUE=DATE-TIME:20200406T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015359Z
+UID:indico-event-907203@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/907203/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/907203/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200427T150000Z
+DTEND;VALUE=DATE-TIME:20200427T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015359Z
+UID:indico-event-913627@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/913627/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/913627/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200510T150000Z
+DTEND;VALUE=DATE-TIME:20200510T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015400Z
+UID:indico-event-918073@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/918073/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/918073/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exotic Dilepton Search - Weekly Meeting
+DTSTART;VALUE=DATE-TIME:20200525T150000Z
+DTEND;VALUE=DATE-TIME:20200525T170000Z
+DTSTAMP;VALUE=DATE-TIME:20210304T015400Z
+UID:indico-event-922516@indico.cern.ch
+DESCRIPTION:https://indico.cern.ch/event/922516/
+LOCATION:CERN 42/R-402
+URL:https://indico.cern.ch/event/922516/
+END:VEVENT
+END:VCALENDAR
